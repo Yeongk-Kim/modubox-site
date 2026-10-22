@@ -67,6 +67,10 @@ footer a{color:var(--sub)}
 @media (max-width:480px){.brand span{display:none}}
 .doc .updated+.updated{margin-top:-18px}
 .doc .sub{margin:2px 0 2px 18px;color:var(--sub)}
+.shots{display:flex;gap:10px;overflow-x:auto;margin:0 0 6px;padding-bottom:6px;scroll-snap-type:x mandatory}
+.shots img{flex:0 0 auto;width:172px;height:auto;border-radius:14px;border:1px solid var(--line);scroll-snap-align:start}
+.wrap>h2{font-size:18px;margin:30px 0 8px}
+.wrap>ul{padding-left:20px}
 """
 
 def page(title, body, desc='', lang='ko', canonical=''):
