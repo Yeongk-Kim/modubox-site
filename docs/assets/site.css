@@ -33,3 +33,7 @@ footer a{color:var(--sub)}
 @media (max-width:480px){.brand span{display:none}}
 .doc .updated+.updated{margin-top:-18px}
 .doc .sub{margin:2px 0 2px 18px;color:var(--sub)}
+.shots{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}
+.shots img{width:150px;height:auto;border-radius:12px;border:1px solid var(--line)}
+.wrap>h2{font-size:18px;margin:30px 0 8px}
+.wrap>ul{padding-left:20px}

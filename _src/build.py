@@ -67,8 +67,8 @@ footer a{color:var(--sub)}
 @media (max-width:480px){.brand span{display:none}}
 .doc .updated+.updated{margin-top:-18px}
 .doc .sub{margin:2px 0 2px 18px;color:var(--sub)}
-.shots{display:flex;gap:10px;overflow-x:auto;margin:0 0 6px;padding-bottom:6px;scroll-snap-type:x mandatory}
-.shots img{flex:0 0 auto;width:172px;height:auto;border-radius:14px;border:1px solid var(--line);scroll-snap-align:start}
+.shots{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}
+.shots img{width:150px;height:auto;border-radius:12px;border:1px solid var(--line)}
 .wrap>h2{font-size:18px;margin:30px 0 8px}
 .wrap>ul{padding-left:20px}
 """
@@ -217,6 +217,8 @@ def privacy_md(a, Y, M, D):
     return page(meta.get('title', f"개인정보처리방침 — {ns(a).name_ko}"), '<div class="doc">' + md(body) + '</div>',
                 meta.get('description', f"{ns(a).name_ko} 개인정보처리방침"), canonical=f"{BASE}/{ns(a).slug}/privacy/")
 
+RESERVED = {'page', 'help', 'faq', 'updates', 'privacy', 'README'}   # 그 밖의 <이름>.md → /<앱>/<이름>/ (예: box/rights.md → /box/rights/)
+
 PRIVACY = {'sleep-html-legacy': privacy_sleep_legacy, 'box-txt-legacy': privacy_box_legacy, 'md': privacy_md}
 
 # ---------- 시작 ----------
@@ -281,6 +283,18 @@ for a in APPS:
         w(f'{s}/updates/index.html', page(f"업데이트 소식 — {ns(a).name_ko} · ModuBox Labs", ub, f"{ns(a).name_ko} 업데이트 소식",
                                            canonical=f'{BASE}/{s}/updates/'))
         if a in SHOWN: urls.append(f'{BASE}/{s}/updates/')
+    for fn in sorted(os.listdir(os.path.join(SRC, s))):
+        nm, ext = os.path.splitext(fn)
+        if ext != '.md' or nm in RESERVED:
+            continue
+        txt = read(s, fn)
+        if not has_content(txt):
+            continue
+        em, eb = front(txt)
+        title = em.get('title', nm)
+        xb = f"\n<div class=\"doc\">\n<h1>{em.get('h1', title)}</h1>\n{md(eb)}\n</div>\n"
+        w(f'{s}/{nm}/index.html', page(f"{title} · ModuBox Labs", xb, em.get('description', ''), canonical=f'{BASE}/{s}/{nm}/'))
+        if a in SHOWN: urls.append(f'{BASE}/{s}/{nm}/')
     copytree(os.path.join(SRC, s, 'img'), f'{s}/img')
     copytree(os.path.join(SRC, s, 'static'), s)       # 앱 데이터 등(예: box/static/radio/v1 → /box/radio/v1/)
 

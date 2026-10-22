@@ -22,6 +22,7 @@ docs/ 는 손으로 고치지 않습니다(빌드할 때마다 새로 만들어�
 | `faq.md` | `/<앱>/help/` 아래 '자주 묻는 질문' | 안 넣음 |
 | `updates.md` | `/<앱>/updates/` | 안 만듦 |
 | `privacy.md` | `/<앱>/privacy/` (apps.json `privacy_format: "md"`일 때) | — |
+| `<이름>.md` (그 밖의 이름) | `/<앱>/<이름>/` 앱 전용 페이지 — 예: `rights.md` → `/box/rights/`(방송사·권리자 요청). 머리말 `title`·`h1`·`description` 선택 | 안 만듦 |
 | `img/` | `/<앱>/img/` (화면 사진 등) | — |
 | `static/` | `/<앱>/` 아래 그대로 복사(앱이 읽는 데이터: `static/radio/v1/` → `/box/radio/v1/`) | — |
 
@@ -42,6 +43,7 @@ card: 회사 홈 카드에 나오는 한 문장
 
 버튼 아래 본문.
 ```
+- 화면 사진 줄: `<p class="shots">` 또는 `<div class="shots">` 안에 `<img … width="540" height="960" alt="…">` 4장 — 크기·간격은 공용 CSS(.shots, 폭 150px)가 정함, 인라인 스타일 쓰지 않음
 - 받기 버튼·도움말 버튼·처리방침 버튼은 쓰지 않습니다(apps.json의 status와 help.md 유무로 자동).
 - 사업자 정보·머리·바닥도 쓰지 않습니다(build.py 한 곳).
 
