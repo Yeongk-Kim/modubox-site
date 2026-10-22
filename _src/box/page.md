@@ -5,11 +5,11 @@ h1: 모두박스 · ModuBox
 lead: 번호만 누르면 라디오가 나옵니다. 라디오·내 음악·즐겨찾기를 한 화면에 담았고, 회원가입 없이 바로 씁니다.
 card: 번호만 누르면 라디오가 나옵니다. 라디오·내 음악·즐겨찾기를 한 화면에 담았습니다.
 ---
-<p class="shots" style="display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px">
-<img src="/box/img/shot-1-smart-home.webp" width="540" height="960" loading="lazy" alt="스마트형 홈 화면" style="width:150px;height:auto;border-radius:12px;border:1px solid var(--line)">
-<img src="/box/img/shot-2-retro-home.webp" width="540" height="960" loading="lazy" alt="레트로형 홈 화면(번호판)" style="width:150px;height:auto;border-radius:12px;border:1px solid var(--line)">
-<img src="/box/img/shot-3-radio.webp" width="540" height="960" loading="lazy" alt="라디오 듣는 화면" style="width:150px;height:auto;border-radius:12px;border:1px solid var(--line)">
-<img src="/box/img/shot-4-mymusic.webp" width="540" height="960" loading="lazy" alt="내 음악 목록 화면" style="width:150px;height:auto;border-radius:12px;border:1px solid var(--line)">
+<p class="shots">
+<img src="/box/img/shot-1-smart-home.webp" width="540" height="960" loading="lazy" alt="스마트형 홈 화면">
+<img src="/box/img/shot-2-retro-home.webp" width="540" height="960" loading="lazy" alt="레트로형 홈 화면(번호판)">
+<img src="/box/img/shot-3-radio.webp" width="540" height="960" loading="lazy" alt="라디오 듣는 화면">
+<img src="/box/img/shot-4-mymusic.webp" width="540" height="960" loading="lazy" alt="내 음악 목록 화면">
 </p>
 
 <!-- buttons -->
