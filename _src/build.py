@@ -67,6 +67,9 @@ footer a{color:var(--sub)}
 @media (max-width:480px){.brand span{display:none}}
 .doc .updated+.updated{margin-top:-18px}
 .doc .sub{margin:2px 0 2px 18px;color:var(--sub)}
+.app.has-icon{display:flex;gap:18px;align-items:flex-start}
+.app .ic{flex:none;width:64px;height:64px;border-radius:15px;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.app .tx{display:block;min-width:0}
 .shots{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}
 .shots img{width:150px;height:auto;border-radius:12px;border:1px solid var(--line)}
 .wrap>h2{font-size:18px;margin:30px 0 8px}
@@ -236,8 +239,13 @@ urls = [BASE + '/']
 cards = []
 for a in SHOWN:
     meta, _ = front(read(a['slug'], 'page.md'))
-    cards.append(f'<a class="app" href="/{ns(a).slug}/"><h2>{ns(a).name_ko} · {ns(a).name_en}</h2>\n'
-                 '<p>' + meta.get('card', '') + f'</p>\n<span class="more">자세히 보기 →</span></a>')
+    icon = os.path.exists(os.path.join(SRC, a['slug'], 'img', 'icon.webp'))
+    body = (f'<h2>{ns(a).name_ko} · {ns(a).name_en}</h2>\n' + '<p>' + meta.get('card', '') + f'</p>\n<span class="more">자세히 보기 →</span>')
+    if icon:
+        cards.append(f'<a class="app has-icon" href="/{ns(a).slug}/"><img class="ic" src="/{ns(a).slug}/img/icon.webp" width="64" height="64" alt="">'
+                     f'<div class="tx">{body}</div></a>')
+    else:
+        cards.append(f'<a class="app" href="/{ns(a).slug}/">{body}</a>')
 home = (f"\n<h1>{SITE['h1']}</h1>\n<p class=\"lead\">{SITE['lead']}</p>\n<div class=\"apps\">\n" + '\n'.join(cards) +
         f"\n</div>\n<p class=\"note\" style=\"margin-top:28px\">문의: <a href=\"mailto:{SITE['mail']}\">{SITE['mail']}</a></p>\n")
 w('index.html', page(SITE['title'], home, SITE['description'], canonical=BASE + '/'))
