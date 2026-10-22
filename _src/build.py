@@ -25,7 +25,7 @@ SITE = json.load(open(os.path.join(SRC, 'site.json'), encoding='utf-8'))
 SHOWN = [a for a in APPS if a['status'] in ('testing', 'live')]   # 홈 카드·메뉴·sitemap에 나오는 앱
 
 BIZ_KO = ('상호 모두박스랩스 (ModuBox Labs) · 대표 김영균 · 사업자등록번호 163-78-00746 · 통신판매업 신고 제2026-서울서대문-1097호<br>'
-          '주소 서울특별시 서대문구 신촌로 163, 1803호 · 전화 070-8065-7440 · 이메일 <a href="mailto:support@modubox.app">support@modubox.app</a>')
+          '주소 서울특별시 서대문구 신촌로 163 (대현동) · 전화 070-8065-7440 · 이메일 <a href="mailto:support@modubox.app">support@modubox.app</a>')
 
 MON_EN = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
           'September', 'October', 'November', 'December']
