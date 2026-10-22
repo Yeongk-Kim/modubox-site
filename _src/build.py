@@ -285,4 +285,11 @@ w('404.html', page('페이지를 찾을 수 없습니다 — ModuBox Labs',
   '<h1>페이지를 찾을 수 없습니다</h1><p class="lead">주소를 다시 확인해 주세요.</p><p><a href="/">처음으로</a></p>'))
 w('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
+# robots.txt: 앱 데이터 폴더(static/ 아래 폴더)는 검색 제외, sitemap 위치 안내
+dis = []
+for a in APPS:
+    sd = os.path.join(SRC, a['slug'], 'static')
+    if os.path.isdir(sd):
+        dis += [f"/{a['slug']}/{d}/" for d in sorted(os.listdir(sd)) if os.path.isdir(os.path.join(sd, d))]
+w('robots.txt', 'User-agent: *\n' + ''.join(f'Disallow: {d}\n' for d in dis) + f'\nSitemap: {BASE}/sitemap.xml\n')
 print('built', OUT, len(urls), 'urls')

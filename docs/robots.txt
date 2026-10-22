@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /box/radio/
+
+Sitemap: https://modubox.app/sitemap.xml
