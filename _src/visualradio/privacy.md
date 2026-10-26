@@ -37,7 +37,7 @@ description: 보는 라디오(Visual Radio) 개인정보처리방침
 이 앱은 만 18세 이상을 대상으로 합니다.
 
 ## 6. 문의
-[radio@modubox.app](mailto:radio@modubox.app) (개인정보 보호·고충 처리 담당: 모두박스랩스 고객지원)
+개인정보 보호 담당: 모두박스랩스 · [radio@modubox.app](mailto:radio@modubox.app)
 
 ## 7. 바뀌는 경우
 이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.
@@ -78,7 +78,7 @@ The following is stored only on your phone and is never sent to anyone. It is de
 This App is intended for users aged 18 and over.
 
 ## 6. Contact
-[radio@modubox.app](mailto:radio@modubox.app) (Privacy and complaints: ModuBox Labs Customer Support)
+Privacy contact: ModuBox Labs · [radio@modubox.app](mailto:radio@modubox.app)
 
 ## 7. Changes
 If this policy changes, we will post the update on this page with its effective date.
