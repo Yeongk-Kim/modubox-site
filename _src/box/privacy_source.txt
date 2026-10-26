@@ -11,7 +11,8 @@
 모두박스 개인정보처리방침
 
 시행일: 2026년 10월 10일
-개정: 2026년 10월 __일 — 연락처 이메일 변경(modubox.app@gmail.com → box@modubox.app), 운영자 표기 변경. 수집·이용 내용은 바뀌지 않았습니다.
+개정: 2026년 10월 20일 — 연락처 이메일 변경(modubox.app@gmail.com → box@modubox.app), 운영자 표기 변경. 수집·이용 내용은 바뀌지 않았습니다.
+개정: 2026년 10월 26일 — 개인정보 보호·고충 처리 담당 표기 변경(개인 성명 → 담당 부서). 수집·이용 내용은 바뀌지 않았습니다.
 
 모두박스(이하 '앱')는 이용자의 개인정보를 소중히 다룹니다. 이 앱은 회원가입이 없고, 운영자 서버로 이용자 정보를 보내지 않습니다. 아래는 앱이 폰 안에서 어떤 정보를 쓰는지, 그리고 어떤 경우에 다른 곳과 연결되는지를 설명합니다.
 
@@ -76,8 +77,8 @@
 11. 안전하게 지키는 방법
 앱은 이용자 정보를 운영자 서버로 보내지 않는 구조로 만들어, 외부 유출 경로 자체를 두지 않았습니다. 필요한 권한만 쓰고, 사진·동영상 전체 읽기 권한 등 넓은 권한을 쓰지 않습니다.
 
-12. 개인정보 보호책임자·연락처
-- 책임자: 김영균 (모두박스랩스 대표)
+12. 개인정보 보호·고충 처리 담당·연락처
+- 개인정보 보호·고충 처리 담당: 모두박스랩스 고객지원
 - 이메일: box@modubox.app
 - 방송사·권리자 요청(채널 제외 등)도 같은 주소로 받습니다.
 
@@ -87,7 +88,8 @@
 Privacy Policy — ModuBox (English)
 
 Effective date: October 10, 2026
-Revised: October __, 2026 — contact email changed (modubox.app@gmail.com → box@modubox.app) and operator name updated. What the app uses and how did not change.
+Revised: October 20, 2026 — contact email changed (modubox.app@gmail.com → box@modubox.app) and operator name updated. What the app uses and how did not change.
+Revised: October 26, 2026 — privacy contact changed from a named individual to a department. What the app uses and how did not change.
 
 ModuBox ("the app") has no sign-up and sends no user information to the developer's servers.
 
@@ -108,7 +110,7 @@ ModuBox ("the app") has no sign-up and sends no user information to the develope
 9. Children — The app is not directed at children under 14 and does not knowingly receive their information.
 10. Your choices — Revoke audio files, step count, or notification permissions anytime in phone or Health Connect settings. Uninstalling removes app settings (except the photo folder above). Contact us to access or delete inquiry emails.
 11. Security — The app is built so that user information is not sent to our servers, and it requests only the permissions it needs.
-12. Contact — Kim Yeong Kyun, Representative, ModuBox Labs · box@modubox.app (also for broadcaster/rights-holder requests).
+12. Contact — Privacy and complaints: ModuBox Labs Customer Support · box@modubox.app (also for broadcaster/rights-holder requests).
 13. Changes — Before adding features that use our servers (such as the paid family connection service), we will update this policy and notify you in the app and on this page at least 7 days in advance.
 
 ══════════════════════════════════════
