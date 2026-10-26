@@ -22,5 +22,17 @@
     "mail": "box@modubox.app",
     "privacy_format": "box-txt-legacy",
     "privacy_revised": "2026-10-20"
+  },
+  {
+    "slug": "visualradio",
+    "name_ko": "보는 라디오",
+    "name_en": "Visual Radio",
+    "package": "",
+    "status": "preparing",
+    "langs": ["ko", "en"],
+    "color": "#5B3BE6",
+    "mail": "radio@modubox.app",
+    "privacy_format": "md",
+    "privacy_revised": "2026-10-26"
   }
 ]
