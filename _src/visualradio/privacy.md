@@ -78,7 +78,7 @@ The following is stored only on your phone and is never sent to anyone. It is de
 This App is intended for users aged 18 and over.
 
 ## 6. Contact
-[radio@modubox.app](mailto:radio@modubox.app) (Privacy officer: Kim Yeong-gyun, CEO of ModuBox Labs)
+[radio@modubox.app](mailto:radio@modubox.app) (Privacy officer: Kim Yeong Kyun, Representative, ModuBox Labs)
 
 ## 7. Changes
 If this policy changes, we will post the update on this page with its effective date.
