@@ -73,7 +73,19 @@ footer a{color:var(--sub)}
 .wrap>ul{padding-left:20px}
 """
 
-def page(title, body, desc='', lang='ko', canonical=''):
+def og_tags(title, desc, url, og):
+    """카톡·문자 링크 미리보기(오픈 그래프) — og = (제목, 그림 주소) 있을 때만. 10/28 수면앱 공유 미리보기"""
+    if not og:
+        return ''
+    t, img = og
+    e = html.escape
+    return ('\n' + f'<meta property="og:type" content="website">\n<meta property="og:site_name" content="ModuBox Labs">\n'
+            f'<meta property="og:title" content="{e(t)}">\n<meta property="og:description" content="{e(desc)}">\n'
+            f'<meta property="og:url" content="{e(url)}">\n<meta property="og:image" content="{e(img)}">\n'
+            f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+            f'<meta name="twitter:card" content="summary_large_image">')
+
+def page(title, body, desc='', lang='ko', canonical='', og=None):
     nav = ''.join(f'<a href="/{ns(a).slug}/">{ns(a).name_ko}</a>' for a in SHOWN)
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
@@ -82,7 +94,7 @@ def page(title, body, desc='', lang='ko', canonical=''):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{html.escape(desc)}">
-{f'<link rel="canonical" href="{canonical}">' if canonical else ''}
+{f'<link rel="canonical" href="{canonical}">' if canonical else ''}{og_tags(title, desc, canonical, og)}
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
@@ -265,7 +277,9 @@ for a in APPS:
     parts.append(btn_html)
     if md(after): parts.append(md(after))
     w(f'{s}/index.html', page(meta.get('title', a['name_ko']), '\n' + '\n'.join(parts) + '\n',
-                               meta.get('description', ''), canonical=f'{BASE}/{s}/'))
+                               meta.get('description', ''), canonical=f'{BASE}/{s}/',
+                               og=(meta.get('og_title', meta.get('title', a['name_ko'])), f'{BASE}/{s}/img/og.png')
+                               if os.path.exists(os.path.join(SRC, s, 'img', 'og.png')) else None))
     Y, M, D = a['privacy_revised'].split('-')
     w(f'{s}/privacy/index.html', PRIVACY[a['privacy_format']](a, Y, M, D))
     if a in SHOWN:

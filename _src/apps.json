@@ -4,7 +4,7 @@
     "name_ko": "수면 사운드",
     "name_en": "Sleep Sounds",
     "package": "com.wonchang.sleepnoise",
-    "status": "testing",
+    "status": "live",
     "langs": ["ko", "en", "ja", "zh-CN"],
     "color": "#1A3270",
     "mail": "sleep@modubox.app",
