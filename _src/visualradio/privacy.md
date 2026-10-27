@@ -8,7 +8,7 @@ description: 보는 라디오(Visual Radio) 개인정보처리방침
 
 # 보는 라디오 개인정보처리방침
 
-<p class="updated">시행일: 2026년 10월 26일</p>
+<p class="updated">시행일: 2026년 10월 27일</p>
 
 보는 라디오(이하 '앱')는 회원가입이 없고, 운영자 서버로 이용자 정보를 보내지 않습니다.
 
@@ -26,6 +26,7 @@ description: 보는 라디오(Visual Radio) 개인정보처리방침
 ## 3. 외부 서비스와 연결되는 경우
 - 유튜브: 영상은 유튜브 공식 플레이어로 재생합니다. 재생 중 유튜브(Google)가 처리하는 정보에는 유튜브 서비스 약관(<https://www.youtube.com/t/terms>)과 Google 개인정보처리방침(<https://policies.google.com/privacy>)이 적용됩니다.
 - 방송사 라디오·팟캐스트: 소리와 목록을 각 방송사 주소에서 직접 받아 옵니다. 이때 일반적인 인터넷 연결처럼 기기의 IP 주소가 그 서버에 전달될 수 있습니다.
+- 편성표: 프로그램 이름과 시간을 최신으로 보여 주기 위해 하루 한 번 회사 홈페이지(modubox.app)에서 편성표 파일을 받아 옵니다. 이때 이용자 정보는 보내지 않으며, 일반적인 인터넷 연결처럼 기기의 IP 주소가 홈페이지 호스팅 서버(GitHub Pages)에 전달될 수 있습니다.
 - 방송사 앱 연결: '○○에서 보기'를 누르면 해당 방송사 앱(또는 웹)이 열리며, 그 뒤로는 그 서비스의 방침이 적용됩니다.
 
 ## 4. 권한
@@ -49,7 +50,7 @@ description: 보는 라디오(Visual Radio) 개인정보처리방침
 
 # Privacy Policy — Visual Radio
 
-<p class="updated">Effective date: October 26, 2026</p>
+<p class="updated">Effective date: October 27, 2026</p>
 
 Visual Radio (the "App") has no sign-up and does not send any user information to the operator's servers.
 
@@ -67,6 +68,7 @@ The following is stored only on your phone and is never sent to anyone. It is de
 ## 3. When the App connects to outside services
 - YouTube: videos are played with the official YouTube player. Information YouTube (Google) handles during playback is governed by the YouTube Terms of Service (<https://www.youtube.com/t/terms>) and the Google Privacy Policy (<https://policies.google.com/privacy>).
 - Broadcasters' radio and podcasts: audio and lists are fetched directly from each broadcaster's address. As with any internet connection, your device's IP address may be passed to that server.
+- Program schedule: once a day the app downloads a schedule file from our website (modubox.app) to keep program names and times current; no user information is sent, and like any internet connection your IP address may reach the site's host (GitHub Pages).
 - Opening a broadcaster's app: when you tap "Watch on ○○", that broadcaster's app (or website) opens, and its own policy applies from then on.
 
 ## 4. Permissions
