@@ -54,6 +54,9 @@ h1{font-size:28px;line-height:1.3;margin:0 0 10px;letter-spacing:-.02em}
 .app .more{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent)}
 .btns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
 .btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:14.5px}
+.btn.play{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border:0;background:var(--app,#1A3270);color:#fff;font-weight:700;font-size:16px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.btn.play svg{width:18px;height:18px;flex:none}.btn.play:hover{filter:brightness(1.12)}
+.btns.end{justify-content:center;margin:34px 0 8px}
 .note{color:var(--sub);font-size:14px}
 footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--sub);font-size:12.5px;line-height:1.8}
 footer a{color:var(--sub)}
@@ -148,9 +151,14 @@ def copytree(src, dst):
             os.makedirs(os.path.dirname(t), exist_ok=True)
             shutil.copy2(s, t)
 
-def play_url(a):
+def play_url(a, pos='hero'):
     return (f"https://play.google.com/store/apps/details?id={ns(a).package}"
-            f"&referrer=utm_source%3Dsite%26utm_campaign%3D{ns(a).slug}_hero")
+            f"&referrer=utm_source%3Dsite%26utm_campaign%3D{ns(a).slug}_{pos}")
+
+PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>'
+def play_btn(a, pos='hero'):
+    return (f'<a class="btn play" style="--app:{html.escape(a.get("color", "#1A3270"))}" '
+            f'href="{html.escape(play_url(a, pos))}">{PLAY_SVG}Google Play에서 받기</a>')
 
 # ---------- 앱별 처리방침(옛 형식 그대로 — 글자 바꾸지 않음) ----------
 def privacy_sleep_legacy(a, Y, M, D):
@@ -262,7 +270,7 @@ for a in APPS:
     has_help = has_content(help_txt) or has_content(faq_txt)
     btns = []
     if a['status'] == 'live':
-        btns.append(f'<a class="btn" href="{html.escape(play_url(a))}">Google Play에서 받기</a>')
+        btns.append(play_btn(a))
     else:
         btns.append('<span class="btn" aria-disabled="true">곧 출시합니다</span>')
     if has_help:
@@ -276,6 +284,8 @@ for a in APPS:
     if md(before): parts.append(md(before))
     parts.append(btn_html)
     if md(after): parts.append(md(after))
+    if a['status'] == 'live':
+        parts.append('<div class="btns end">' + play_btn(a, 'bottom') + '</div>')
     w(f'{s}/index.html', page(meta.get('title', a['name_ko']), '\n' + '\n'.join(parts) + '\n',
                                meta.get('description', ''), canonical=f'{BASE}/{s}/',
                                og=(meta.get('og_title', meta.get('title', a['name_ko'])), f'{BASE}/{s}/img/og.png')
