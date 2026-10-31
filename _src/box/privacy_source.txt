@@ -95,7 +95,7 @@
 - 방송사·권리자 요청(채널 제외 등)도 같은 주소로 받습니다.
 
 14. 방침의 변경
-앞으로 가족 연결(자녀가 멀리서 도와주는 유료 서비스) 등 운영자 서버를 쓰는 기능이 추가되면, 그 전에 이 방침을 고치고 앱과 이 페이지로 알립니다. 변경 내용은 시행 7일 전부터 알립니다.
+앞으로 운영자 서버를 쓰는 기능이 추가되면, 그 전에 이 방침을 고치고 앱과 이 페이지로 알립니다. 변경 내용은 시행 7일 전부터 알립니다.
 
 Privacy Policy — ModuBox (English)
 
@@ -131,7 +131,7 @@ ModuBox ("the app") has no sign-up and sends no user information to the develope
 11. Your choices — Revoke audio files, step count, or notification permissions anytime in phone or Health Connect settings. Uninstalling removes app settings (except the photo folder above). Contact us to access or delete inquiry emails.
 12. Security — The app is built so that user information is not sent to our servers, and it requests only the permissions it needs.
 13. Contact — Privacy and complaints: ModuBox Labs Customer Support · box@modubox.app (also for broadcaster/rights-holder requests).
-14. Changes — Before adding features that use our servers (such as the paid family connection service), we will update this policy and notify you in the app and on this page at least 7 days in advance.
+14. Changes — Before adding any feature that uses our servers, we will update this policy and notify you in the app and on this page at least 7 days in advance.
 
 ══════════════════════════════════════
 ② https://modubox.app/box/ 소개 문구
