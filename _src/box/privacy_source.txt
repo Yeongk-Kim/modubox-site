@@ -13,6 +13,7 @@
 시행일: 2026년 10월 10일
 개정: 2026년 10월 20일 — 연락처 이메일 변경(modubox.app@gmail.com → box@modubox.app), 운영자 표기 변경. 수집·이용 내용은 바뀌지 않았습니다.
 개정: 2026년 10월 26일 — 개인정보 보호·고충 처리 담당 표기 변경(개인 성명 → 담당 부서). 수집·이용 내용은 바뀌지 않았습니다.
+개정: 2026년 10월 31일 — 정식 출시에 맞춰 팟캐스트·유튜브(앱 안 보기), 내 음악(PRO는 즐겨찾기에 담기), 편성표·목록 파일 받기, 예약 알림·라디오 알람, PRO 구입(앱 안 결제) 안내를 더했습니다. 운영자에게 이용자 정보를 보내지 않는다는 원칙은 바뀌지 않았습니다.
 
 모두박스(이하 '앱')는 이용자의 개인정보를 소중히 다룹니다. 이 앱은 회원가입이 없고, 운영자 서버로 이용자 정보를 보내지 않습니다. 아래는 앱이 폰 안에서 어떤 정보를 쓰는지, 그리고 어떤 경우에 다른 곳과 연결되는지를 설명합니다.
 
@@ -25,7 +26,7 @@
 2. 폰 안에서만 쓰는 정보
 아래 정보는 이용자의 폰 안에만 있고, 운영자를 포함해 누구에게도 보내지 않습니다.
 
-- 앱 설정(번호별 방송·노래, 화면 모양·색, 고른 지역, 마지막으로 들은 번호, 자동 끄기 등)
+- 앱 설정(번호별 방송·노래, 화면 모양·색, 고른 지역, 마지막으로 들은 번호, 자동 끄기, 즐겨찾기, 팟캐스트 이어 듣기 위치, 예약 알림·라디오 알람 목록 등)
   · 쓰는 이유: 앱을 다시 켜도 같은 화면으로 쓰기 위해
   · 보관: 폰 안. 앱을 지우면 함께 지워짐
 - 폰에 저장된 음악 파일의 목록
@@ -49,40 +50,51 @@
 - 철회: 설정에서 '걸음 수 보기'를 끄거나, 폰의 헬스 커넥트 설정에서 모두박스의 권한을 언제든지 해제할 수 있습니다.
 - 헬스 커넥트에서 받은 정보의 사용은 Health Connect 권한 정책(Limited Use 요건 포함)을 따릅니다.
 
-4. 인터넷 연결 — 방송 듣기
-- 라디오 번호를 누르면 앱이 그 방송사가 인터넷에 공개한 실시간 방송 서버에 직접 연결합니다. 운영자 서버를 거치지 않습니다.
-- 이때 방송사 서버는 일반적인 인터넷 접속과 같이 이용자의 IP 주소, 기기·접속 정보를 받을 수 있습니다. 이 정보의 처리는 각 방송사의 개인정보처리방침을 따릅니다.
-- 앱은 방송을 녹음하거나 저장하지 않습니다.
+4. 인터넷 연결 — 방송·팟캐스트·유튜브·목록 받기
+- 라디오: 라디오 번호를 누르면 앱이 그 방송사가 인터넷에 공개한 실시간 방송 서버에 직접 연결합니다. 운영자 서버를 거치지 않습니다.
+- 팟캐스트: 팟캐스트 화면은 방송사가 공개한 팟캐스트 목록(RSS)과 소리 파일 서버에 직접 연결합니다. 어디까지 들었는지는 폰 안에만 저장합니다.
+- 유튜브(앱 안 보기): 유튜브 화면은 YouTube가 제공하는 공식 삽입 플레이어로 영상을 보여 줍니다. 영상 목록은 YouTube가 공개한 채널 목록(RSS)에서 받습니다. 이 화면을 쓰는 동안 YouTube·Google에 접속이 일어나며, 그 처리는 YouTube 서비스 약관(https://www.youtube.com/t/terms)과 Google 개인정보처리방침(https://policies.google.com/privacy)을 따릅니다. 모두박스는 YouTube 로그인을 하지 않고, 시청 기록을 모으거나 운영자에게 보내지 않습니다.
+- 편성표·목록 파일: 프로그램 시간표와 방송 목록을 최신으로 보여 주려고, 앱이 하루 한 번 정도 운영자 누리집(modubox.app)에서 공개 파일을 받습니다. 이 요청에는 쿠키나 기기 식별자를 넣지 않습니다. 누리집을 맡은 호스팅 업체(GitHub)가 일반적인 인터넷 접속과 같이 IP 주소 등 접속 정보를 받을 수 있으나, 운영자는 그 접속 기록을 받거나 보지 않습니다.
+- 위 연결에서 방송사·YouTube 등 상대 서버는 일반적인 인터넷 접속과 같이 이용자의 IP 주소, 기기·접속 정보를 받을 수 있습니다. 이 정보의 처리는 각 회사의 개인정보처리방침을 따릅니다.
+- 앱은 방송·팟캐스트·영상을 녹음하거나 내려받아 저장하지 않습니다.
 
 5. 다른 앱 열기
 유튜브, 음악 앱, 폰 갤러리, 메일, 공유 창 등 다른 앱을 여는 버튼은 그 앱을 열기만 합니다. 그 앱 안에서의 정보 처리는 해당 앱의 방침을 따르며, 모두박스는 그 앱의 정보를 읽지 않습니다. '친구에게 알려 주기'는 폰의 공유 창을 열 뿐, 누구에게 보냈는지 모두박스는 알지 못합니다.
 
 6. 알림
-재생 중 알림창과 잠금화면에 재생 버튼을 보여 주기 위해 알림 권한을 씁니다. 광고·홍보 알림은 보내지 않습니다.
+- 재생 중 알림창과 잠금화면에 재생·끄기 버튼을 보여 주기 위해 알림 권한을 씁니다.
+- 라디오 알람과 예약 알림(PRO)은 이용자가 정한 시각에 폰 안에서 방송을 켜거나 '곧 시작' 알림을 띄웁니다. 정한 목록은 폰 안에만 있고, 폰을 다시 켜면 다시 걸기 위해 '부팅 완료 알림 받기' 권한을, 정확한 시각을 위해 '알람 및 리마인더' 권한을 씁니다(폰 설정에서 끌 수 있습니다).
+- 광고·홍보 알림은 보내지 않습니다.
 
-7. 문의하신 경우
+7. PRO 구입(앱 안 결제)
+- PRO 구입과 결제는 Google Play 결제 시스템이 처리합니다. 카드 번호·계좌 같은 결제 정보는 Google이 받으며, 운영자와 앱은 받지 않습니다. 결제 정보의 처리는 Google 개인정보처리방침을 따릅니다.
+- 앱은 PRO를 샀는지 확인하려고 Google Play에 이 폰의 구매 기록을 묻고, 그 결과(산 것인지 아닌지)만 폰 안에 저장합니다. 운영자에게 보내지 않습니다.
+- 7일 무료 체험을 시작하면 시작한 날짜를 폰 안에만 저장합니다. 앱을 지우면 함께 지워집니다.
+- 환불: 구입 후 48시간 안에는 Google Play에서 요청할 수 있고, 그 뒤에는 아래 연락처로 문의해 주세요.
+
+8. 문의하신 경우
 이용자가 문의 메일을 보내면, 운영자는 답변을 위해 보낸 이메일 주소와 문의 내용을 받게 됩니다. 이 정보는 답변과 문제 해결에만 쓰고, 처리가 끝난 뒤 1년 안에 지웁니다. 다른 곳에 제공하지 않습니다.
 
-8. 제3자 제공·처리 위탁
-운영자가 받는 개인정보가 없으므로 제3자에게 제공하거나 처리를 맡기지 않습니다(7장의 문의 메일 제외 — 이 역시 제공·위탁하지 않습니다).
+9. 제3자 제공·처리 위탁
+운영자가 받는 개인정보가 없으므로 제3자에게 제공하거나 처리를 맡기지 않습니다(8장의 문의 메일 제외 — 이 역시 제공·위탁하지 않습니다).
 
-9. 아동
+10. 아동
 이 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 알면서 받지 않습니다.
 
-10. 이용자의 권리와 방법
+11. 이용자의 권리와 방법
 - 음악 파일·걸음 수·알림 권한은 폰 설정 또는 헬스 커넥트 설정에서 언제든지 해제할 수 있습니다.
 - 앱을 지우면 폰 안의 앱 설정이 함께 지워집니다(2장의 사진 폴더는 예외).
 - 문의 메일 관련 정보의 열람·삭제를 원하시면 아래 연락처로 요청해 주세요.
 
-11. 안전하게 지키는 방법
+12. 안전하게 지키는 방법
 앱은 이용자 정보를 운영자 서버로 보내지 않는 구조로 만들어, 외부 유출 경로 자체를 두지 않았습니다. 필요한 권한만 쓰고, 사진·동영상 전체 읽기 권한 등 넓은 권한을 쓰지 않습니다.
 
-12. 개인정보 보호·고충 처리 담당·연락처
+13. 개인정보 보호·고충 처리 담당·연락처
 - 개인정보 보호·고충 처리 담당: 모두박스랩스 고객지원
 - 이메일: box@modubox.app
 - 방송사·권리자 요청(채널 제외 등)도 같은 주소로 받습니다.
 
-13. 방침의 변경
+14. 방침의 변경
 앞으로 가족 연결(자녀가 멀리서 도와주는 유료 서비스) 등 운영자 서버를 쓰는 기능이 추가되면, 그 전에 이 방침을 고치고 앱과 이 페이지로 알립니다. 변경 내용은 시행 7일 전부터 알립니다.
 
 Privacy Policy — ModuBox (English)
@@ -90,11 +102,12 @@ Privacy Policy — ModuBox (English)
 Effective date: October 10, 2026
 Revised: October 20, 2026 — contact email changed (modubox.app@gmail.com → box@modubox.app) and operator name updated. What the app uses and how did not change.
 Revised: October 26, 2026 — privacy contact changed from a named individual to a department. What the app uses and how did not change.
+Revised: October 31, 2026 — Added notices for podcasts and YouTube (in-app viewing), downloading schedule/list files, scheduled reminders and radio alarms, and PRO purchases (in-app payment), in line with the official release. The principle that no user information is sent to us is unchanged.
 
 ModuBox ("the app") has no sign-up and sends no user information to the developer's servers.
 
 1. What we do not collect — No name, phone number, email, address, or date of birth. No location (your region is chosen from a list by you). No ads, analytics, or crash-reporting tools. No usage logs are sent to us.
-2. Information used only on your phone — App settings (channels and songs for each number, screen shape and color, chosen region, last number played, sleep timer); the list of music files on your phone (audio files permission) for "My music"; copies of photos/videos you pick with "Add photos", saved in your phone's Pictures/ModuBox folder (originals untouched; this folder may remain after uninstalling — delete it in your gallery if needed). None of this leaves your phone. The app does not use permission to read all photos or videos; it receives only the items you pick.
+2. Information used only on your phone — App settings (channels and songs for each number, screen shape and color, chosen region, last number played, sleep timer, favorites, podcast resume positions, and your scheduled-reminder and radio-alarm lists); the list of music files on your phone (audio files permission) for "My music"; copies of photos/videos you pick with "Add photos", saved in your phone's Pictures/ModuBox folder (originals untouched; this folder may remain after uninstalling — delete it in your gallery if needed). None of this leaves your phone. The app does not use permission to read all photos or videos; it receives only the items you pick.
 3. Step count (Health Connect) — Only if you turn on "Show step count" in Settings and grant permission, ModuBox reads today's step count from Android Health Connect to display it on the radio screen.
    - Data read: only the total step count from midnight today until now. No other health data (heart rate, sleep, location, etc.) is read.
    - Purpose: used only for on-screen display; never for advertising, analytics, or personalization.
@@ -102,16 +115,23 @@ ModuBox ("the app") has no sign-up and sends no user information to the develope
    - Read only while the app is on screen; never in the background. ModuBox does not write any data to Health Connect.
    - You can stop this anytime by turning off "Show step count" or revoking ModuBox's permission in Health Connect settings.
    - Use of information received from Health Connect adheres to the Health Connect Permissions policy, including the Limited Use requirements.
-4. Listening to stations — When you press a number, the app connects directly to the live stream the broadcaster makes public online, not through our servers. Like any internet connection, the broadcaster's server may receive your IP address and device/connection information; this is governed by each broadcaster's privacy policy. The app does not record or store broadcasts.
+4. Internet connections — stations, podcasts, YouTube, list files
+   - Radio: when you press a number, the app connects directly to the live stream the broadcaster makes public online, not through our servers.
+   - Podcasts: the podcast screen connects directly to the broadcaster's public podcast feed (RSS) and audio servers. How far you listened is stored on your phone only.
+   - YouTube (in-app viewing): the YouTube screen shows videos with YouTube's official embedded player, and video lists come from YouTube's public channel feeds (RSS). While you use this screen, connections are made to YouTube/Google, governed by the YouTube Terms of Service (https://www.youtube.com/t/terms) and the Google Privacy Policy (https://policies.google.com/privacy). ModuBox does not sign in to YouTube and does not collect or send viewing history.
+   - Schedule and list files: to keep program schedules and station lists current, the app downloads public files from our website (modubox.app) about once a day. These requests carry no cookies or device identifiers. Our hosting provider (GitHub) may receive connection information such as IP addresses, as with any internet connection; we do not receive or view those logs.
+   - As with any internet connection, broadcasters, YouTube and other servers may receive your IP address and device/connection information; this is governed by each company's privacy policy.
+   - The app does not record or download broadcasts, podcasts, or videos.
 5. Opening other apps — Buttons that open YouTube, music apps, your gallery, email, or the share sheet only open those apps; their own policies apply. ModuBox does not read their data and does not know whom you share with.
-6. Notifications — Used only to show playback controls in the notification shade and lock screen. No promotional notifications.
-7. If you contact us — We receive your email address and message, use them only to reply and resolve the issue, and delete them within one year after handling. Not shared with anyone.
-8. Third parties — We do not share or outsource personal information.
-9. Children — The app is not directed at children under 14 and does not knowingly receive their information.
-10. Your choices — Revoke audio files, step count, or notification permissions anytime in phone or Health Connect settings. Uninstalling removes app settings (except the photo folder above). Contact us to access or delete inquiry emails.
-11. Security — The app is built so that user information is not sent to our servers, and it requests only the permissions it needs.
-12. Contact — Privacy and complaints: ModuBox Labs Customer Support · box@modubox.app (also for broadcaster/rights-holder requests).
-13. Changes — Before adding features that use our servers (such as the paid family connection service), we will update this policy and notify you in the app and on this page at least 7 days in advance.
+6. Notifications — Used to show playback and stop controls in the notification shade and lock screen. Radio alarms and scheduled reminders (PRO) turn on a station or show a "starting soon" notice at the time you set; those lists stay on your phone, and the app uses the "receive boot completed" permission to re-arm them after a restart and the "alarms & reminders" permission for exact timing (both can be turned off in phone settings). No promotional notifications.
+7. PRO purchase (in-app payment) — Purchases and payments are handled by Google Play Billing. Payment details such as card or account numbers go to Google; neither we nor the app receive them, and their handling is governed by the Google Privacy Policy. To check whether PRO was purchased, the app asks Google Play for this phone's purchase record and stores only the result (purchased or not) on the phone; it is never sent to us. If you start the 7-day free trial, the start date is stored on your phone only and is removed when you uninstall. Refunds: within 48 hours of purchase you can request one through Google Play; after that, please contact us at the address below.
+8. If you contact us — We receive your email address and message, use them only to reply and resolve the issue, and delete them within one year after handling. Not shared with anyone.
+9. Third parties — We do not share or outsource personal information.
+10. Children — The app is not directed at children under 14 and does not knowingly receive their information.
+11. Your choices — Revoke audio files, step count, or notification permissions anytime in phone or Health Connect settings. Uninstalling removes app settings (except the photo folder above). Contact us to access or delete inquiry emails.
+12. Security — The app is built so that user information is not sent to our servers, and it requests only the permissions it needs.
+13. Contact — Privacy and complaints: ModuBox Labs Customer Support · box@modubox.app (also for broadcaster/rights-holder requests).
+14. Changes — Before adding features that use our servers (such as the paid family connection service), we will update this policy and notify you in the app and on this page at least 7 days in advance.
 
 ══════════════════════════════════════
 ② https://modubox.app/box/ 소개 문구
