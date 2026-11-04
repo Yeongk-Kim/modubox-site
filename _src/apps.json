@@ -16,7 +16,7 @@
     "name_ko": "모두박스",
     "name_en": "ModuBox",
     "package": "com.modubox.app",
-    "status": "testing",
+    "status": "live",
     "langs": ["ko", "en", "zh-CN", "ja", "vi"],
     "color": "#BC2A1E",
     "mail": "box@modubox.app",
