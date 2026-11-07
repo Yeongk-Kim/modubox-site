@@ -93,10 +93,14 @@
     },
     {
       "category": "news",
-      "name": "SBS Biz",
-      "handle": "@sbsbiz",
-      "expect": "sbsbiz",
-      "korean": true
+      "name": "SBS Biz 뉴스",
+      "handle": "channel/UCbMjg2EvXs_RUGW-KrdM3pw",
+      "expect": [
+        "SBS Biz 뉴스",
+        "SBS Biz"
+      ],
+      "korean": true,
+      "note": "⚠ 130에서 **번호를 고쳤다.** @sbsbiz 는 'SBS Biz 증권 매니저'(UCg3P8P6I35JZeZA2o1JVYOg)로 풀린다 — 다른 채널이다. biz.sbs.co.kr 이 걸어 둔 링크를 따라가니 'SBS Biz 뉴스'(UCbMjg2EvXs_RUGW-KrdM3pw)였다(소개: '내일의 수익으로 이어지는 오늘의 가장 빠른 경제 뉴스 SBS Biz'). 130에서 넣었다."
     },
     {
       "category": "news",
@@ -174,7 +178,8 @@
       "name": "불후의 명곡",
       "handle": "@kbsimmortalsongs",
       "expect": "불후",
-      "korean": true
+      "korean": true,
+      "note": "⚠ **넣지 못했다**(130) — 핸들 @kbsimmortalsongs 가 **404**(없는 핸들)이고 kbs.co.kr 에도 그 채널 링크가 없다. **번호를 모르니 넣지 않는다**(0장). 번호가 확인되는 날 channel/UC… 로 적으면 들어온다."
     },
     {
       "category": "music",
@@ -470,7 +475,7 @@
         "KBS LEGEND KPOP"
       ],
       "korean": true,
-      "note": "공식인 것은 확인했다(① kbs.co.kr 링크 · ② 소개 'official Youtube channel for KBS LEGEND KPOP'). 다만 11/7 공개 RSS 가 열리지 않아(0/19) **넣지 않았다** — 열리는 날 저절로 들어온다. ⚠ 127: 번호로 적어 두었다 — API 길은 핸들로 찾지 않는다(번호는 122에서 채널 쪽을 두 번 열어 확인했다)."
+      "note": "130에서 **넣었다** — 공개 RSS 가 비어도 홈페이지가 공식 API 로 만든 영상 목록(youtube_videos.json)으로 그린다. 공식 근거는 보고_122 3-2 · 보고_130 1장(채널 쪽을 두 번 열어 번호·이름 확인)."
     },
     {
       "category": "music",
@@ -481,7 +486,7 @@
         "TV조선 뮤직"
       ],
       "korean": true,
-      "note": "공식인 것은 확인했다(② 소개 'TV CHOSUN이 만드는 음악전문채널' + ©2026 TV CHOSUN). 다만 11/7 공개 RSS 가 열리지 않아(0/19) **넣지 않았다** — 열리는 날 저절로 들어온다. ⚠ 127: 번호로 적어 두었다 — API 길은 핸들로 찾지 않는다(번호는 122에서 채널 쪽을 두 번 열어 확인했다)."
+      "note": "130에서 **넣었다** — 공개 RSS 가 비어도 홈페이지가 공식 API 로 만든 영상 목록(youtube_videos.json)으로 그린다. 공식 근거는 보고_122 3-2 · 보고_130 1장(채널 쪽을 두 번 열어 번호·이름 확인)."
     },
     {
       "category": "culture",
