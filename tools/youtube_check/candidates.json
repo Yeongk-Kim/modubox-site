@@ -1,5 +1,5 @@
 {
-  "_comment": "후보 명단(전달문 121의 2번). **사람이 'ㅇㅋ' 한 채널만 여기에 있다** — 점검기는 검색으로 새 채널을 찾지 않는다. 늘리려면 사람이 이 파일에 한 줄을 더한다. ⚠ expect 는 글 하나 또는 **목록**이다 — 유튜브가 날에 따라 한국어/영어 이름을 번갈아 주기 때문이다(11/7 확인).",
+  "_comment": "후보 명단(전달문 121의 2번). **사람이 'ㅇㅋ' 한 채널만 여기에 있다** — 점검기는 검색으로 새 채널을 찾지 않는다. 늘리려면 사람이 이 파일에 한 줄을 더한다. ⚠ expect 는 글 하나 또는 **목록**이다 — 유튜브가 날에 따라 한국어/영어 이름을 번갈아 주기 때문이다(11/7 확인). ⚠ **`YT_API_KEY` 로 돌릴 때는 `handle` 에 `channel/UC…` 가 있어야 한다**(전달문 127) — API 길은 핸들로 찾지 않는다(날에 따라 엉뚱한 채널로 풀린다). 지금 목록에 **이미 들어 있는 채널**은 그 번호를 쓰므로 그대로도 된다. 새 후보를 넣을 때는 사람이 채널 쪽을 열어 번호를 확인해 적는다.",
   "movedOn": "2026-11-07",
   "categories": [
     "news",
@@ -69,9 +69,13 @@
     {
       "category": "news",
       "name": "TV조선 뉴스",
-      "handle": "@TVCHOSUNnews",
-      "expect": "tv조선",
-      "korean": true
+      "handle": "channel/UCWlV3Lz_55UaX4JsMj-z__Q",
+      "expect": [
+        "뉴스TVCHOSUN",
+        "TVCHOSUN"
+      ],
+      "korean": true,
+      "note": "128: 본 채널(UCuw1hx…TVCHOSUN - TV조선)에서 **뉴스 전용 채널**로 바꿨다(사장님 ㅇㅋ 11/7 12:39 · 보고_122 판단 ②). 번호로 적는다 — 핸들 @TVCHOSUNnews 도 같은 번호로 풀리지만 API 길은 번호만 쓴다."
     },
     {
       "category": "news",
@@ -134,7 +138,8 @@
       "name": "Mnet K-POP",
       "handle": "@mnetkpop",
       "expect": "mnet",
-      "korean": true
+      "korean": true,
+      "note": "122에서 목록에서 뺐다 — 새 영상이 3,578일째 없다. 후보로는 남겨 둔다: 다시 올리기 시작하면 freshDays(30일) 규칙으로 저절로 들어온다."
     },
     {
       "category": "music",
@@ -431,7 +436,63 @@
       "name": "NEW",
       "handle": "@newmovie",
       "expect": "",
-      "korean": true
+      "korean": true,
+      "note": "122에서 목록에서 뺐다 — 새 영상이 5,839일째 없다. 후보로는 남겨 둔다: 다시 올리기 시작하면 freshDays(30일) 규칙으로 저절로 들어온다."
+    },
+    {
+      "category": "music",
+      "name": "Again 가요톱10",
+      "handle": "channel/UCmZ19AIj_wcpwRcqG7p9L8g",
+      "expect": [
+        "가요톱10",
+        "KBS KPOP Classic"
+      ],
+      "korean": true,
+      "note": "122에서 넣었다. 근거 ① KBS 공식 사이트(kbs.co.kr)에 링크 · ② 소개 'KBS KPOP Classic'. 핸들이 없어 번호로 집는다(120의 방식)."
+    },
+    {
+      "category": "music",
+      "name": "MBN MUSIC",
+      "handle": "@music_mbn",
+      "expect": [
+        "MBN MUSIC",
+        "MBN 뮤직"
+      ],
+      "korean": true,
+      "note": "122에서 넣었다. 근거 ① MBN 공식 사이트(mbn.co.kr)에 링크 · ② 소개 'MBN 공식 음악 채널'."
+    },
+    {
+      "category": "music",
+      "name": "KBS 레전드 케이팝",
+      "handle": "channel/UCR5cyf8hncN_AaQPfmvmlgA",
+      "expect": [
+        "KBS 레전드 케이팝",
+        "KBS LEGEND KPOP"
+      ],
+      "korean": true,
+      "note": "공식인 것은 확인했다(① kbs.co.kr 링크 · ② 소개 'official Youtube channel for KBS LEGEND KPOP'). 다만 11/7 공개 RSS 가 열리지 않아(0/19) **넣지 않았다** — 열리는 날 저절로 들어온다. ⚠ 127: 번호로 적어 두었다 — API 길은 핸들로 찾지 않는다(번호는 122에서 채널 쪽을 두 번 열어 확인했다)."
+    },
+    {
+      "category": "music",
+      "name": "TVCHOSUN MUSIC",
+      "handle": "channel/UC33yEDM8q3N8BeMpZMdP66Q",
+      "expect": [
+        "TVCHOSUN MUSIC",
+        "TV조선 뮤직"
+      ],
+      "korean": true,
+      "note": "공식인 것은 확인했다(② 소개 'TV CHOSUN이 만드는 음악전문채널' + ©2026 TV CHOSUN). 다만 11/7 공개 RSS 가 열리지 않아(0/19) **넣지 않았다** — 열리는 날 저절로 들어온다. ⚠ 127: 번호로 적어 두었다 — API 길은 핸들로 찾지 않는다(번호는 122에서 채널 쪽을 두 번 열어 확인했다)."
+    },
+    {
+      "category": "culture",
+      "name": "KBS 같이삽시다",
+      "handle": "channel/UCp3Vy7dFjIheDLbMekpdMQw",
+      "expect": [
+        "KBS 같이삽시다",
+        "같이삽시다"
+      ],
+      "korean": true,
+      "note": "128에서 넣었다. 근거 ① kbs.co.kr 에 링크 · ② 소개 '시니어 채널로서 중장노년층을 대상으로 … KBS 공식채널'(보고_122 3-4). 번호는 채널 쪽을 두 번 열어 확인했다."
     }
   ]
 }

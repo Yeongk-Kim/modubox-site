@@ -1,7 +1,13 @@
 # '유튜브' 탭 채널 목록 **매주 자동 점검**(보는 라디오 전달문 121의 2번).
 #
-# ⚠ 비밀값(API 키)이 **하나도 필요 없다** — 공개 쪽만 본다.
+# ⚠ 비밀값 없이도 돈다 — 그때는 공개 쪽만 본다.
 #    이슈를 여는 데 쓰는 GITHUB_TOKEN 은 액션이 저절로 준다.
+#
+# ⚠ **`YT_API_KEY` 가 있으면 공식 Data API 로 확인한다**(보는 라디오
+#    전달문 127). 공개 쪽은 데이터센터 IP 에서 404·500 을 주거나 엉뚱한
+#    채널을 주어 **자동 점검에 쓸 수 없었다**(첫 실행 통과 0/49).
+#    키 넣는 법은 README.md 의 '사장님 할 일'에 있다.
+#    **키가 없으면 지금처럼 공개 쪽으로 돈다** — 아무것도 깨지지 않는다.
 #
 # 넣는 자리: 홈페이지 저장소의 .github/workflows/youtube-channels.yml
 # 점검기 자리: tools/youtube_check/  (README.md 를 보라)
@@ -9,8 +15,7 @@
 name: 유튜브 채널 매주 점검
 
 on:
-  # ⏸ 11/7 자동 실행 꺼 둠(보는 라디오 회신: Data API판 묶음이 올 때까지).
-  #    GitHub 러너에서는 공개 쪽이 404로 막혀 통과 0 → 이슈만 쌓임.
+  # ⏸ 손 실행으로 API판 통과를 확인한 뒤 다시 켬(수면앱 세션).
   # schedule:
   #   # 월요일 05:00 KST = 일요일 20:00 UTC
   #   - cron: "0 20 * * 0"
@@ -45,6 +50,9 @@ jobs:
           #   _src/visualradio/static/data/youtube_channels.json
           #   → https://modubox.app/visualradio/data/youtube_channels.json
           OUT_PATH: _src/visualradio/static/data/youtube_channels.json
+          # ⚠ **없으면 빈 값으로 간다** — 점검기가 그때는 공개 쪽으로
+          #    돈다(전달문 127). 값은 로그·이슈에 적히지 않는다.
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
 
       # 목록이 바뀐 날에만 사이트를 다시 만든다(_src → docs). build.py 는
       # 같은 원고면 같은 결과를 내므로 docs 에서는 목록 파일만 바뀐다.
