@@ -51,9 +51,9 @@
       "category": "news"
     },
     {
-      "id": "UCuw1hxBo5mDVUhgMzRDk3aw",
+      "id": "UCWlV3Lz_55UaX4JsMj-z__Q",
       "name": "TV조선 뉴스",
-      "realName": "TVCHOSUN - TV조선",
+      "realName": "뉴스TVCHOSUN",
       "category": "news"
     },
     {
@@ -114,6 +114,24 @@
       "id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
       "name": "1theK",
       "realName": "1theK (원더케이)",
+      "category": "music"
+    },
+    {
+      "id": "UCmZ19AIj_wcpwRcqG7p9L8g",
+      "name": "Again 가요톱10",
+      "realName": "Again 가요톱10 : KBS KPOP Classic",
+      "category": "music"
+    },
+    {
+      "id": "UCR5cyf8hncN_AaQPfmvmlgA",
+      "name": "KBS 레전드 케이팝",
+      "realName": "KBS 레전드 케이팝",
+      "category": "music"
+    },
+    {
+      "id": "UC33yEDM8q3N8BeMpZMdP66Q",
+      "name": "TVCHOSUN MUSIC",
+      "realName": "TVCHOSUN MUSIC",
       "category": "music"
     },
     {
@@ -264,6 +282,12 @@
       "id": "UCR9gReM5VhQ_8brqQrBaVCA",
       "name": "tvN STORY",
       "realName": "tvN STORY 티비엔 스토리",
+      "category": "culture"
+    },
+    {
+      "id": "UCp3Vy7dFjIheDLbMekpdMQw",
+      "name": "KBS 같이삽시다",
+      "realName": "KBS 같이삽시다",
       "category": "culture"
     },
     {
