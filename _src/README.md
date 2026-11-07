@@ -11,6 +11,7 @@ docs/ 는 손으로 고치지 않습니다(빌드할 때마다 새로 만들어�
 | `_src/box/` | 모두박스 세션(Cowork 원고 → 모두박스 클로드 코드가 커밋·푸시) |
 | `_src/<새 앱>/` | 그 앱 세션 |
 | 빌드·`docs/` 커밋·배포 | 수면앱 세션(빌드 전 확인: 자기 폴더 밖 변경 없음 · 금지 문구 · 링크) |
+| `tools/youtube_check/` · `.github/workflows/youtube-channels.yml` | 수면앱 세션이 넣고 관리(원본: 보는 라디오 세션 묶음). 매주 월 05:00 KST 깃허브 액션이 `_src/visualradio/static/data/youtube_channels.json`을 점검·갱신 — 후보 명단 `candidates.json`은 보는 라디오 세션 문안을 받아 사람이 넣음 |
 
 작업 순서: `git pull` → **자기 폴더만** 수정 → `git status`로 다른 폴더 변경 0 확인 → 커밋·푸시 → 수면앱 세션에 "원고 올렸음" 알림.
 

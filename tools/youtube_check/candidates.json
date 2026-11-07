@@ -1,0 +1,437 @@
+{
+  "_comment": "후보 명단(전달문 121의 2번). **사람이 'ㅇㅋ' 한 채널만 여기에 있다** — 점검기는 검색으로 새 채널을 찾지 않는다. 늘리려면 사람이 이 파일에 한 줄을 더한다. ⚠ expect 는 글 하나 또는 **목록**이다 — 유튜브가 날에 따라 한국어/영어 이름을 번갈아 주기 때문이다(11/7 확인).",
+  "movedOn": "2026-11-07",
+  "categories": [
+    "news",
+    "music",
+    "show",
+    "culture",
+    "movie"
+  ],
+  "freshDays": 30,
+  "candidates": [
+    {
+      "category": "news",
+      "name": "YTN",
+      "handle": "@ytnnews24",
+      "expect": "ytn",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "연합뉴스TV",
+      "handle": "@yonhapnewstv",
+      "expect": "연합뉴스",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "KBS News",
+      "handle": "@kbsnews",
+      "expect": "kbsnews",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "MBCNEWS",
+      "handle": "@mbcnews",
+      "expect": "mbcnews",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "SBS 뉴스",
+      "handle": "@sbsnews8",
+      "expect": "sbs뉴스",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "JTBC News",
+      "handle": "@jtbcnews",
+      "expect": "jtbc",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "MBN 뉴스",
+      "handle": "@mbnnews",
+      "expect": "mbn",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "채널A 뉴스",
+      "handle": "@ChannelANEWS",
+      "expect": "채널a",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "TV조선 뉴스",
+      "handle": "@TVCHOSUNnews",
+      "expect": "tv조선",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "KTV 국민방송",
+      "handle": "@ktv",
+      "expect": "ktv",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "국회방송 NATV",
+      "handle": "@natv",
+      "expect": "국회",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "SBS Biz",
+      "handle": "@sbsbiz",
+      "expect": "sbsbiz",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "한국경제TV",
+      "handle": "@wowtv",
+      "expect": "한국경제",
+      "korean": true
+    },
+    {
+      "category": "news",
+      "name": "Arirang News",
+      "handle": "@arirangnews",
+      "expect": "arirang",
+      "korean": false
+    },
+    {
+      "category": "music",
+      "name": "KBS Kpop",
+      "handle": "@kbskpop",
+      "expect": "kbskpop",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "MBCkpop",
+      "handle": "@mbckpop",
+      "expect": "mbckpop",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "SBS KPOP",
+      "handle": "@sbskpop",
+      "expect": "sbskpop",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "Mnet K-POP",
+      "handle": "@mnetkpop",
+      "expect": "mnet",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "dingo music",
+      "handle": "@dingomusic",
+      "expect": "dingo",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "it's Live",
+      "handle": "channel/UCB9e3pof1o83aa0kkaoeJGA",
+      "expect": "itslive",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "1theK",
+      "handle": "@1theK",
+      "expect": "1thek",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "KBS 가요무대",
+      "handle": "@kbsgayomudae",
+      "expect": "가요무대",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "불후의 명곡",
+      "handle": "@kbsimmortalsongs",
+      "expect": "불후",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "전국노래자랑",
+      "handle": "@kbsnoraejarang",
+      "expect": "노래자랑",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "TV조선 트로트",
+      "handle": "@TVCHOSUNtrot",
+      "expect": "tv조선트로트",
+      "korean": true
+    },
+    {
+      "category": "music",
+      "name": "MBN 트로트",
+      "handle": "@mbntrot",
+      "expect": "트로트",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "KBS 크큭티비",
+      "handle": "@kbskkukku",
+      "expect": "크큭",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "KBS 깔깔티비",
+      "handle": "@kbskkalkkal",
+      "expect": "깔깔",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "올끌(MBC 예능)",
+      "handle": "channel/UChY4PXxJI0aJYsGT1X6INWA",
+      "expect": "올끌",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "SBS Catch",
+      "handle": "channel/UC3re3ueOE_6VZK85zlEUWFA",
+      "expect": "sbscatch",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "tvN Joy",
+      "handle": "channel/UC78PMQprrZTbU0IlMDsYZPw",
+      "expect": "tvnjoy",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "JTBC Entertainment",
+      "handle": "@jtbcentertainment",
+      "expect": "jtbc",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "MBN Entertainment",
+      "handle": "@MBNentertainment",
+      "expect": "mbn",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "채널A",
+      "handle": "@channelaentertainment",
+      "expect": [
+        "채널a",
+        "channela"
+      ],
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "KBS 드라마",
+      "handle": "@kbsdrama",
+      "expect": [
+        "kbsdrama"
+      ],
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "MBC 드라마",
+      "handle": "channel/UC7lb15P-Hux7A5gBuhCxtuQ",
+      "expect": "mbcdrama",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "SBS 드라마",
+      "handle": "channel/UC6erIDuvbOaAO-OT5rB2Xew",
+      "expect": "drama",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "tvN 드라마",
+      "handle": "channel/UC9w-h_ciMmX64TcLRcb1xPg",
+      "expect": "tvndrama",
+      "korean": true
+    },
+    {
+      "category": "show",
+      "name": "JTBC 드라마",
+      "handle": "@jtbcdrama",
+      "expect": "jtbcdrama",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "EBS 다큐",
+      "handle": "@ebsdocumentary",
+      "expect": "ebsdocumentary",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "KBS 다큐",
+      "handle": "@kbsdocumentary",
+      "expect": "kbs다큐",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "EBS 컬렉션",
+      "handle": "@ebsculture",
+      "expect": "ebsculture",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "국악방송",
+      "handle": "@gugakfm",
+      "expect": [
+        "국악방송",
+        "gugakbroadcasting"
+      ],
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "옛날티비 : KBS Archive",
+      "handle": "channel/UCpdvFXMZkqFLdp1nagLkOhg",
+      "expect": "kbsarchive",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "KBS 뭉클티비",
+      "handle": "channel/UC6wiUwl7dPhZOAM92lGgKPg",
+      "expect": "뭉클티비",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "EBS 세계테마기행",
+      "handle": "@ebstravel",
+      "expect": [
+        "테마기행",
+        "ebstravel"
+      ],
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "국립중앙박물관",
+      "handle": "@nationalmuseumofkorea",
+      "expect": "국립중앙박물관",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "국립국악원",
+      "handle": "@gugak1951",
+      "expect": "국립국악원",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "KBS 교양",
+      "handle": "@kbslife",
+      "expect": "kbs교양",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "EBS 건강",
+      "handle": "channel/UCKdvqF-mmgiifS_pinO_bRA",
+      "expect": "ebs건강",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "KBS 히스토리",
+      "handle": "channel/UCjPqSbyqm5IZEoXu7I-KPag",
+      "expect": "kbs히스토리",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "KBS 트래블",
+      "handle": "channel/UCFw4M1BJYYdN1YtS8SzlDzg",
+      "expect": "걸어서세계속으로",
+      "korean": true
+    },
+    {
+      "category": "culture",
+      "name": "tvN STORY",
+      "handle": "channel/UCR9gReM5VhQ_8brqQrBaVCA",
+      "expect": "tvnstory",
+      "korean": true
+    },
+    {
+      "category": "movie",
+      "name": "한국고전영화",
+      "handle": "@kmdbtv",
+      "expect": [
+        "한국고전영화",
+        "koreanclassicfilm"
+      ],
+      "korean": true
+    },
+    {
+      "category": "movie",
+      "name": "CJ ENM 영화",
+      "handle": "@cjenmmovie",
+      "expect": "cjenmmovie",
+      "korean": true
+    },
+    {
+      "category": "movie",
+      "name": "롯데엔터테인먼트",
+      "handle": "@lotteent",
+      "expect": "롯데엔터테인먼트",
+      "korean": true
+    },
+    {
+      "category": "movie",
+      "name": "쇼박스",
+      "handle": "@showbox",
+      "expect": [
+        "쇼박스",
+        "showbox"
+      ],
+      "korean": true
+    },
+    {
+      "category": "movie",
+      "name": "NEW",
+      "handle": "@newmovie",
+      "expect": "",
+      "korean": true
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "_comment": "'유튜브' 탭의 공식 채널(전달문 46). tools/build_youtube_channels.py 가 확인해서 만든다 — 손으로 적지 않는다. 핸들로 채널 쪽을 열어 번호·이름을 읽고, 공개 RSS 와 앱 안 재생(embed)까지 본 것만 들어 있다.",
+  "fetchedOn": "2026-11-07",
+  "channels": [
+    {
+      "id": "UChlgI3UHCOnwUGzWzbJ3H5w",
+      "name": "YTN",
+      "realName": "YTN",
+      "category": "news"
+    },
+    {
+      "id": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+      "name": "연합뉴스TV",
+      "realName": "연합뉴스TV",
+      "category": "news"
+    },
+    {
+      "id": "UCcQTRi69dsVYHN3exePtZ1A",
+      "name": "KBS News",
+      "realName": "KBS News",
+      "category": "news"
+    },
+    {
+      "id": "UCF4Wxdo3inmxP-Y59wXDsFw",
+      "name": "MBCNEWS",
+      "realName": "MBCNEWS",
+      "category": "news"
+    },
+    {
+      "id": "UCkinYTS9IHqOEwR1Sze2JTw",
+      "name": "SBS 뉴스",
+      "realName": "SBS 뉴스",
+      "category": "news"
+    },
+    {
+      "id": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+      "name": "JTBC News",
+      "realName": "JTBC News",
+      "category": "news"
+    },
+    {
+      "id": "UCG9aFJTZ-lMCHAiO1KJsirg",
+      "name": "MBN 뉴스",
+      "realName": "MBN News",
+      "category": "news"
+    },
+    {
+      "id": "UCfq4V1DAuaojnr2ryvWNysw",
+      "name": "채널A 뉴스",
+      "realName": "채널A News",
+      "category": "news"
+    },
+    {
+      "id": "UCuw1hxBo5mDVUhgMzRDk3aw",
+      "name": "TV조선 뉴스",
+      "realName": "TVCHOSUN - TV조선",
+      "category": "news"
+    },
+    {
+      "id": "UCL-WOj1FxKR8Hlzg5tvnWKg",
+      "name": "국회방송 NATV",
+      "realName": "NATV 국회방송",
+      "category": "news"
+    },
+    {
+      "id": "UCF8AeLlUbEpKju6v1H6p8Eg",
+      "name": "한국경제TV",
+      "realName": "한국경제TV",
+      "category": "news"
+    },
+    {
+      "id": "UCzznO4xSV8BKnUBPyswtCUw",
+      "name": "Arirang News",
+      "realName": "Arirang News",
+      "category": "news"
+    },
+    {
+      "id": "UCeLPm9yH_a_QH8n6445G-Ow",
+      "name": "KBS Kpop",
+      "realName": "KBS Kpop",
+      "category": "music"
+    },
+    {
+      "id": "UCe52oeb7Xv_KaJsEzcKXJJg",
+      "name": "MBCkpop",
+      "realName": "MBCkpop",
+      "category": "music"
+    },
+    {
+      "id": "UCS_hnpJLQTvBkqALgapi_4g",
+      "name": "SBS KPOP",
+      "realName": "SBSKPOP X INKIGAYO",
+      "category": "music"
+    },
+    {
+      "id": "UCqJ3rYYs-n5blu6JxpciQjA",
+      "name": "Mnet K-POP",
+      "realName": "Mnet K-POP",
+      "category": "music"
+    },
+    {
+      "id": "UCtCiO5t2voB14CmZKTkIzPQ",
+      "name": "dingo music",
+      "realName": "딩고 뮤직 / dingo music",
+      "category": "music"
+    },
+    {
+      "id": "UCB9e3pof1o83aa0kkaoeJGA",
+      "name": "it's Live",
+      "realName": "it's Live",
+      "category": "music"
+    },
+    {
+      "id": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+      "name": "1theK",
+      "realName": "1theK (원더케이)",
+      "category": "music"
+    },
+    {
+      "id": "UCXVfodmlGhUpLREncSjuYAw",
+      "name": "KBS 크큭티비",
+      "realName": "KBS COMEDY: 크큭티비",
+      "category": "show"
+    },
+    {
+      "id": "UC271vX3c3kYZsgpz7-zPBoA",
+      "name": "KBS 깔깔티비",
+      "realName": "KBS Entertain: 깔깔티비",
+      "category": "show"
+    },
+    {
+      "id": "UChY4PXxJI0aJYsGT1X6INWA",
+      "name": "올끌(MBC 예능)",
+      "realName": "올끌 (All of MBClassic)",
+      "category": "show"
+    },
+    {
+      "id": "UC3re3ueOE_6VZK85zlEUWFA",
+      "name": "SBS Catch",
+      "realName": "SBS Catch",
+      "category": "show"
+    },
+    {
+      "id": "UC78PMQprrZTbU0IlMDsYZPw",
+      "name": "tvN Joy",
+      "realName": "tvN Joy",
+      "category": "show"
+    },
+    {
+      "id": "UCFL1sCAksD6_7JIZwwHcwjQ",
+      "name": "JTBC Entertainment",
+      "realName": "JTBC Entertainment",
+      "category": "show"
+    },
+    {
+      "id": "UChpjIaEgwtDZtmWEkzFulSA",
+      "name": "KBS 드라마",
+      "realName": "KBS Drama",
+      "category": "show"
+    },
+    {
+      "id": "UC7lb15P-Hux7A5gBuhCxtuQ",
+      "name": "MBC 드라마",
+      "realName": "MBCdrama",
+      "category": "show"
+    },
+    {
+      "id": "UC6erIDuvbOaAO-OT5rB2Xew",
+      "name": "SBS 드라마",
+      "realName": "SBS 스브스 Drama",
+      "category": "show"
+    },
+    {
+      "id": "UC9w-h_ciMmX64TcLRcb1xPg",
+      "name": "tvN 드라마",
+      "realName": "tvN DRAMA",
+      "category": "show"
+    },
+    {
+      "id": "UCkbJc8jMcTXwhtmN5VMwfXg",
+      "name": "JTBC 드라마",
+      "realName": "JTBC Drama",
+      "category": "show"
+    },
+    {
+      "id": "UCFCtZJTuJhE18k8IXwmXTYQ",
+      "name": "EBS 다큐",
+      "realName": "EBSDocumentary (EBS 다큐)",
+      "category": "culture"
+    },
+    {
+      "id": "UC4LW3sOslC14Vn5bcoNUBkg",
+      "name": "KBS 다큐",
+      "realName": "KBS 다큐",
+      "category": "culture"
+    },
+    {
+      "id": "UCl_tB4AqPkkxuYcJQHz6dMw",
+      "name": "EBS 컬렉션",
+      "realName": "EBSCulture (EBS 교양)",
+      "category": "culture"
+    },
+    {
+      "id": "UCaBwNyKKjDaYIzS8dhyaXBA",
+      "name": "국악방송",
+      "realName": "국악방송 TV (Gugak Broadcasting System: TV)",
+      "category": "culture"
+    },
+    {
+      "id": "UCpdvFXMZkqFLdp1nagLkOhg",
+      "name": "옛날티비 : KBS Archive",
+      "realName": "옛날티비 : KBS Archive",
+      "category": "culture"
+    },
+    {
+      "id": "UC6wiUwl7dPhZOAM92lGgKPg",
+      "name": "KBS 뭉클티비",
+      "realName": "KBS HUMAN : 뭉클티비",
+      "category": "culture"
+    },
+    {
+      "id": "UCbeZPOz8uaHstEIbkqBOnGg",
+      "name": "EBS 세계테마기행",
+      "realName": "EBS 세계테마기행",
+      "category": "culture"
+    },
+    {
+      "id": "UC7Pc7sflxGNdgh-ep_jlbEg",
+      "name": "국립중앙박물관",
+      "realName": "국립중앙박물관",
+      "category": "culture"
+    },
+    {
+      "id": "UCmN4xFSlmWw-_d2riM-ep0A",
+      "name": "국립국악원",
+      "realName": "국립국악원 National Gugak Center",
+      "category": "culture"
+    },
+    {
+      "id": "UCHlSeJxRIXZWMARC2oMwmcQ",
+      "name": "KBS 교양",
+      "realName": "KBS 교양",
+      "category": "culture"
+    },
+    {
+      "id": "UCKdvqF-mmgiifS_pinO_bRA",
+      "name": "EBS 건강",
+      "realName": "EBS 건강",
+      "category": "culture"
+    },
+    {
+      "id": "UCjPqSbyqm5IZEoXu7I-KPag",
+      "name": "KBS 히스토리",
+      "realName": "KBS 히스토리",
+      "category": "culture"
+    },
+    {
+      "id": "UCFw4M1BJYYdN1YtS8SzlDzg",
+      "name": "KBS 트래블",
+      "realName": "KBS 트래블-걸어서 세계속으로",
+      "category": "culture"
+    },
+    {
+      "id": "UCR9gReM5VhQ_8brqQrBaVCA",
+      "name": "tvN STORY",
+      "realName": "tvN STORY 티비엔 스토리",
+      "category": "culture"
+    },
+    {
+      "id": "UCvH6u_Qzn5RQdz9W198umDw",
+      "name": "한국고전영화",
+      "realName": "한국고전영화 Korean Classic Film",
+      "category": "movie"
+    },
+    {
+      "id": "UCRV0Gb4i99Aj9UiqCE8xlvw",
+      "name": "CJ ENM 영화",
+      "realName": "CJ ENM Movie",
+      "category": "movie"
+    },
+    {
+      "id": "UCC2F35lZ0drUeMJOATXde2g",
+      "name": "롯데엔터테인먼트",
+      "realName": "롯데엔터테인먼트",
+      "category": "movie"
+    },
+    {
+      "id": "UCvvsOdnAQH4fl50DY17eV1A",
+      "name": "쇼박스",
+      "realName": "쇼박스 SHOWBOX",
+      "category": "movie"
+    },
+    {
+      "id": "UCJsbylyMR_CM4ZdMiVE8hXw",
+      "name": "NEW",
+      "realName": "newmovie",
+      "category": "movie"
+    }
+  ]
+}
