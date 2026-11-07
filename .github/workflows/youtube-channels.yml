@@ -9,9 +9,11 @@
 name: 유튜브 채널 매주 점검
 
 on:
-  schedule:
-    # 월요일 05:00 KST = 일요일 20:00 UTC
-    - cron: "0 20 * * 0"
+  # ⏸ 11/7 자동 실행 꺼 둠(보는 라디오 회신: Data API판 묶음이 올 때까지).
+  #    GitHub 러너에서는 공개 쪽이 404로 막혀 통과 0 → 이슈만 쌓임.
+  # schedule:
+  #   # 월요일 05:00 KST = 일요일 20:00 UTC
+  #   - cron: "0 20 * * 0"
   workflow_dispatch:
 
 permissions:
