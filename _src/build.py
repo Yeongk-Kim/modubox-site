@@ -32,7 +32,9 @@ MON_EN = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 MON_ES = ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto',
           'septiembre', 'octubre', 'noviembre', 'diciembre']
 
-CSS = open(os.path.join(SRC, "site", "site.css"), encoding="utf-8").read()   # 11/11 새 디자인 v5(본부 홍보팀) — 흰 바탕 고정
+CSS = open(os.path.join(SRC, "site", "site.css"), encoding="utf-8").read()
+import hashlib
+CSS_VER = hashlib.sha256(CSS.encode()).hexdigest()[:10]   # 옛 site.css 캐시 때문에 깨져 보이지 않게(11/11)   # 11/11 새 디자인 v5(본부 홍보팀) — 흰 바탕 고정
 
 def og_tags(title, desc, url, og):
     """카톡·문자 링크 미리보기(오픈 그래프) — og = (제목, 그림 주소) 있을 때만. 10/28 수면앱 공유 미리보기"""
@@ -106,7 +108,7 @@ def page(title, body, desc='', lang='ko', canonical='', og=None, cur='', cta=Non
 <meta name="description" content="{html.escape(desc)}">
 {'<meta name="robots" content="noindex">' if noindex else ''}{f'<link rel="canonical" href="{canonical}">' if canonical else ''}{og_tags(title, desc, canonical, og)}
 <link rel="stylesheet" href="/assets/fonts/pretendard.css">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v={CSS_VER}">
 </head>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="/">{LOGO}모두박스<small>Labs</small></a><nav class="nav" aria-label="사이트">{nav}</nav>{cta}</div></header>
