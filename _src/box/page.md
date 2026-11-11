@@ -27,8 +27,8 @@ card: 라디오·팟캐스트·유튜브·자주 쓰는 앱을 한 화면에. �
     <div class="feat"><div class="pic">{{icon:radio}}</div><p class="tag">RADIO</p><h3>늘 듣던 라디오를,<br>번호 하나로.</h3><p>사는 곳을 고르면 전국 방송과 그 지역 방송이 번호에 놓입니다. 지금 하는 프로그램과 방송 시간도 보입니다.</p></div>
     <div class="feat"><div class="pic">{{icon:podcast}}</div><p class="tag">PODCAST &amp; YOUTUBE</p><h3>팟캐스트와 유튜브도<br>앱 안에서.</h3><p>방송사 팟캐스트와 공식 유튜브 채널을 바로. 듣던 회차는 멈춘 자리부터 이어 듣습니다.</p></div>
     <div class="feat"><div class="pic">{{icon:bookmark}}</div><p class="tag">FAVORITES</p><h3>좋아하는 건<br>별표 한 번으로.</h3><p>방송·팟캐스트·유튜브 채널을 한 목록에 담습니다. 폰 속 내 음악과 다른 앱의 영상·음악 링크까지 담으려면 PRO.</p></div>
-    <div class="feat"><div class="pic">{{icon:music}}</div><p class="tag">SMART HOME</p><h3>자주 여는 앱도<br>모두박스 홈에.</h3><p>처음 놓인 앱을 폴더로 묶고, 자리를 옮깁니다. 폰의 다른 앱을 새로 넣는 것은 PRO. 내 폰 속 또 하나의 홈입니다.</p></div>
-    <div class="feat"><div class="pic">{{icon:moon}}</div><p class="tag">TIMER &amp; ALARM</p><h3>잠들 때는 저절로,<br>아침엔 그 방송으로.</h3><p>타이머 단추를 누를 때마다 30·60·90·120분. 라디오 알람은 정한 시각에 그 방송을 켭니다.</p></div>
+    <div class="feat"><div class="pic">{{icon:music}}</div><p class="tag">SMART HOME</p><h3>자주 여는 앱도<br>모두박스 홈에.</h3><p>처음 놓인 앱을 폴더로 묶고, 자리를 옮깁니다. 기본 앱 여섯은 무료로 켜고 끄고, 폰의 다른 앱을 새로 넣는 것은 PRO. 내 폰 속 또 하나의 홈입니다.</p></div>
+    <div class="feat"><div class="pic">{{icon:moon}}</div><p class="tag">TIMER &amp; ALARM</p><h3>잠들 때는 저절로,<br>아침엔 그 방송으로.</h3><p>타이머 단추를 누를 때마다 1시간 → 2시간 → 3시간, 한 번 더 누르면 꺼집니다. 라디오 알람은 정한 시각에 그 방송을 켭니다.</p></div>
     <div class="feat"><div class="pic">{{icon:headphones}}</div><p class="tag">NON-STOP</p><h3>화면을 꺼도<br>계속.</h3><p>라디오와 팟캐스트는 다른 앱을 쓰거나 화면을 꺼도 이어서 나옵니다. 재생 화면의 둥근 조작판으로 멈추고 넘깁니다.</p></div>
   </div>
 </div></section>
@@ -50,6 +50,7 @@ card: 라디오·팟캐스트·유튜브·자주 쓰는 앱을 한 화면에. �
     <div class="box"><h3>PRO</h3><ul>
       <li><b>즐겨찾기 넓히기</b> — (스마트형) 폰 속 내 음악, 다른 앱의 영상·음악 링크까지 한 목록에</li>
       <li><b>홈 앱 추가</b> — 폰의 다른 앱을 모두박스 홈에 새로 넣기</li>
+      <li><b>어학·오디오북</b> — 폰에 넣어 둔 어학 파일·오디오북을 모두박스에서 듣기</li>
       <li><b>예약 알림</b> — 좋아하는 프로그램 시작 3분 전에 매주 알림</li>
       <li><b>말소리 또렷하게</b> — 뉴스·대담의 목소리를 또렷하게</li></ul>
       <p class="note" style="margin-top:12px">앱 안에서 한 번 구입 · 7일 무료 체험. 체험이 끝나도 저절로 결제되지 않습니다.</p></div>
