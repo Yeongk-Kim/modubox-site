@@ -67,6 +67,15 @@ card: 회사 홈 카드에 나오는 한 문장
 - status: `preparing`(숨김) · `testing`(곧 출시합니다) · `live`(Google Play 받기 버튼, utm_source=site&utm_campaign=<앱>_hero) · `retired`(숨김)
 - 새 앱 = 한 줄 추가 + `_src/<앱>/` 폴더. 메일 `<앱>@modubox.app`은 바로 받음(ImprovMX catch-all).
 
+## 11/11 새 디자인 v5 (본부 홍보팀 관장 — 디자인·문구·구성·게시 결정·검수는 홍보팀, 빌드·배포는 수면앱 세션)
+- 공통 틀: `_src/site/site.css`(흰 바탕 고정, 다크 모드 없음) · `build.py`의 머리(메뉴 홈·모두박스·수면 사운드·소개)·바닥(처리방침 3개·회사 소개·법정 정보)
+- 홈·소개: `_src/site/home.html` · `_src/site/about.html` (HTML 원고, 홍보팀 관장). 홈 앱 카드는 고정 — 새 앱 카드는 홍보팀이 요청
+- 앱 소개 쪽: `page.md` 머리말에 `layout: full`이면 본문 HTML을 그대로 씀(h1·lead·자동 버튼 없음). 없으면 옛 방식(마크다운 + `<!-- buttons -->`)으로 새 틀 안에 문서 모양
+- 자리표시(빌드가 채움): `{{play:앱}}`(위 단추, utm_campaign=<앱>_hero) · `{{play:앱@bottom}}`(아래 단추, <앱>_bottom) · `{{play:앱:글자:class}}` · `{{icon:radio|podcast|music|bookmark|headphones|moon|tv}}` · `{{wave}}` · `{{bars}}`
+- 공용 그림 `/img/`(= `_src/static/img/`), 글꼴 `/assets/fonts/`(Pretendard Variable 분할판, OFL — Google Fonts 등 외부 글꼴 금지)
+- 보는 라디오: status preparing → 메뉴·홈 카드 숨김, `/visualradio/` noindex, 처리방침 링크는 바닥글에 유지
+- 도움말·처리방침·업데이트·권리자 안내는 같은 틀(`.docpage .doc`), 본문 글자는 원고 그대로
+
 ## 지킬 것
 - 공통: 과장·순위(최고·1위·유일), 남의 로고, 확인 안 된 수치, 지어낸 후기·질문 금지. 추적 도구·쿠키·광고 넣지 않음.
 - 앱별 금지는 그 앱 원고 안에서: 모두박스 — "광고 없음" 문장·방송사 로고·"전파를 잡는다"·가족 원격 미언급 / 수면앱 — 의료 효능 금지, 의료기기 아님 고지 유지.

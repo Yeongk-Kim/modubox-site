@@ -25,57 +25,14 @@ SITE = json.load(open(os.path.join(SRC, 'site.json'), encoding='utf-8'))
 SHOWN = [a for a in APPS if a['status'] in ('testing', 'live')]   # 홈 카드·메뉴·sitemap에 나오는 앱
 
 BIZ_KO = ('상호 모두박스랩스 (ModuBox Labs) · 대표 김영균 · 사업자등록번호 163-78-00746 · 통신판매업 신고 제2026-서울서대문-1097호<br>'
-          '주소 서울특별시 서대문구 신촌로 163 (대현동) · 전화 070-8065-7440 · 이메일 <a href="mailto:support@modubox.app">support@modubox.app</a>')
+          '주소 서울특별시 서대문구 신촌로 163 (대현동) · 전화 <a href="tel:07080657440">070-8065-7440</a> · 이메일 <a class="mail" href="mailto:support@modubox.app">support@modubox.app</a>')
 
 MON_EN = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
           'September', 'October', 'November', 'December']
 MON_ES = ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto',
           'septiembre', 'octubre', 'noviembre', 'diciembre']
 
-CSS = """:root{--ink:#1d1f27;--sub:#5d6170;--line:#e4e6ec;--bg:#fbfbfd;--card:#fff;--accent:#3b4cca}
-@media (prefers-color-scheme:dark){:root{--ink:#eceef5;--sub:#a3a8b8;--line:#2a2d3a;--bg:#101219;--card:#171a24;--accent:#9aa6ff}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Hiragino Sans","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7;word-break:keep-all}
-a{color:var(--accent)}
-.wrap{max-width:760px;margin:0 auto;padding:0 20px}
-header.top{border-bottom:1px solid var(--line)}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.brand{white-space:nowrap;font-weight:700;font-size:17px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
-.brand span{color:var(--sub);font-weight:500;margin-left:6px;font-size:14px}
-header.top nav{white-space:nowrap}
-header.top nav a{margin-left:14px;font-size:14px;color:var(--sub);text-decoration:none}
-main{padding:40px 0 56px}
-h1{font-size:28px;line-height:1.3;margin:0 0 10px;letter-spacing:-.02em}
-.lead{color:var(--sub);font-size:16px;margin:0 0 36px}
-.apps{display:grid;gap:14px}
-.app{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;text-decoration:none;color:var(--ink)}
-.app h2{font-size:18px;margin:0 0 4px}
-.app p{margin:0;color:var(--sub);font-size:14.5px}
-.app .more{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent)}
-.btns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
-.btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:14.5px}
-.btn.play{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border:0;background:var(--app,#1A3270);color:#fff;font-weight:700;font-size:16px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
-.btn.play svg{width:18px;height:18px;flex:none}.btn.play:hover{filter:brightness(1.12)}
-.btns.end{justify-content:center;margin:34px 0 8px}
-.note{color:var(--sub);font-size:14px}
-footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--sub);font-size:12.5px;line-height:1.8}
-footer a{color:var(--sub)}
-.doc h1{font-size:23px}
-.doc h2{font-size:17px;margin-top:28px}
-.doc .updated{color:var(--sub);font-size:13px;margin:0 0 24px}
-.doc nav.lang a{margin-right:12px;font-size:14px}
-.doc hr{margin:48px 0;border:0;border-top:1px solid var(--line)}
-.doc ul{padding-left:20px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-@media (max-width:480px){.brand span{display:none}}
-.doc .updated+.updated{margin-top:-18px}
-.doc .sub{margin:2px 0 2px 18px;color:var(--sub)}
-.shots{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}
-.video{position:relative;width:100%;max-width:720px;aspect-ratio:16/9;margin:0 0 18px;border-radius:14px;overflow:hidden;background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.shots img{width:150px;height:auto;border-radius:12px;border:1px solid var(--line)}
-.wrap>h2{font-size:18px;margin:30px 0 8px}
-.wrap>ul{padding-left:20px}
-"""
+CSS = open(os.path.join(SRC, "site", "site.css"), encoding="utf-8").read()   # 11/11 새 디자인 v5(본부 홍보팀) — 흰 바탕 고정
 
 def og_tags(title, desc, url, og):
     """카톡·문자 링크 미리보기(오픈 그래프) — og = (제목, 그림 주소) 있을 때만. 10/28 수면앱 공유 미리보기"""
@@ -89,25 +46,75 @@ def og_tags(title, desc, url, og):
             f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
             f'<meta name="twitter:card" content="summary_large_image">')
 
-def page(title, body, desc='', lang='ko', canonical='', og=None):
-    nav = ''.join(f'<a href="/{ns(a).slug}/">{ns(a).name_ko}</a>' for a in SHOWN)
+# ---------- 11/11 새 디자인 v5: 아이콘·자리표시 ----------
+ICON = {
+ 'radio': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#f25b40"/><path d="m37 32 49-13" stroke="#27221f" stroke-width="5" stroke-linecap="round"/><rect x="23" y="34" width="82" height="65" rx="13" fill="#fff2d8"/><circle cx="47" cy="67" r="15" fill="none" stroke="#27221f" stroke-width="5"/><path d="M76 54h15M76 65h15M76 76h15" stroke="#27221f" stroke-width="4" stroke-linecap="round"/><circle cx="86" cy="88" r="3" fill="#27221f"/></svg>',
+ 'podcast': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#efa8c8"/><rect x="51" y="24" width="26" height="52" rx="13" fill="#622743"/><path d="M39 61a25 25 0 0 0 50 0M64 87v17M51 105h26" fill="none" stroke="#622743" stroke-width="7" stroke-linecap="round"/></svg>',
+ 'music': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#a9b5fa"/><path d="M54 81V38l41-8v45M54 50l41-8" fill="none" stroke="#24204e" stroke-width="8" stroke-linejoin="round"/><ellipse cx="41" cy="84" rx="17" ry="12" transform="rotate(-18 41 84)" fill="#24204e"/><ellipse cx="82" cy="78" rx="17" ry="12" transform="rotate(-18 82 78)" fill="#24204e"/></svg>',
+ 'bookmark': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#c4e87b"/><path d="M40 28h48a6 6 0 0 1 6 6v68L64 83l-30 19V34a6 6 0 0 1 6-6Z" fill="#28532f"/><path d="m53 51 8 8 15-16" fill="none" stroke="#eaf6d3" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+ 'headphones': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#f4c854"/><path d="M32 70V59a32 32 0 0 1 64 0v11" fill="none" stroke="#492f24" stroke-width="9"/><rect x="25" y="61" width="20" height="34" rx="10" fill="#492f24"/><rect x="83" y="61" width="20" height="34" rx="10" fill="#492f24"/><path d="M89 94c0 10-13 13-24 13" fill="none" stroke="#492f24" stroke-width="5" stroke-linecap="round"/></svg>',
+ 'moon': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#5474d0"/><path d="M84 25a40 40 0 1 0 21 66A39 39 0 0 1 84 25Z" fill="#fff0bc"/><path d="m92 39 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#fff0bc"/></svg>',
+ 'tv': '<svg viewBox="0 0 128 128" aria-hidden="true"><rect width="128" height="128" rx="29" fill="#b9a6f5"/><rect x="22" y="36" width="84" height="58" rx="12" fill="#2a1a63"/><path d="M56 52v26l22-13Z" fill="#efe8ff"/><path d="m50 22 14 13 14-13" fill="none" stroke="#2a1a63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 104h36" stroke="#2a1a63" stroke-width="6" stroke-linecap="round"/></svg>',
+}
+WAVE = '<svg class="wave" viewBox="0 0 22 12" aria-hidden="true"><path d="M1 5v2M5 2v8M9 4v4M13 0v12M17 3v6M21 5v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
+LOGO = '<svg class="mark" viewBox="0 0 22 20" aria-hidden="true"><path d="M2 5v10M7 1v18M12 4v12M17 7v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>'
+NAV = [('home', '홈', '/'), ('box', '모두박스', '/box/'), ('sleep', '수면 사운드', '/sleep/'), ('about', '소개', '/about/')]
+# 보는 라디오: 11/11 사장님 결정으로 메뉴·홈 카드 숨김(apps.json preparing). /visualradio/·처리방침 주소는 유지
+TOP_JS = ("<script>try{history.scrollRestoration='manual'}catch(e){}function _top(){if(!location.hash){window.scrollTo({top:0,left:0,behavior:'instant'})}}"
+          "_top();addEventListener('pageshow',_top);</script>")
+
+def bars(n=22, k=1.7):
+    import math
+    return '<span class="bars" aria-hidden="true">' + ''.join(f'<i style="height:{int(6+16*abs(math.sin(i*k)))}px"></i>' for i in range(n)) + '</span>'
+
+def app_by(slug):
+    return next(a for a in APPS if a['slug'] == slug)
+
+def v5_play(slug, label='Google Play에서 받기', cls='btn'):
+    slug, _, pos = slug.partition('@')          # {{play:앱@bottom}} → utm_campaign=<앱>_bottom (11/11 홍보팀: 위 hero · 아래 bottom)
+    a = app_by(slug)
+    if a['status'] != 'live':
+        return f'<span class="{cls} soon">곧 출시합니다</span>'
+    return f'<a class="{cls}" href="{html.escape(play_url(a, pos or 'hero'))}" target="_blank" rel="noopener">{label} {WAVE}</a>'
+
+def fill(text):
+    """원고 HTML의 자리표시 채우기: {{icon:x}} {{wave}} {{bars}} {{bars:k}} {{play:앱}} {{play:앱@bottom}} {{play:앱:글자:class}}"""
+    def rep(m):
+        parts = m.group(1).split(':')
+        if parts[0] == 'icon': return ICON[parts[1]]
+        if parts[0] == 'wave': return WAVE
+        if parts[0] == 'bars': return bars(22, float(parts[1])) if len(parts) > 1 else bars()
+        if parts[0] == 'play': return v5_play(parts[1], *(parts[2:4]))
+        raise KeyError(m.group(0))
+    return re.sub(r'\{\{([^{}]+)\}\}', rep, text)
+
+def page(title, body, desc='', lang='ko', canonical='', og=None, cur='', cta=None, doc=False, noindex=False):
+    cur_attr = ' aria-current="page"'
+    nav = ''.join(f'<a href="{h}"{cur_attr if s == cur else ""}>{n}</a>' for s, n, h in NAV)
+    if cta is None:
+        cta = f'<a class="btn" href="/#apps">앱 받기 {WAVE}</a>'
+    main = f'<div class="wrap"><div class="docpage">\n{body}\n</div></div>' if doc else body
+    links = ''.join(f'<a href="/{s}/privacy/">{n} 개인정보처리방침</a>' for s, n in
+                    [('box', '모두박스'), ('sleep', '수면 사운드'), ('visualradio', '보는 라디오')])
     return f"""<!DOCTYPE html>
 <html lang="{lang}">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
 <title>{title}</title>
 <meta name="description" content="{html.escape(desc)}">
-{f'<link rel="canonical" href="{canonical}">' if canonical else ''}{og_tags(title, desc, canonical, og)}
+{'<meta name="robots" content="noindex">' if noindex else ''}{f'<link rel="canonical" href="{canonical}">' if canonical else ''}{og_tags(title, desc, canonical, og)}
+<link rel="stylesheet" href="/assets/fonts/pretendard.css">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/">ModuBox Labs<span>모두박스랩스</span></a>
-<nav>{nav}</nav></div></header>
-<main><div class="wrap">
-{body}
-</div></main>
-<footer><div class="wrap">{BIZ_KO}<br>© 2026 ModuBox Labs</div></footer>
+<header class="top"><div class="wrap"><a class="brand" href="/">{LOGO}모두박스<small>Labs</small></a><nav class="nav" aria-label="사이트">{nav}</nav>{cta}</div></header>
+<main>
+{main}
+</main>
+<footer><div class="wrap"><div class="links">{links}<a href="/about/">회사 소개</a></div>{BIZ_KO}<br>© 2026 ModuBox Labs</div></footer>
+{TOP_JS}
 </body>
 </html>
 """
@@ -156,6 +163,10 @@ def play_url(a, pos='hero'):
     return (f"https://play.google.com/store/apps/details?id={ns(a).package}"
             f"&referrer=utm_source%3Dsite%26utm_campaign%3D{ns(a).slug}_{pos}")
 
+def app_cta(a):
+    """머리 오른쪽 단추: 출시 앱 = '앱 받기'(Play), 준비 중 = '곧 출시'"""
+    return v5_play(a['slug'], '앱 받기') if a['status'] == 'live' else '<span class="btn soon">곧 출시</span>'
+
 PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>'
 def play_btn(a, pos='hero'):
     return (f'<a class="btn play" style="--app:{html.escape(a.get("color", "#1A3270"))}" '
@@ -180,13 +191,13 @@ def privacy_sleep_legacy(a, Y, M, D):
      'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)':
        f'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)<br>Revisión: {int(D)} de {MON_ES_} de {Y} — cambio del correo de contacto (modubox.app@gmail.com → sleep@modubox.app) y de la dirección de esta página. La información que se recopila y su uso no han cambiado.',
     }
-    for a, b in rev.items():
-        assert a in body, a
-        body = body.replace(a, b)
+    for k_, v_ in rev.items():
+        assert k_ in body, k_
+        body = body.replace(k_, v_)
     assert 'modubox.app@gmail.com">' not in body
     return page('개인정보처리방침 · Privacy Policy — 수면 사운드 (Sleep Sounds)',
       '<div class="doc">' + body.strip() + '</div>', '수면 사운드(Sleep Sounds) 개인정보처리방침',
-      canonical='https://modubox.app/sleep/privacy/')
+      canonical='https://modubox.app/sleep/privacy/', doc=True, cur='sleep', cta=app_cta(a))
 
 
 def privacy_box_legacy(a, Y, M, D):
@@ -230,13 +241,13 @@ def privacy_box_legacy(a, Y, M, D):
     box_body = ('<div class="doc"><nav class="lang"><a href="#ko">한국어</a><a href="#en">English</a></nav>\n'
                 f'<section id="ko" lang="ko">\n{ko}\n</section>\n<hr>\n<section id="en" lang="en">\n{en}\n</section></div>')
     return page('개인정보처리방침 · Privacy Policy — 모두박스 (ModuBox)', box_body,
-      '모두박스(ModuBox) 개인정보처리방침', canonical='https://modubox.app/box/privacy/')
+      '모두박스(ModuBox) 개인정보처리방침', canonical='https://modubox.app/box/privacy/', doc=True, cur='box', cta=app_cta(a))
 
 
 def privacy_md(a, Y, M, D):
     meta, body = front(read(a['slug'], 'privacy.md'))
     return page(meta.get('title', f"개인정보처리방침 — {ns(a).name_ko}"), '<div class="doc">' + md(body) + '</div>',
-                meta.get('description', f"{ns(a).name_ko} 개인정보처리방침"), canonical=f"{BASE}/{ns(a).slug}/privacy/")
+                meta.get('description', f"{ns(a).name_ko} 개인정보처리방침"), canonical=f"{BASE}/{ns(a).slug}/privacy/", doc=True, cur=a["slug"], cta=app_cta(a))
 
 RESERVED = {'page', 'help', 'faq', 'updates', 'privacy', 'README'}   # 그 밖의 <이름>.md → /<앱>/<이름>/ (예: box/rights.md → /box/rights/)
 
@@ -253,15 +264,30 @@ copytree(os.path.join(SRC, 'static'), '.')          # 루트 고정 파일(Searc
 
 urls = [BASE + '/']
 
-# ---------- 회사 홈 ----------
-cards = []
-for a in SHOWN:
-    meta, _ = front(read(a['slug'], 'page.md'))
-    cards.append(f'<a class="app" href="/{ns(a).slug}/"><h2>{ns(a).name_ko} · {ns(a).name_en}</h2>\n'
-                 '<p>' + meta.get('card', '') + f'</p>\n<span class="more">자세히 보기 →</span></a>')
-home = (f"\n<h1>{SITE['h1']}</h1>\n<p class=\"lead\">{SITE['lead']}</p>\n<div class=\"apps\">\n" + '\n'.join(cards) +
-        f"\n</div>\n<p class=\"note\" style=\"margin-top:28px\">문의: <a href=\"mailto:{SITE['mail']}\">{SITE['mail']}</a></p>\n")
-w('index.html', page(SITE['title'], home, SITE['description'], canonical=BASE + '/'))
+# ---------- 회사 홈 · 소개 (11/11 v5, 원고 _src/site/home.html · about.html — 홍보팀 관장) ----------
+w('index.html', page(SITE['title'], fill(read('site', 'home.html')), SITE['description'], canonical=BASE + '/', cur='home'))
+w('about/index.html', page('모두박스랩스 소개', fill(read('site', 'about.html')), '모두박스랩스가 앱을 만드는 이야기와 원칙',
+                           canonical=BASE + '/about/', cur='about', cta=f'<a class="btn" href="/#apps">앱 받기 {WAVE}</a>'))
+urls.append(BASE + '/about/')
+
+def legacy_app_page(a, meta, body, has_help, og):
+    """옛 형식 page.md(머리말 h1·lead + 마크다운 본문 + <!-- buttons -->) — 새 틀 안에 문서 쪽 모양으로"""
+    s = a['slug']
+    btns = [v5_play(s)]
+    if has_help:
+        btns.append(f'<a class="btn ghost" href="/{s}/help/">도움말</a>')
+    btns.append(f'<a class="btn ghost" href="/{s}/privacy/">개인정보처리방침</a>')
+    btn_html = '<div class="cta" style="display:flex;gap:10px;flex-wrap:wrap;margin:22px 0">\n' + '\n'.join(btns) + '\n</div>'
+    before, _, after = body.partition('<!-- buttons -->')
+    if not _:
+        before, after = body, ''
+    parts = [f"<h1>{meta.get('h1', a['name_ko'])}</h1>", f"<p class=\"lead\" style=\"margin:0 0 8px\">{meta.get('lead', '')}</p>"]
+    if md(before): parts.append(md(before))
+    parts.append(btn_html)
+    if md(after): parts.append(md(after))
+    w(f'{s}/index.html', page(meta.get('title', a['name_ko']), '<div class="doc">' + '\n'.join(parts) + '</div>',
+                               meta.get('description', ''), canonical=f'{BASE}/{s}/', og=og, cur=s, cta=app_cta(a),
+                               doc=True, noindex=a['status'] == 'preparing'))
 
 # ---------- 앱 칸 ----------
 for a in APPS:
@@ -269,28 +295,14 @@ for a in APPS:
     meta, body = front(read(s, 'page.md'))
     help_txt, faq_txt, upd_txt = read(s, 'help.md'), read(s, 'faq.md'), read(s, 'updates.md')
     has_help = has_content(help_txt) or has_content(faq_txt)
-    btns = []
-    if a['status'] == 'live':
-        btns.append(play_btn(a))
+    og = ((meta.get('og_title', meta.get('title', a['name_ko'])), f'{BASE}/{s}/img/og.png')
+          if os.path.exists(os.path.join(SRC, s, 'img', 'og.png')) else None)
+    if meta.get('layout') == 'full':      # 11/11 v5: 본문 HTML 그대로(자리표시만 채움)
+        w(f'{s}/index.html', page(meta.get('title', a['name_ko']), fill(re.sub(r'<!--.*?-->', '', body, flags=re.S)).strip(),
+                                   meta.get('description', ''), canonical=f'{BASE}/{s}/', og=og, cur=s, cta=app_cta(a),
+                                   noindex=a['status'] == 'preparing'))
     else:
-        btns.append('<span class="btn" aria-disabled="true">곧 출시합니다</span>')
-    if has_help:
-        btns.append(f'<a class="btn" href="/{s}/help/">도움말</a>')
-    btns.append(f'<a class="btn" href="/{s}/privacy/">개인정보처리방침</a>')
-    btn_html = '<div class="btns">\n' + '\n'.join(btns) + '\n</div>'
-    before, _, after = body.partition('<!-- buttons -->')
-    if not _:
-        before, after = body, ''
-    parts = [f"<h1>{meta.get('h1', a['name_ko'])}</h1>", f"<p class=\"lead\">{meta.get('lead', '')}</p>"]
-    if md(before): parts.append(md(before))
-    parts.append(btn_html)
-    if md(after): parts.append(md(after))
-    if a['status'] == 'live':
-        parts.append('<div class="btns end">' + play_btn(a, 'bottom') + '</div>')
-    w(f'{s}/index.html', page(meta.get('title', a['name_ko']), '\n' + '\n'.join(parts) + '\n',
-                               meta.get('description', ''), canonical=f'{BASE}/{s}/',
-                               og=(meta.get('og_title', meta.get('title', a['name_ko'])), f'{BASE}/{s}/img/og.png')
-                               if os.path.exists(os.path.join(SRC, s, 'img', 'og.png')) else None))
+        legacy_app_page(a, meta, body, has_help, og)
     Y, M, D = a['privacy_revised'].split('-')
     w(f'{s}/privacy/index.html', PRIVACY[a['privacy_format']](a, Y, M, D))
     if a in SHOWN:
@@ -301,12 +313,12 @@ for a in APPS:
             hb += '\n<h2>자주 묻는 질문</h2>\n' + md(faq_txt)
         hb += f"\n<p class=\"note\">더 궁금한 점: <a href=\"mailto:{ns(a).mail}\">{ns(a).mail}</a></p>\n</div>\n"
         w(f'{s}/help/index.html', page(f"도움말 — {ns(a).name_ko} · ModuBox Labs", hb, f"{ns(a).name_ko} 도움말·자주 묻는 질문",
-                                        canonical=f'{BASE}/{s}/help/'))
+                                        canonical=f'{BASE}/{s}/help/', doc=True, cur=s, cta=app_cta(a)))
         if a in SHOWN: urls.append(f'{BASE}/{s}/help/')
     if has_content(upd_txt):
         ub = f"\n<div class=\"doc\">\n<h1>업데이트 소식 — {ns(a).name_ko}</h1>\n{md(upd_txt)}\n</div>\n"
         w(f'{s}/updates/index.html', page(f"업데이트 소식 — {ns(a).name_ko} · ModuBox Labs", ub, f"{ns(a).name_ko} 업데이트 소식",
-                                           canonical=f'{BASE}/{s}/updates/'))
+                                           canonical=f'{BASE}/{s}/updates/', doc=True, cur=s, cta=app_cta(a)))
         if a in SHOWN: urls.append(f'{BASE}/{s}/updates/')
     for fn in sorted(os.listdir(os.path.join(SRC, s))):
         nm, ext = os.path.splitext(fn)
@@ -318,14 +330,14 @@ for a in APPS:
         em, eb = front(txt)
         title = em.get('title', nm)
         xb = f"\n<div class=\"doc\">\n<h1>{em.get('h1', title)}</h1>\n{md(eb)}\n</div>\n"
-        w(f'{s}/{nm}/index.html', page(f"{title} · ModuBox Labs", xb, em.get('description', ''), canonical=f'{BASE}/{s}/{nm}/'))
+        w(f'{s}/{nm}/index.html', page(f"{title} · ModuBox Labs", xb, em.get('description', ''), canonical=f'{BASE}/{s}/{nm}/', doc=True, cur=s, cta=app_cta(a)))
         if a in SHOWN: urls.append(f'{BASE}/{s}/{nm}/')
     copytree(os.path.join(SRC, s, 'img'), f'{s}/img')
     copytree(os.path.join(SRC, s, 'static'), s)       # 앱 데이터 등(예: box/static/radio/v1 → /box/radio/v1/)
 
 # ---------- 404 · sitemap ----------
 w('404.html', page('페이지를 찾을 수 없습니다 — ModuBox Labs',
-  '<h1>페이지를 찾을 수 없습니다</h1><p class="lead">주소를 다시 확인해 주세요.</p><p><a href="/">처음으로</a></p>'))
+  '<div class="doc"><h1>페이지를 찾을 수 없습니다</h1><p>주소를 다시 확인해 주세요.</p><p><a href="/">처음으로</a></p></div>', doc=True))
 w('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls) + '</urlset>\n')
 # robots.txt: 앱 데이터 폴더(static/ 아래 폴더)는 검색 제외, sitemap 위치 안내
