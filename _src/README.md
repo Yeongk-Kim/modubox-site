@@ -3,17 +3,23 @@
 이 사이트는 **원고(_src) → build.py → docs/(GitHub Pages가 내보내는 폴더)** 로 만들어집니다.
 docs/ 는 손으로 고치지 않습니다(빌드할 때마다 새로 만들어짐).
 
-## 누가 무엇을 (2026-10-22 두 세션 합의)
-| 폴더·파일 | 고치는 쪽 |
-|---|---|
-| `_src/build.py` · `apps.json` · `site.json` · `static/` · `README.md` | 수면앱 세션 |
-| `_src/sleep/` | 수면앱 세션 |
-| `_src/box/` | 모두박스 세션(Cowork 원고 → 모두박스 클로드 코드가 커밋·푸시) |
-| `_src/<새 앱>/` | 그 앱 세션 |
-| 빌드·`docs/` 커밋·배포 | 수면앱 세션(빌드 전 확인: 자기 폴더 밖 변경 없음 · 금지 문구 · 링크) |
-| `tools/youtube_check/` · `.github/workflows/youtube-channels.yml` | 수면앱 세션이 넣고 관리(원본: 보는 라디오 세션 묶음). 매주 월 05:00 KST 깃허브 액션이 `_src/visualradio/static/data/youtube_channels.json`을 점검·갱신 — 후보 명단 `candidates.json`은 보는 라디오 세션 문안을 받아 사람이 넣음 |
+## 누가 무엇을 (2026-11-11 개정 — 사장님 지시: 홈페이지는 본부 홍보팀 관장)
+| 폴더·파일 | 관장(결정·검수) | 실행 |
+|---|---|---|
+| `_src/site/`(home.html·about.html·site.css) | 홍보팀 | 수면앱 세션(홍보팀 요청 시) |
+| `_src/build.py` · `site.json` · `static/` · `README.md` | 홍보팀 | 수면앱 세션 |
+| `apps.json` | 상태 변경은 홍보팀 승인(홈 카드 고정이라 카드도 함께 결정) | 수면앱 세션 |
+| `_src/sleep/` · `_src/box/` · `_src/visualradio/` | 각 앱 세션(페이지 구성·디자인 바꿀 때는 홍보팀 확인) | 각 앱 세션 |
+| 앱이 읽는 데이터(`/visualradio/data/`, `/box/radio/` 등) | 각 앱 세션 | 각 앱 세션 |
+| 빌드·`docs/` 커밋·배포 | 홍보팀(배포 전 확인·배포 후 점검) | 수면앱 세션 |
 
-작업 순서: `git pull` → **자기 폴더만** 수정 → `git status`로 다른 폴더 변경 0 확인 → 커밋·푸시 → 수면앱 세션에 "원고 올렸음" 알림.
+- 참고(바뀌지 않음): `tools/youtube_check/` · `.github/workflows/`(유튜브 채널 점검·영상 목록 자동 갱신)은 수면앱 세션이 넣고 관리(원본: 보는 라디오 세션 묶음). 출력 자리는 `_src/visualradio/static/data/` → `/visualradio/data/`. 후보 명단 `candidates.json`은 보는 라디오 세션 문안을 받아 사람이 넣음
+
+작업 순서
+- 원고(앱 세션): `git pull` → **자기 폴더만** 수정 → `git status`로 다른 폴더 변경 0 확인 → 커밋·푸시 → 수면앱 세션에 "원고 올렸음" 알림
+- 사이트 디자인·문구·구성 변경: 홍보팀 요청 → 로컬 빌드 → 홍보팀 확인 → 배포 → 홍보팀 실사이트 점검
+- 앱 출시·숨김: 앱 세션이 홍보팀에 알림 → 홍보팀이 홈 카드·메뉴 결정 → 수면앱 세션 실행
+- 연락 창구: 본부 홍보팀(사장님 경유, 회신은 코드 블록)
 
 ## 앱 폴더 형식 `_src/<앱>/`
 | 파일 | 만들어지는 곳 | 비어 있으면 |
