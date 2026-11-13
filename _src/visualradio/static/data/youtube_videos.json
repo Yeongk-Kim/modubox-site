@@ -1,651 +1,671 @@
 {
   "_comment": "'유튜브' 탭 영상 목록. 공식 YouTube Data API v3 로 6시간마다 만든다 — 손으로 적지 않는다(보는 라디오 전달문 130). 영상 번호·제목·올린 때뿐이고 영상도 썸네일 그림도 담지 않는다.",
-  "fetchedOn": "2026-11-12",
+  "fetchedOn": "2026-11-13",
   "lists": {
     "yt-UChlgI3UHCOnwUGzWzbJ3H5w": [
       {
-        "videoId": "bWVV6oUm4Ac",
-        "title": "젠슨황, 결국 불명예 퇴진…세번째 불륜 스캔들도 나와 [YTN실시간뉴스]",
-        "published": "2026-11-12T22:57:06Z"
+        "videoId": "ZVk8MmnAIUM",
+        "title": "세법·회계·상법 전부 만점 \"어떤 고수가 와도 불가능\"…세무사 수석에 쏟아진 의혹 '발칵' [에디터픽] / YTN",
+        "published": "2026-11-13T05:53:56Z"
       },
       {
-        "videoId": "VZooAmSyjBI",
-        "title": "근처에서 굴착 작업 와중에…뉴욕 브루클린 건물, 처참한 붕괴 [지금이뉴스] / YTN",
-        "published": "2026-11-12T23:21:55Z"
+        "videoId": "VNEtBe6bDbY",
+        "title": "프랑스 이어 이탈리아까지 '비상'…유럽 '대혼돈' [에디터픽] / YTN",
+        "published": "2026-11-13T05:52:47Z"
       },
       {
-        "videoId": "ZdXE9vY5PxY",
-        "title": "젠슨 황 스캔들에 '칩 규제 3법' 탄력...'삼전닉스' 영향 전망 엇갈려 [앵커리포트] / YTN",
-        "published": "2026-11-12T23:08:29Z"
+        "videoId": "3dP3UNjIhy0",
+        "title": "젠슨 황 스캔들, 결국 국가안보 사태로...백악관 '대혼란' [에디터픽] / YTN",
+        "published": "2026-11-13T05:26:11Z"
       },
       {
-        "videoId": "yaxYw01T2O0",
-        "title": "젠슨황, 결국 불명예 퇴진...세번째 불륜 스캔들도 나와 / YTN",
-        "published": "2026-11-12T23:07:50Z"
+        "videoId": "XCXvgxE9ALE",
+        "title": "\"이 대통령, 尹 탄핵 반대\"...최민희 발언 '일파만파' [Y녹취록] / YTN",
+        "published": "2026-11-13T06:23:06Z"
       },
       {
-        "videoId": "Vlr7uu0ePP0",
-        "title": "AI 절대적 존재의 몰락…산업계 '대혼돈' 위기 [지금이뉴스] / YTN",
-        "published": "2026-11-12T23:06:38Z"
+        "videoId": "Kx0Dl-pcf_0",
+        "title": "미, 이란 향한 섬뜩한 경고…트럼프·밴스 관계 '심상찮은 기류' [에디터픽] / YTN",
+        "published": "2026-11-13T02:12:43Z"
       },
       {
-        "videoId": "A8dOuUccPO0",
-        "title": "젠슨 황 결국 불명예 퇴진…'세 번째 불륜 의혹'까지 [출근길픽] / YTN",
-        "published": "2026-11-12T23:05:04Z"
+        "videoId": "LJbDnQZps9A",
+        "title": "끝까지 여성들 걱정했던 젠슨 황…사임 직전 완전히 무너진 모습 [지금이뉴스] / YTN",
+        "published": "2026-11-13T06:13:23Z"
       },
       {
-        "videoId": "175WgrsgU9Y",
-        "title": "'소녀 살해' 50대 진술거부…구속영장 청구 [뉴스START] 다시보기 2026년 11월 13일  / YTN",
-        "published": "2026-11-12T22:54:52Z"
+        "videoId": "1HFVVqlZLVE",
+        "title": "[단독] '15살 살해' 50대, 피해자 휴대전화 파손...만나자마자 범행 / YTN",
+        "published": "2026-11-13T06:02:17Z"
       },
       {
-        "videoId": "4c-6kZ2FMGo",
-        "title": "[출근길 YTN 날씨 11/13] 예년보다 온화한 늦가을...늦은 오후 충청 이남 비 / YTN",
-        "published": "2026-11-12T22:37:07Z"
+        "videoId": "2zB-IcbeMNY",
+        "title": "[날씨] 오늘 충청 이남·내일 전국 비...다음 주는 '수능 추위' / YTN",
+        "published": "2026-11-13T05:58:44Z"
       },
       {
-        "videoId": "jisJyIJakeI",
-        "title": "\"대통령, 윤 탄핵 반대\"…최민희 감찰 착수 [뉴스START] 다시보기 2026년 11월 13일  / YTN",
-        "published": "2026-11-12T22:34:24Z"
+        "videoId": "nmT7peDssuk",
+        "title": "김승우 '2,200만 원' 절도 피소...\"장난이었다\" 해명 [뉴스퀘어 2PM]  / YTN",
+        "published": "2026-11-13T05:58:15Z"
       },
       {
-        "videoId": "CjxsuIiLkss",
-        "title": "프랑스 기차역도 폭탄 신고...이탈리아 이틀째 학교 폭파 위협 / YTN",
-        "published": "2026-11-12T22:32:10Z"
+        "videoId": "wCl0KzuyXHA",
+        "title": "젠슨 황, 불륜에 불명예 퇴진...트럼프 \"후계자로 팀쿡 추천\" [뉴스나우]  / YTN",
+        "published": "2026-11-13T05:55:47Z"
       },
       {
-        "videoId": "q96nBp4Avmo",
-        "title": "\"젠슨 황은 우상이었는데\"…사임 소식에 엔비디아 내부는 침울 [지금이뉴스] / YTN",
-        "published": "2026-11-12T22:32:03Z"
+        "videoId": "4koGx63J6nA",
+        "title": "'주가조작 혐의' 구본현 구속...8년 해외 도피 끝 검거 / YTN",
+        "published": "2026-11-13T05:49:11Z"
       },
       {
-        "videoId": "qKnajvqQKqY",
-        "title": "[뉴스타트] 두 번 불륜에 쫓겨난 젠슨 황...엔비디아 넘어 AI 산업에 충격파 / YTN",
-        "published": "2026-11-12T22:31:25Z"
+        "videoId": "jZltz8lMlYY",
+        "title": "이 대통령 \"자본시장 개혁 의지, 다시 시험대...고위급 전담기구 구성\" / YTN",
+        "published": "2026-11-13T05:48:37Z"
       },
       {
-        "videoId": "bsdEdROKVKw",
-        "title": "젠슨황, 결국 불명예 퇴진...세번째 불륜 스캔들도 나와 / YTN",
-        "published": "2026-11-12T22:13:35Z"
-      },
-      {
-        "videoId": "FLsQf1ocelg",
-        "title": "내쫓긴 젠슨황, 또 다른 여직원과 \"혼외관계\"…대형로펌 선임 [지금이뉴스] / YTN",
-        "published": "2026-11-12T22:12:10Z"
-      },
-      {
-        "videoId": "72txllDhBnI",
-        "title": "[날씨] 온화한 늦가을 날씨...제주·호남 점차 비, 주말 전국 확대 / YTN",
-        "published": "2026-11-12T22:02:15Z"
+        "videoId": "k16RsFmSoA8",
+        "title": "젠슨 황 스캔들 불똥, 결국 트럼프까지...백악관 '발칵' [에디터픽] / YTN",
+        "published": "2026-11-13T05:46:19Z"
       }
     ],
     "yt-UCTHCOPwqNfZ0uiKOvFyhGwg": [
       {
-        "videoId": "_-U4MTAPpeI",
-        "title": "[🔴속보] 불륜 스캔들 아닌 '국가안보 게이트'?…화웨이와 연결된 앨리스 황의 소름 돋는 정체 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T23:16:51Z"
+        "videoId": "GF9FVkP7hIQ",
+        "title": "[🔴속보] 무너진 젠슨 황, 해임 직전 \"난 쓰레기…그녀들 걱정돼\" / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T06:19:39Z"
       },
       {
-        "videoId": "S1A1J7-9BYc",
-        "title": "[🔴속보] 백악관 인근서 또 총격 사건, 5명 사상…학교 봉쇄·시민 대피 소동 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T23:01:31Z"
+        "videoId": "ZbKlXbcHOwI",
+        "title": "[🔴속보] \"젠슨 황 떠났는데, 코스피 활짝\"…코스피 장중 2%대 상승, 외국인 '사자' / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T05:23:09Z"
       },
       {
-        "videoId": "oUm1nSyazyE",
-        "title": "[🔴속보] 트럼프, '공습 없다'더니 갑자기 태세 전환…\"이란과 합의 필요없다\" 공격 재개 촉각 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T22:55:05Z"
+        "videoId": "V19vgL-6L0g",
+        "title": "[🔴속보] \"자리보전 위해 싸워라\"…中스파이 연루 의혹에도 젠슨황 옹호하는 트럼프 왜?｜트럼프, 퇴진한 젠슨황에 '전설' 치켜세워 / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T04:48:12Z"
       },
       {
-        "videoId": "R5CSIxs8Ttk",
-        "title": "[🔴속보] 낮 최고 기온 20도 '포근'…남부지방엔 오후부터 비｜주말에는 전국에 비…다음주 수능 날 영하권 추위 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T22:29:53Z"
+        "videoId": "CCfOG9s3EX0",
+        "title": "[🔴속보] \"엔비디아 칩 대줄게\"…앨리스 황 관련 기업, 中 딥시크에 '비밀 지분 투자' / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T04:34:57Z"
       },
       {
-        "videoId": "KWv-eKWW50I",
-        "title": "[🔴속보] \"이 대통령, 尹 탄핵 반대\"…잇단 '언행논란' 최민희 감찰 조사 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T22:16:24Z"
+        "videoId": "yUAUCxPtwQc",
+        "title": "이재룡, 뺑소니 첫 재판서 '술타기' 의혹 부인 / 연합뉴스TV (YonhapnewsTV)",
+        "published": "2026-11-13T06:26:13Z"
       },
       {
-        "videoId": "QcJHXXuljWI",
-        "title": "[🔴속보] '中스파이'·부사장이 끝이 아니었다…젠슨황 세 번째 불륜 스캔들 나와 / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T21:55:53Z"
+        "videoId": "cdABB9U0ecg",
+        "title": "최고위 안 가고 회견 열더니…\"감찰 대상은 김민석\" / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T06:22:23Z"
       },
       {
-        "videoId": "TagM5kdr3IE",
-        "title": "[🔴속보] '젠슨황 사퇴' 충격…뉴욕증시, 일제히 하락 마감｜美 기술주 휘청…뉴욕증시 전문가분석(염승환 LS증권 이사) / 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T21:53:23Z"
+        "videoId": "lauZzYkp_ks",
+        "title": "[🔴속보] \"학교 폭파시키겠다\" 이탈리아 이틀째 폭파 위협…배후는? / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T06:20:03Z"
       },
       {
-        "videoId": "aaJe5OqFUqY",
-        "title": "[🔴속보] 젠슨 황 스캔들 뒤 더 큰 의혹?…엔비디아 공시서 사라진 '싱가포르'｜앨리스 황 연관 '메가스피드' 거래 차단 목록 올린 후 기준 변경/ 연합뉴스TV",
-        "published": "2026-11-12T23:23:16Z"
+        "videoId": "460mQMYj7ug",
+        "title": "친청계 3인 최고위 불참…김민석 표정이 / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T06:13:08Z"
       },
       {
-        "videoId": "_7alsCnPM04",
-        "title": "[날씨] 한낮 포근, 오후 충청 이남 비…주말 전국으로 확대 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T23:09:16Z"
+        "videoId": "gxWww3kWfjg",
+        "title": "[CEO풍향계]'유동성 경고' 최태원…'양손잡이 경영' 구자은 / 연합뉴스TV (YonhapnewsTV)",
+        "published": "2026-11-13T06:01:47Z"
       },
       {
-        "videoId": "3vxKqx1LmcE",
-        "title": "[3분증시] 뉴욕증시, 엔비디아 CEO 사퇴에 동반 하락 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T22:52:22Z"
+        "videoId": "_DSkBrzUDu0",
+        "title": "[🔴속보] '반포 아파트 부정청약 의혹' 이혜훈 전 의원 송치…주택 교란 행위 인정시 아파트 계약 취소될 듯  / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T04:23:22Z"
       },
       {
-        "videoId": "u-EnHlZSc2M",
-        "title": "트럼프 \"이란과 합의 필요없다\"…협상론서 급격 선회 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T22:48:55Z"
+        "videoId": "jKyj_KtWaYA",
+        "title": "北, 78년 동안 유지해오더니…갑자기 '이것' 바꿔버렸다 [PICK] / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T05:56:37Z"
       },
       {
-        "videoId": "7OWVYBtDBE0",
-        "title": "이탈리아 학교에 이틀째 폭발물 위협…배후 오리무중 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T22:47:58Z"
+        "videoId": "eQqQnKN8hZw",
+        "title": "젠슨 황이 부릅니다｜아무도 내 맘을 모르죠…I can't stop love love love [PICK] / 연합뉴스TV(YonhapnewsTV)",
+        "published": "2026-11-13T05:47:45Z"
       },
       {
-        "videoId": "XiR6NYcVPi4",
-        "title": "美워싱턴 아파트 건물서 총기난사…5명 사상 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T22:47:31Z"
+        "videoId": "T6Qc62r7Rvw",
+        "title": "[날씨] 한낮 온화, 늦가을 날씨…주말 전국 비 / 연합뉴스TV (YonhapnewsTV)",
+        "published": "2026-11-13T05:42:11Z"
       },
       {
-        "videoId": "T-3T-LLLVYs",
-        "title": "[🔴속보] 엔비디아 주가, 젠슨황 CEO 사퇴 소식 직후 '급전직하'│젠슨황, 中 스파이 의심 여성과 불륜 의혹 사흘만에 사퇴/ 연합뉴스TV(YonhapnewsTV)",
-        "published": "2026-11-12T22:31:20Z"
+        "videoId": "R737wZu1mDY",
+        "title": "대표팀, 오늘밤 사우디전…갈등 딛고 원팀 될까 / 연합뉴스TV (YonhapnewsTV)",
+        "published": "2026-11-13T05:40:54Z"
       },
       {
-        "videoId": "7rnOXQz7-8s",
-        "title": "젠슨 황, 33년 만에 불명예 퇴진…세번째 불륜 의혹도 / 연합뉴스TV (YonhapnewsTV)",
-        "published": "2026-11-12T22:29:48Z"
+        "videoId": "vXZ5evZ61UQ",
+        "title": "북한, '인공기' 비율 변경…1948년 정권 수립 이후 처음  / 연합뉴스TV (YonhapnewsTV)",
+        "published": "2026-11-13T05:39:16Z"
       }
     ],
     "yt-UCcQTRi69dsVYHN3exePtZ1A": [
       {
-        "videoId": "XtxDXeulIrE",
-        "title": "[🔴속보] 트럼프, 애플 '팀 쿡'을 엔비디아 CEO로추천… 미 의회는 젠슨 황에 출석 요구/2026년 11월 13일(금)/KBS",
-        "published": "2026-11-12T23:20:49Z"
+        "videoId": "wmz0HYNWDGs",
+        "title": "[🔴이슈] 민심과 다른 엔비디아 직원 반응…3번째 불륜설 또 터져/2026년 11월 13일(금)/KBS",
+        "published": "2026-11-13T04:22:18Z"
       },
       {
-        "videoId": "TozBWeiSKsE",
-        "title": "[🔴이슈] 강남 재건축부터 시작된 초유의 사태/한강벨트도 요동...실수요 외곽은 '비명'/2026년 11월 13일(금)/KBS",
-        "published": "2026-11-12T10:07:55Z"
+        "videoId": "kFI7JqOXb6Q",
+        "title": "[🔴이슈] \"요즘 누가 주식해\" 나라 믿고 돈 맡겨봐...'국채 풍차' 돌리니 \"월 160만 원씩 착착\" /2026년 11월 13일(금)/KBS",
+        "published": "2026-11-13T02:33:36Z"
       },
       {
-        "videoId": "2e7dNUNzSYQ",
-        "title": "[🔴이슈] \"기회의 땅\"…데이터센터 '잭팟' 터진 韓/\"미국 거르고 한국 가자\"…빅테크 '열광'/2026년 11월 13일(금)/KBS",
-        "published": "2026-11-12T21:13:21Z"
+        "videoId": "qYnZAamWqQk",
+        "title": "[🔴LIVE] KBS 사장후보자 인사청문계획서 채택/국회 과학기술정보방송통신위원회 전체회의/2026년 11월 13일(금)/KBS",
+        "published": "2026-11-12T23:52:30Z"
       },
       {
-        "videoId": "OSVJ6LnIg6c",
-        "title": "[🔴풀영상] \"젠슨 황, 결국 이렇게 됩니다\"...유응준 전 엔비디아 한국 대표 인터뷰 /2026년 11월 13일(금)/KBS",
-        "published": "2026-11-12T10:45:41Z"
+        "videoId": "69PsRu34n4Y",
+        "title": "경찰, 이혜훈 ‘청약 사기’ 혐의 송치 / KBS 2026.11.13.",
+        "published": "2026-11-13T06:11:47Z"
       },
       {
-        "videoId": "fSw_KGlKSEc",
-        "title": "젠슨 황, 이번엔 ‘사내 불륜’…“이사회, 해임 준비” / KBS 2026.11.12.",
-        "published": "2026-11-12T23:24:19Z"
+        "videoId": "TKrLC9_L-Vg",
+        "title": "코스피 하락 전환…코스닥은 상승폭 축소  / KBS 2026.11.13.",
+        "published": "2026-11-13T06:11:21Z"
       },
       {
-        "videoId": "NqxMTmQOQco",
-        "title": "[속보] '불륜' 젠슨황, 엔비디아 CEO 전격 사퇴/임시 CEO에 크레스 CFO...주가 10%↓/2026년 11월 12일(목)/KBS",
-        "published": "2026-11-12T14:19:22Z"
+        "videoId": "vvXzRmDNA28",
+        "title": "[이슈] 숲속 땅 밑에서 아기 울음소리가?!/반려견 케이지에 갇혀 24시간 '생매장'/2026년 11월 13일(금)/KBS",
+        "published": "2026-11-13T01:32:54Z"
       },
       {
-        "videoId": "3LCWaqQ364s",
-        "title": "[이슈] 아이티 갱단 '두목 자택'에 로켓 날린 엘살바도르군/2026년 11월 12일(목)/KBS",
-        "published": "2026-11-12T11:07:41Z"
+        "videoId": "Yi5rjdOJfU0",
+        "title": "지도자로 눈 뜬 이승엽, KBO리그 복귀 준비? / KBS 2026.11.13.",
+        "published": "2026-11-13T06:07:41Z"
       },
       {
-        "videoId": "gtjv_zpiEzo",
-        "title": "[이슈] \"기회의 땅\"…데이터센터 '잭팟' 터진 韓/\"미국 거르고 한국 가자\"…빅테크 '열광'/2026년 11월 12일(목)/KBS",
-        "published": "2026-11-12T22:21:41Z"
+        "videoId": "u6SNUYi_4B0",
+        "title": "[자막뉴스] \"사실 쉽지는 않았죠\"…손흥민, '내분설' 이후 첫 심경 고백 / KBS 2026.11.13.",
+        "published": "2026-11-13T06:00:33Z"
       },
       {
-        "videoId": "9zNLMSvK5hw",
-        "title": "주장 손흥민, ‘내분설’ 이후 첫 심경 고백…“팀이 건강해지는 과정이라 생각” / KBS 2026.11.13.",
-        "published": "2026-11-12T21:55:33Z"
+        "videoId": "OeK8fijVdSQ",
+        "title": "[이슈] 일본 기업들 \"한국 청년 모셔라\"... 3개 국어는 기본? 글로벌 인재 경쟁력/2026년 11월 13일(금)/KBS",
+        "published": "2026-11-13T05:54:58Z"
       },
       {
-        "videoId": "bThG8BheAx8",
-        "title": "대낮 무장 강도에 파리 보석상 털려…“100만 유로 훔쳐” / KBS 2026.11.13.",
-        "published": "2026-11-12T21:47:52Z"
+        "videoId": "XVdbUd0Jw_4",
+        "title": "[이슈] \"정숙하라\" 미 국방장관 일행 향해 '호통'친 병사에 훈장…장관이 직접 수여/2026년 11월 13일(금)/KBS",
+        "published": "2026-11-13T05:48:44Z"
       },
       {
-        "videoId": "39-jmWwouAA",
-        "title": "이 대통령, 16~19일 순방길…아세안·APEC 참석 / KBS 2026.11.13.",
-        "published": "2026-11-12T21:45:42Z"
+        "videoId": "-8i7n2owy_I",
+        "title": "“눈이 녹으면 진실이 드러난다”…김윤석·구교환의 미스터리 ‘폭설’ / KBS 2026.11.13.",
+        "published": "2026-11-13T05:46:52Z"
       },
       {
-        "videoId": "dhC9aDMKBZo",
-        "title": "[날씨] 온화한 가을 날씨…충청·남부 비 / KBS 2026.11.13.",
-        "published": "2026-11-12T21:41:42Z"
+        "videoId": "xI57V3jE1PI",
+        "title": "[글로벌K] 싱가포르, 자녀 호신술 교육 열풍   / KBS 2026.11.13.",
+        "published": "2026-11-13T05:40:19Z"
       },
       {
-        "videoId": "BzM5nY3FlRE",
-        "title": "[단독] '32대 쾅' 버스 회사, 1년 전 '판박이' 사고/\"브레이크가...\" 둘 다 중국산 전기버스/2026년 11월 12일(목)/KBS",
-        "published": "2026-11-12T21:35:36Z"
+        "videoId": "vwhZPlFJxgI",
+        "title": "[현장영상] 젠슨 황 떠난 엔비디아 본사…조화 놓고 눈물도 / KBS 2026.11.13.",
+        "published": "2026-11-13T05:29:43Z"
       },
       {
-        "videoId": "ClmWohqkYD8",
-        "title": "‘파업 예고’ 공항철도 협상 타결…열차 정상 운행 / KBS 2026.11.13.",
-        "published": "2026-11-12T21:34:28Z"
-      },
-      {
-        "videoId": "RDnbzzZip_A",
-        "title": "대구 공장서 불·서울 서대문구 아파트 정전…밤사이 사건사고 / KBS 2026.11.13.",
-        "published": "2026-11-12T21:33:40Z"
+        "videoId": "YWqnCc6HeWA",
+        "title": "[글로벌K] 미국, 젖소들의 새 친구 ‘로봇 개’ / KBS 2026.11.13.",
+        "published": "2026-11-13T05:20:08Z"
       }
     ],
     "yt-UCF4Wxdo3inmxP-Y59wXDsFw": [
       {
-        "videoId": "Q84p6aDiL0I",
-        "title": "이용철 법무장관 후보자, 청문회 준비단 출근길 질의응답 - [끝까지LIVE] MBC 중계방송 2026년 11월 13일",
-        "published": "2026-11-12T22:33:05Z"
+        "videoId": "-hOLRjMchf0",
+        "title": "국회 과방위 전체회의..이태현 KBS 사장 후보자 인사청문요청안 등 - [끝까지LIVE] MBC중계방송 2026년 11월 13일",
+        "published": "2026-11-12T22:56:44Z"
       },
       {
-        "videoId": "5N-CObpF1uc",
-        "title": "[투데이 Pick? Pick!] 젠슨 황 엔비디아 CEO 사퇴‥33년 만에 불명예 퇴진 (2026.11.13)",
-        "published": "2026-11-12T23:12:00Z"
+        "videoId": "I42y0oDZlF4",
+        "title": "대한민국시도민회연합 주최 ‘국민대통합 한마음 전진대회’ - [끝까지LIVE] MBC 중계방송 2026년 11월 13일",
+        "published": "2026-11-13T05:01:26Z"
       },
       {
-        "videoId": "sYb9VxdNx2Y",
-        "title": "[날씨] 내륙 중심 짙은 안개‥오늘부터 모레까지 비 소식 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T23:03:22Z"
+        "videoId": "Y_ccwzXT7Lo",
+        "title": "'최민희 감찰' 지시에‥친청계 \"악의적 프레임\" 반발 - [LIVE] MBC 뉴스외전 2026년 11월 13일",
+        "published": "2026-11-13T03:46:05Z"
       },
       {
-        "videoId": "7mAE-vg7hiQ",
-        "title": "젠슨 황 퇴진에 뉴욕증시 하락‥나스닥 0.4%↓ (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T23:02:12Z"
+        "videoId": "4vdNNUUxTus",
+        "title": "젠슨 황, 33년 만 불명예 퇴진‥\"충격적 몰락\" (2026.11.13/뉴스외전/MBC)",
+        "published": "2026-11-13T06:26:11Z"
       },
       {
-        "videoId": "QTu2PnNHZ7k",
-        "title": "\"K팝 배우러 왔어요\"‥외국인 관광객 2천만 시대 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T23:00:38Z"
+        "videoId": "p7nRUKONeBc",
+        "title": "[고수다] \"윤리감찰, 사실 확인 절차일 뿐‥최민희, 정치적 의도로 오해\" (2026.11.13/뉴스외전/MBC)",
+        "published": "2026-11-13T06:23:38Z"
       },
       {
-        "videoId": "vuZZfdL_Fkg",
-        "title": "\"해킹 의심되면 인출 차단\"‥가상자산 보안 강화 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:59:03Z"
+        "videoId": "cAFRBD-vDRw",
+        "title": "[맞수다] 민주 \"최민희 '헷갈렸다'더니 역공‥황당\"‥국힘 \"한동훈 복당, 도리어 갈등될까‥우려\" (2026.11.13/뉴스외전/MBC)",
+        "published": "2026-11-13T06:21:01Z"
       },
       {
-        "videoId": "gPth5xlscxE",
-        "title": "\"민원이 많습니다\"‥예산 심사보다 '지역구' (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:56:50Z"
+        "videoId": "qpB6ZZEagbE",
+        "title": "'이순신 구한 명재상' 정탁 탄신 500주년 예천에서 열려 (2026.11.12/뉴스데스크/안동MBC)",
+        "published": "2026-11-13T06:00:38Z"
       },
       {
-        "videoId": "iu8dTLct4HI",
-        "title": "\"2개 조선소와 협의\" 독려‥보름 만에 '계약' (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:54:46Z"
+        "videoId": "XebSOkAUGws",
+        "title": "문 닫은 교도소·정미소‥ 지역 문화거점으로 (2026.11.12/뉴스데스크/목포MBC)",
+        "published": "2026-11-13T06:00:33Z"
       },
       {
-        "videoId": "cpFClRceyuI",
-        "title": "\"이석기와 연결?\"‥\"끼워 맞추기 '색깔론'\" (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:53:05Z"
+        "videoId": "G2-_vynRENM",
+        "title": "집으로 총알이 날아들어? 군부대 \"배상 심의 진행 중\" (2026.11.12/뉴스데스크/대구MBC)",
+        "published": "2026-11-13T06:00:31Z"
       },
       {
-        "videoId": "FCw8byZq4MU",
-        "title": "[비즈&플러스] 웨어러블 로봇도 렌털‥가습기 경쟁 치열 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:50:20Z"
+        "videoId": "S_JZ6ZyeHVE",
+        "title": "군의회 예산 삭감에 멈춘 쌀 가공사업‥ 정상화는 언제? (2026.11.12/뉴스데스크/목포MBC)",
+        "published": "2026-11-13T06:00:31Z"
       },
       {
-        "videoId": "1FAkQJr8qT0",
-        "title": "젠슨 황 '불명예 퇴진'‥뉴욕 기술주 '휘청' - [LIVE] MBC 뉴스투데이 2026년 11월 13일",
-        "published": "2026-11-12T22:49:22Z"
+        "videoId": "npwl_DD8suw",
+        "title": "안동의료원 '의대병원 전환' 관측 속 '공공의료' 공백 우려도 (2026.11.12/뉴스데스크/안동MBC)",
+        "published": "2026-11-13T06:00:31Z"
       },
       {
-        "videoId": "SGgXnnqqXow",
-        "title": "[이슈 톡톡] '스시자로' 열풍‥태극기 내건 일본 병원들 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:49:08Z"
+        "videoId": "N9hSTnM310E",
+        "title": "국립의대 과제 산적‥ \"'동부권 연대'로 푼다\" (2026.11.12/뉴스데스크/여수MBC)",
+        "published": "2026-11-13T06:00:24Z"
       },
       {
-        "videoId": "7r7VBydRDB0",
-        "title": "입장 밝힌 손흥민‥\"주장 무게 견뎌내겠다\" (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:46:10Z"
+        "videoId": "kJSV2rGySQg",
+        "title": "속초 대포항, 국가 거점어항 선정‥ 950억 원 투입 (2026.11.12/뉴스데스크/MBC강원영동)",
+        "published": "2026-11-13T06:00:16Z"
       },
       {
-        "videoId": "zXrHss7Yp5o",
-        "title": "[이 시각 세계] 인도 검문소서 경찰관 치고 도주 (2026.11.13/뉴스투데이/MBC)",
-        "published": "2026-11-12T22:45:29Z"
+        "videoId": "WX6plkeencU",
+        "title": "대구시의회, 행정사무 감사서 \"군부대 이전 언제 합니까?\" (2026.11.12/뉴스데스크/대구MBC)",
+        "published": "2026-11-13T06:00:11Z"
+      },
+      {
+        "videoId": "egIq0cYy5gQ",
+        "title": "\"주택가 비밀 제조공장\"‥ 신종 마약 '야바' 국내 첫 제조·유통 적발 (2026.11.12/뉴스데스크/MBC강원영동)",
+        "published": "2026-11-13T06:00:09Z"
       }
     ],
     "yt-UCkinYTS9IHqOEwR1Sze2JTw": [
       {
-        "videoId": "0fK2_hFpRJ8",
-        "title": "[🔴속보] \"젠슨 황, 또 다른 여직원과도 내연 관계\" 세 번째 불륜 의혹...결국 엔비디아 CEO 사임 / SBS 실시간 라이브",
-        "published": "2026-11-12T22:57:09Z"
+        "videoId": "QwAasr3ZRl8",
+        "title": "🔴창사특집 2026 SBS 희망TV (3-4부) / SBS 실시간 라이브",
+        "published": "2026-11-12T02:04:48Z"
       },
       {
-        "videoId": "u-6LTveN1MA",
-        "title": "[LIVE] 젠슨 황 사실상 해임..엔비디아 주가 급락 外 SBS 모닝와이드/ 11/13(금)",
-        "published": "2026-11-12T11:53:41Z"
+        "videoId": "aggxZU2BIcU",
+        "title": "[🔴LIVE] 최고위 박차고 나온 '친청계' 선전포고..\"김민석이야말로 감찰 대상\" / SBS 실시간 라이브",
+        "published": "2026-11-13T05:40:29Z"
       },
       {
-        "videoId": "olua7V0Ccvk",
-        "title": "옆집에 배달된 택배..\"벗겨달라 말 못해\" 감동 사연 / 모닝 핫토픽 / SBS 모닝와이드",
-        "published": "2026-11-12T23:29:34Z"
+        "videoId": "NnUoYPcD5B4",
+        "title": "[🔴속보] 경찰, 이혜훈 '부정청약' 사기 혐의 송치.. '40억 시세 차익' 반포 원펜타스 몰수 신청 / SBS 실시간 라이브",
+        "published": "2026-11-13T05:21:28Z"
       },
       {
-        "videoId": "nLQXc8JfgOM",
-        "title": "지나던 차량도 '따봉'..아들 전역날 아버지 깜짝 선물 / 모닝 핫토픽 / SBS 모닝와이드",
-        "published": "2026-11-12T23:29:32Z"
+        "videoId": "7la76DRdzFk",
+        "title": "[🔴이슈] 타이완 언론 \"젠슨 황 불륜 상대 앨리스 황, 中 국가안전부 '칩 팀' 요원… 정보수장이 직접 지휘\" / SBS 실시간 라이브",
+        "published": "2026-11-13T04:52:39Z"
       },
       {
-        "videoId": "_b4RHoHfR3I",
-        "title": "\"한국 매장인 척\" 포장도 베꼈다..중국 상하이에 뜬 인기 폭발 '짝퉁' / 모닝 핫토픽 / SBS 모닝와이드",
-        "published": "2026-11-12T23:29:29Z"
+        "videoId": "8gKQ7A1YYXM",
+        "title": "\"2035년까지 35% 전기화\"..한국도 동참 선언 / SBS 8뉴스",
+        "published": "2026-11-13T06:11:46Z"
       },
       {
-        "videoId": "2c_ZF4Dojd0",
-        "title": "\"우편함에 봉투째 넣어라\"..범인 잡은 경찰의 기지 / 모닝 핫토픽 / SBS 모닝와이드",
-        "published": "2026-11-12T23:29:26Z"
+        "videoId": "-AhWFIb8ElM",
+        "title": "[여담야담] 최민희 잇단 '설화'에 민주당 '시끌' 국힘 '조작징계 의혹' 파문 [네트워크톡톡] 최상기 인제군수 - SBS 뉴스브리핑 11/13(금)",
+        "published": "2026-11-13T05:59:49Z"
       },
       {
-        "videoId": "O495qBK0vm4",
-        "title": "젠슨 황 결국 '사임'...엔비디아 주가는? / SBS / 모아보는 뉴스",
-        "published": "2026-11-12T23:22:23Z"
+        "videoId": "491PbmARD2w",
+        "title": "\"AI 안경, 수능 전에 도착할까?\"..논란 참전한 국무총리 \"무관용 대응\" (자막뉴스) / SBS",
+        "published": "2026-11-13T05:57:48Z"
       },
       {
-        "videoId": "fRHrb1PSpKw",
-        "title": "\"2,200만원 꺼내갔다\"..김승우, 절도 혐의로 피소 / 굿모닝연예 / SBS 모닝와이드",
-        "published": "2026-11-12T23:22:22Z"
+        "videoId": "7rqna4Awlug",
+        "title": "[🔴LIVE] 최고위 박차고 나온 '친청계' 선전포고..\"김민석이야말로 감찰 대상\" / SBS 실시간 라이브",
+        "published": "2026-11-13T00:24:29Z"
       },
       {
-        "videoId": "HMcBjwz2gKE",
-        "title": "\"꿈같은 나날\"..에이티즈 산, '배드' 열풍에 벅찬 소감 / 굿모닝연예 / SBS 모닝와이드",
-        "published": "2026-11-12T23:22:19Z"
+        "videoId": "L95NPnMWCfY",
+        "title": "국민의힘 전국청년지방의원협의회 발대식 / SBS 실시간 라이브",
+        "published": "2026-11-13T05:36:51Z"
       },
       {
-        "videoId": "JbyV0qk7p4U",
-        "title": "\"설레는 영상\"..크러쉬·조이, 깜짝 듀엣 영상 공개 / 굿모닝연예 / SBS 모닝와이드",
-        "published": "2026-11-12T23:22:16Z"
+        "videoId": "UGU3mtCGT40",
+        "title": "‘주택시장 동향·수도권 공급’ 제3차 주택공급 정례 브리핑 생중계 / SBS 실시간 라이브",
+        "published": "2026-11-13T05:31:10Z"
       },
       {
-        "videoId": "cYBhINc2Kzs",
-        "title": "포레스텔라, '꿈의 무대' 카네기홀서 콘서트..\"국내 최초\" / 굿모닝연예 / SBS 모닝와이드",
-        "published": "2026-11-12T23:22:14Z"
-      },
-      {
-        "videoId": "PH9UP5lQWtY",
-        "title": "뉴욕서 3층 건물 '와르르'..\"사상자 중 7명이 어린이\" / SBS 실시간 라이브",
-        "published": "2026-11-12T11:22:06Z"
-      },
-      {
-        "videoId": "SJ9h_4c28aA",
-        "title": "이정현 31득점 원맨쇼..소노 1점차 짜릿한 역전승 / SBS 모닝와이드",
-        "published": "2026-11-12T22:47:31Z"
-      },
-      {
-        "videoId": "o0_lMzAftBo",
-        "title": "무너진 마운드..호주에 충격의 역전패 / SBS 모닝와이드",
-        "published": "2026-11-12T22:46:30Z"
-      },
-      {
-        "videoId": "jmxFuCBg9yQ",
-        "title": "젠슨 황 사임·유가 급등에 증시 일제히 '하락' / 글로벌 마켓시황 / SBS 모닝와이드",
-        "published": "2026-11-12T22:42:48Z"
+        "videoId": "h1A_3271OoQ",
+        "title": "\"119에 무려 5,547번 신고했다\"..내용 확인한 소방당국 결국 '고발' (자막뉴스) / SBS",
+        "published": "2026-11-13T05:07:59Z"
       }
     ],
     "yt-UCsU-I-vHLiaMfV_ceaYz5rQ": [
       {
-        "videoId": "41hGX3Gca44",
-        "title": "[LIVE] '계엄 정당 메시지 전파 혐의' 윤석열 전 대통령·신원식 전 국가안보실장 오늘 첫 공판 / JTBC News",
-        "published": "2026-11-12T23:09:14Z"
+        "videoId": "IS8Np_iw6sQ",
+        "title": "[LIVE] [속보] '아들 성범죄 피해자' 10대 살해한 50대 남성 구속영장 발부 / JTBC News",
+        "published": "2026-11-13T06:11:13Z"
       },
       {
-        "videoId": "3cc2u364G4w",
-        "title": "[LIVE] 젠슨 황 '세 번째 여성' 등장…또 다른 여직원과 불륜 의혹 / JTBC News",
-        "published": "2026-11-12T22:57:54Z"
+        "videoId": "Et6QPy6yvx8",
+        "title": "[LIVE] 갑자기 바뀐 트럼프 \"이란과 합의 필요없다\"…'협상 주도' 밴스에 딴일 지시 / JTBC News",
+        "published": "2026-11-13T06:06:25Z"
       },
       {
-        "videoId": "c8JOyWK8nf0",
-        "title": "안경까지 벗고 '남다른 각오'…삼성 46조 투자, '메가' 첫 결실 / JTBC 아침&",
-        "published": "2026-11-12T23:24:12Z"
+        "videoId": "mE3afu4J3h8",
+        "title": "[LIVE] [속보] 박수홍, 친형 부부 상대 '98억 손배소' 1심 패소 / JTBC News",
+        "published": "2026-11-13T05:54:09Z"
       },
       {
-        "videoId": "yFrB7pxaaas",
-        "title": "머스크도 \"대체 불가\"…'젠슨 황 후계자' 거론된 인물들 [이슈PLAY] / JTBC News",
-        "published": "2026-11-12T23:23:53Z"
+        "videoId": "3UhVpGRx1_c",
+        "title": "[LIVE/JTBC 뉴스] 신개념 경제토크쇼 '장르가 머니' – 과징금 폭탄을 안겨준 배달앱들의 꼼수는? // 부천 원도심을 다시 핫플로 만든 비결! (26.11.13)",
+        "published": "2026-11-13T00:26:13Z"
       },
       {
-        "videoId": "H05ov6odUwg",
-        "title": "[풀영상/현장] 더불어민주당 '민티07' 생중계 (26.11.13) / JTBC News",
-        "published": "2026-11-12T21:57:35Z"
+        "videoId": "WnIEiwacUI8",
+        "title": "[LIVE] 국회 과학기술정보방송통신위원회 전체회의 /JTBC News",
+        "published": "2026-11-13T04:16:16Z"
       },
       {
-        "videoId": "L7nW3RqjmNI",
-        "title": "백악관까지 번진 '젠슨 황 추문'…시험대 오른 트럼프 내각 / JTBC 아침&",
-        "published": "2026-11-12T23:08:09Z"
+        "videoId": "TcZGFxlGdvQ",
+        "title": "[LIVE] \"젠슨 황, 사임 직전 '난 쓰레기' 자책...심리적 붕괴\" / JTBC News",
+        "published": "2026-11-13T04:43:56Z"
       },
       {
-        "videoId": "MuKM00UoBqY",
-        "title": "'깐부 전선' 이대로 괜찮나…삼전닉스 'HBM' 공급망은 건재 / JTBC 아침&",
-        "published": "2026-11-12T23:04:18Z"
+        "videoId": "UbxIdTLeTnI",
+        "title": "최민희, 비공개 간담회서 \"윤석열 선거법 재판, 이 대통령 재판과 똑같다\"｜지금 이 뉴스",
+        "published": "2026-11-13T06:25:43Z"
       },
       {
-        "videoId": "IosCu6910Y0",
-        "title": "엔비디아 한때 14% 급락…대비 나선 젠슨 황 '대형 로펌' 선임 / JTBC 아침&",
-        "published": "2026-11-12T22:48:23Z"
+        "videoId": "8H_0qdaOOL0",
+        "title": "[속보] 경찰, '부정청약 의혹' 이혜훈 송치…반포 원펜타스 몰수 신청 [이슈PLAY] / JTBC News",
+        "published": "2026-11-13T04:32:43Z"
       },
       {
-        "videoId": "5JbJF4Y66q8",
-        "title": "젠슨 황 결국 불명예 퇴진…'또 다른 여직원'과 불륜설 의혹 / JTBC 아침&",
-        "published": "2026-11-12T22:44:03Z"
+        "videoId": "VL7T7bdu78g",
+        "title": "MS 365 전세계 서버 먹통…메일 끊기고 업무 마비에 아우성｜지금 이 뉴스",
+        "published": "2026-11-13T06:15:39Z"
       },
       {
-        "videoId": "fhlZ4lxzCMA",
-        "title": "오산 원룸서 비닐 속 30대 남성 시신 나와…직장동료가 신고｜지금 이 쇼츠",
-        "published": "2026-11-12T22:20:25Z"
+        "videoId": "s4OzCDWibx8",
+        "title": "[현장영상] 친청 명패를 '쓱' 내홍 폭발…어수선 분위기 속 김민석 표정이 / JTBC News",
+        "published": "2026-11-13T06:10:04Z"
       },
       {
-        "videoId": "NK7dKtPJtyQ",
-        "title": "의뢰인은 재판 끝난 줄도 모르고…상속금 3천만원 '먹튀'한 변호사｜지금 이 쇼츠",
-        "published": "2026-11-12T22:10:19Z"
+        "videoId": "85nwdNc7cyk",
+        "title": "\"반드시 대만 통일\" 4연임 앞두고 강경 선언…대만 APEC 참가 두고도 신경전도｜지금 이 뉴스",
+        "published": "2026-11-13T06:06:36Z"
       },
       {
-        "videoId": "73fPmB5kPyU",
-        "title": "강신철 대폭발!! 미필 국회의원이 '잡도리' 하다가 벌어진 일 #뉴스다 / JTBC News",
-        "published": "2026-11-12T22:00:32Z"
+        "videoId": "DEefltXhnuE",
+        "title": "젠슨 황이 부러웠나…텔레그램 창업자 \"내게도 여성 스파이를\"｜지금 이 뉴스",
+        "published": "2026-11-13T06:03:02Z"
+      },
+      {
+        "videoId": "WeC2chz-jAU",
+        "title": "[풀영상/현장] 더불어민주당 2026 참좋은지방자치 정책대회 (26.11.13) / JTBC News",
+        "published": "2026-11-13T06:00:47Z"
+      },
+      {
+        "videoId": "PDzmJtbEboU",
+        "title": "인생샷 찍으려다 해안동굴 고립…직접 뛰어든 해경｜지금 이 쇼츠",
+        "published": "2026-11-13T06:00:39Z"
+      },
+      {
+        "videoId": "sY1Ybkvh9K4",
+        "title": "\"이렇게 하면 안된다\" 또 지적 받은 종합특검…재판부, 조성현에 \"위헌성 몰랐다면, 왜 국회 출입 막았다고 생각?\"｜지금 이 뉴스",
+        "published": "2026-11-13T05:58:20Z"
       }
     ],
     "yt-UCG9aFJTZ-lMCHAiO1KJsirg": [
       {
-        "videoId": "8nmpNLr3src",
-        "title": "[속보] 젠슨황 퇴진에 엔비디아 4.34% 급락…美 의회 \"퇴진했어도 강제 소환\" / 세번 째 불륜스캔들 나왔다…\"슨 황 또 다른 여직원과 내연관계\" | MBN NEWS",
-        "published": "2026-11-12T23:24:41Z"
+        "videoId": "E9gzhHcQpow",
+        "title": "[속보] 박수홍, 친형 부부 '98억 손배소' 1심 패소..5년 만 판결 | MBN NEWS",
+        "published": "2026-11-13T05:14:54Z"
       },
       {
-        "videoId": "jKT-9oD2SF4",
-        "title": "[이슈] '성북구 여중생 살해' 50대 남성 구속영장 청구…이틀째 진술 거부 / 피해자 만나 숙소 들어가…3시간 뒤 퇴실 후 흉기 유기 | MBN NEWS",
-        "published": "2026-11-12T23:06:50Z"
+        "videoId": "YMC8XcXCm7c",
+        "title": "🔴[LIVE] 국회 과학기술정보방송통신위원회 전체회의 | MBN NEWS",
+        "published": "2026-11-13T04:48:47Z"
       },
       {
-        "videoId": "sI-b4pH10Ag",
-        "title": "[LIVE] 강남發 집값 하락세, 한강벨트까지 번졌다 - MBN 아침&매일경제 (2026.11.13)",
-        "published": "2026-11-12T21:21:38Z"
+        "videoId": "XE0mksMM7WA",
+        "title": "[이슈] 장동혁, 오세훈에 '불편한 심기'…韓 복당 필요' 언급에 \"패륜·분열정치 받아들이나\" | MBN NEWS",
+        "published": "2026-11-13T04:50:11Z"
       },
       {
-        "videoId": "ZsmXMjolxiQ",
-        "title": "정청래 '사과 3원칙' 얘기하다…갑자기 부부싸움 토크?",
-        "published": "2026-11-12T23:00:29Z"
+        "videoId": "4FkiRNd-pHA",
+        "title": "[이슈] 박지원 \"당신들 때문에 민주당 죽는다\"…金·鄭 파열음에 깊어지는 계파 갈등 / 최민희 감찰 지시에 친청계 최고위 불참…\"감찰 대상은 김민석\" | MBN NEWS",
+        "published": "2026-11-13T02:01:43Z"
       },
       {
-        "videoId": "rD9QZ6iy2Mk",
-        "title": "[이슈] 머스크, '해임 위기' 젠슨황에 러브콜?…\"영입한다면 영광\" / \"젠슨 황은 대체 불가\"…머스크·월가 거물들, '中 스파이 불륜' 감싸나 | MBN NEWS",
-        "published": "2026-11-12T22:38:41Z"
+        "videoId": "RgzZmP9hTgM",
+        "title": "'손님맞이' 중 의장대 군인 한자리서 2명 실신...마크롱도 '당황' [이슈영상]",
+        "published": "2026-11-13T05:24:17Z"
       },
       {
-        "videoId": "ulnLHJpDTFY",
-        "title": "[이슈] 젠슨 황 후계자로 '애플 칩 개발' 조니 스루지 거론…CFO가 임시수장 맡을 듯 | MBN NEWS",
-        "published": "2026-11-12T22:23:50Z"
+        "videoId": "K6iR8CspwAg",
+        "title": "[이슈] 33년 쌓아 올린 업적 '와르르'…젠슨황 엔비디아 CEO 퇴진 / 젠슨황 세번째 불륜스캔들 나와…\"다른 여직원과 혼외관계\" | MBN NEWS",
+        "published": "2026-11-13T01:22:56Z"
       },
       {
-        "videoId": "viW03Zvi8iE",
-        "title": "[이슈] 장동혁·오세훈 공개 대립에 한동훈 복당 논란까지…보수통합 '난항' / 윤리위 '내부 폭로' 변수에…한동훈 복당 공방 재점화 | MBN NEWS",
-        "published": "2026-11-12T22:20:47Z"
+        "videoId": "V7h1iwXEv44",
+        "title": "이부진, 지수도 '박수 갈채'…재계·셀럽 이대 총출동한 이유",
+        "published": "2026-11-13T04:52:47Z"
       },
       {
-        "videoId": "BQ_8umRfFXM",
-        "title": "[이슈] 젠슨 황, 과거 엔비디아 후계 논의 거부…\"딸 승계도 원치않아\" / 엔비디아 이사회, 젠슨황 CEO 해임 추진…이르면 오늘 결정 | MBN NEWS",
-        "published": "2026-11-12T21:54:07Z"
+        "videoId": "HmWeTOv-abw",
+        "title": "[다시보기] 2026년 11월 13일 매일경제 1면…강남發 집값 하락세, 한강벨트까지 번졌다 - 아침 & 매일경제 (2026.11.13)",
+        "published": "2026-11-13T04:46:11Z"
       },
       {
-        "videoId": "DTnHx4JUgUo",
-        "title": "🔴[LIVE] 비경제부처 내년 예산안 심사 이틀째…미래기금·특활비 공방 / 국회 예산결산특별위원회 전체회의(오후) | MBN NEWS",
-        "published": "2026-11-12T21:39:19Z"
+        "videoId": "pSH5a6hLXpk",
+        "title": "배우 김승우, 술자리 중 절도? 김승우 측 ＂장난이었고 이미 반환했다＂ 반박 | 이슈픽",
+        "published": "2026-11-13T04:41:28Z"
       },
       {
-        "videoId": "yHBeJPk5xW8",
-        "title": "[이슈] \"한줄 4000원 시대\"…올해 외식 메뉴 가격 상승률 1위 '김밥' / 가벼운 한 끼 옛말…김밥·도시락 상승률 최고 | MBN NEWS",
-        "published": "2026-11-12T21:30:06Z"
+        "videoId": "ms9Yw7EDxQ4",
+        "title": "[알고보면] 안경 벗은 이재용, 故 이건희 판박이 외모 화제 [아침&매일경제]",
+        "published": "2026-11-13T04:28:39Z"
       },
       {
-        "videoId": "5lECbqqXor0",
-        "title": "[이슈] SK하이닉스, '억대 성과급' 기대감 속 하반기 생산직 채용…학력 제한 없애고 문호 넓혔다 | MBN NEWS",
-        "published": "2026-11-12T21:23:37Z"
+        "videoId": "I7xrwhLZr1k",
+        "title": "외통위서 '북향민' 용어로 고성 충돌…\"북동영\" \"탈충권\" [아침&매일경제]",
+        "published": "2026-11-13T04:27:26Z"
       },
       {
-        "videoId": "OJIZWj2Yt1s",
-        "title": "[이슈] 인간의 탈을 쓴 악마…아들이 성폭행한 10대 피해자 살해한 아버지 / '흉기 구입' 50대 남성, 계획범죄 정황…경찰, 오늘 구속영장 신청 | MBN NEWS",
-        "published": "2026-11-12T21:04:49Z"
+        "videoId": "qBdTzR2ZuLs",
+        "title": "최민희 '잇단 언행 논란'에…김민석, 감찰조사 지시 [아침&매일경제]",
+        "published": "2026-11-13T04:26:20Z"
       },
       {
-        "videoId": "m22ZKleznkE",
-        "title": "🔴[LIVE] 비경제부처 내년 예산안 심사 이틀째…미래기금·특활비 공방 / 국회 예산결산특별위원회 전체회의 | MBN NEWS",
-        "published": "2026-11-12T20:37:35Z"
+        "videoId": "t0KpO947P5E",
+        "title": "한동훈 복당론에 반격 나선 장동혁…\"복당? 패륜·분열 정치 받아들이자는 것\" [아침&매일경제]",
+        "published": "2026-11-13T04:25:11Z"
       },
       {
-        "videoId": "he3vI-2NQGY",
-        "title": "🔴[LIVE] 비경제부처 내년 예산안 심사 이틀째…미래기금·특활비 공방 / 국회 예산결산특별위원회 전체회의(오후) | MBN NEWS",
-        "published": "2026-11-12T20:13:30Z"
+        "videoId": "SmW6vKIEM2o",
+        "title": "두 번의 불륜, 무너진 황제…젠슨 황, 엔비디아 CEO 사퇴 [아침&매일경제]",
+        "published": "2026-11-13T04:23:26Z"
       },
       {
-        "videoId": "aqYwH2NWJG8",
-        "title": "🔴[LIVE] 이재명 대통령 주재, 수석보좌관회의 생중계 | MBN NEWS",
-        "published": "2026-11-12T20:09:25Z"
+        "videoId": "1zYh85DsEtg",
+        "title": "2026년 11월 13일 매일경제 1면…강남發 집값 하락세, 한강벨트까지 번졌다 [아침&매일경제]",
+        "published": "2026-11-13T04:21:46Z"
       }
     ],
     "yt-UCfq4V1DAuaojnr2ryvWNysw": [
       {
-        "videoId": "y8PHZk3Iumk",
-        "title": "[🔴정치시그널 LIVE] 갈라서기 시작했다?ㅣ11월 2주",
-        "published": "2026-11-12T05:35:58Z"
+        "videoId": "soo53W47Z2k",
+        "title": "[🔴라이브를 켜라] [LIVE] 조경태 국민의힘 의원, 현안 관련 긴급 기자회견 생중계 / 채널A",
+        "published": "2026-11-12T01:21:35Z"
+      },
+      {
+        "videoId": "y_6DwCx2DGo",
+        "title": "[🔴이슈를 켜라] [LIVE] 우크라이나, 발트해서 러시아 군함 공격… 첫 사례에 확전 우려 / 채널A",
+        "published": "2026-11-12T23:32:41Z"
+      },
+      {
+        "videoId": "_FItHybgneA",
+        "title": "[🔴라이브를 켜라] [LIVE] 국회 국민대통합 한마음 전진대회 현장… 오세훈 참석 / 채널A",
+        "published": "2026-11-10T07:42:30Z"
+      },
+      {
+        "videoId": "OdOkMojbNaQ",
+        "title": "[🔴라이브를 켜라] [LIVE] 국회 과방위 전체회의 현장 생중계… 이 시각 국회 / 채널A",
+        "published": "2026-11-11T04:18:12Z"
+      },
+      {
+        "videoId": "1k9fBuSMDHM",
+        "title": "[🔴이슈를 켜라] [LIVE] “앨리스황, 中 국가안전부 '칩 팀' 요원\"… 반도체 전담 공작 조직 소속 / 채널A",
+        "published": "2026-11-12T23:38:11Z"
+      },
+      {
+        "videoId": "Q8Rx74gj_mg",
+        "title": "[🔴이슈를 켜라] [LIVE] 블룸버그 \"젠슨황, 퇴진 직전 극심한 좌절감… '인간 쓰레기'라 비난\" / 채널A",
+        "published": "2026-11-12T23:18:10Z"
       },
       {
         "videoId": "R42Fjg05vAw",
-        "title": "[🔴이슈를 켜라] [LIVE] 미 CNBC \"앨리스 황, 중국 화웨이측 데이터센터 간접 보유\" / 채널A",
+        "title": "[🔴이슈를 켜라] 미 CNBC \"앨리스 황, 중국 화웨이측 데이터센터 간접 보유\" / 채널A",
         "published": "2026-11-12T07:36:06Z"
       },
       {
-        "videoId": "PnojWGnRYmY",
-        "title": "[🔴이슈를 켜라] [LIVE] 최민희 \"李, 윤석열 탄핵 반대\" 발언에 여권 발칵… 김민석, 윤리감찰 전격 지시 / 채널A",
-        "published": "2026-11-12T07:36:39Z"
+        "videoId": "ioa2ciYtrxk",
+        "title": "'범LG가 3세' 구본현, 8년 해외도피 끝에 구속 [자막뉴스] / 채널A",
+        "published": "2026-11-13T06:13:32Z"
       },
       {
-        "videoId": "LHs3heBawRI",
-        "title": "[🔴이슈를 켜라] [LIVE] 로이터 \"젠슨황, 또 다른 직원과 불륜 관계 맺었다\"… 세번째 불륜? / 채널A",
-        "published": "2026-11-12T11:50:18Z"
+        "videoId": "y8PHZk3Iumk",
+        "title": "[🔴정치시그널 LIVE] 갈라서기 시작했다?ㅣ11월 2주",
+        "published": "2026-11-13T06:13:05Z"
       },
       {
-        "videoId": "tgBkKipJ-gY",
-        "title": "“이 대통령, 尹 탄핵 반대” 발언 논란… 최민희 \"일부 왜곡, 제가 헷갈렸다\" 해명 [뉴스플레이리스트] / 채널A",
-        "published": "2026-11-12T23:17:24Z"
-      },
-      {
-        "videoId": "CVQuXbsj7FU",
-        "title": "[다시보기] 젠슨 황의 끝없는 추락…이번엔 “사내 임원과 불륜” 폭로 │ 엔비디아 젠슨 황과 헤어질 결심? / 채널A",
-        "published": "2026-11-12T23:13:32Z"
-      },
-      {
-        "videoId": "BRSDvkDiphs",
-        "title": "[🔴이슈를 켜라] [속보] 로이터 \"잰슨 황, 엔비디아 CEO직 사임\" / 채널A",
-        "published": "2026-11-12T23:12:15Z"
-      },
-      {
-        "videoId": "e4A2uo_e6uA",
-        "title": "[속보] \"앨리스 황, 중국 베이징에 있다…中도 인지\" [뉴스플레이리스트] / 채널A",
-        "published": "2026-11-12T23:11:15Z"
-      },
-      {
-        "videoId": "00Ice9j0gVQ",
-        "title": "[속보] 미 CNBC \"앨리스 황, 중국 화웨이측 데이터센터 간접 보유\" [뉴스플레이리스트] / 채널A",
-        "published": "2026-11-12T23:10:27Z"
+        "videoId": "ObIcjFypVHk",
+        "title": "[속보] 젠슨황, 사임 직전 \"난 쓰레기… 아내와 그녀들 걱정된다\" [뉴스플레이리스트] / 채널A",
+        "published": "2026-11-13T06:11:33Z"
       }
     ],
     "yt-UCWlV3Lz_55UaX4JsMj-z__Q": [
       {
-        "videoId": "26zWhfLdJc8",
-        "title": "[🔴 현장연결] 이용철 법무장관 후보자 출근길 생중계 [무조건 간다 LIVE]",
-        "published": "2026-11-12T23:20:25Z"
+        "videoId": "T_Ndwxl-MgE",
+        "title": "[🔴 현장연결] 조경태, 국힘 윤리위 '조작 징계' 의혹 관련 긴급 기자회견 [무조건 간다 LIVE]",
+        "published": "2026-11-13T06:09:59Z"
       },
       {
-        "videoId": "RPkoMtN2I94",
-        "title": "[TVCHOSUN LIVE] 11월 13일 (금) 뉴스 퍼레이드 - 젠슨황 사임…트럼프 \"후임은 팀 쿡\" /공항철도 노사, 임금협상 극적 타결 /세무사 수석 합격자 AI 안경 의혹",
-        "published": "2026-11-12T22:16:38Z"
+        "videoId": "l0IhnSE24V8",
+        "title": "[🔴 속보] 친청계, 최고위 보이콧하며 \"김민석이 감찰 대상\"···친명계 \"분열 행위\" 반발 [이슈PLAY]",
+        "published": "2026-11-13T05:10:46Z"
       },
       {
-        "videoId": "9inXPu3vqPk",
-        "title": "수능 향한 간절함, 갓바위에 올리는 기도 [영상에세이] [네트워크매거진]",
-        "published": "2026-11-12T22:52:12Z"
+        "videoId": "LwxIrI8z9M8",
+        "title": "[🔴 속보] 李 지지율, 다시 30%대로 하락···'부동산·재판 회피' 불만 /한국갤럽 [이슈PLAY]",
+        "published": "2026-11-13T04:48:19Z"
       },
       {
-        "videoId": "S2OCIi2MgAQ",
-        "title": "\"두개 남았어요\"…'짝퉁 라방' 일당 덜미 [현장 핫클릭] [네트워크매거진]",
-        "published": "2026-11-12T22:51:24Z"
+        "videoId": "OE3jWZpLq7I",
+        "title": "최민희, 비공개 간담회서 \"李도 尹 탄핵 반대…대통령 판단 늘 옳진 않아\"...문성호 \"과연 김민석이 최민희를 제압할 수 있을까? 칼도 못 뽑는데\"[✒️뉴스트라다무스 Replay]",
+        "published": "2026-11-13T03:45:37Z"
       },
       {
-        "videoId": "fiIzvxo3zJo",
-        "title": "강기윤 창원시장 \"청년이 찾는 AI 제조도시로\" [네트워크 초대석]",
-        "published": "2026-11-12T22:49:14Z"
+        "videoId": "3cJxfoQCWuI",
+        "title": "[🔴 속보] 친청계 3명 전원 최고위 불참···별도 회견 열고 \"김민석이 감찰 대상\" [이슈PLAY]",
+        "published": "2026-11-13T06:16:34Z"
       },
       {
-        "videoId": "NE7soxS1DEY",
-        "title": "청주공항 이용객 500만 눈앞…국제선 카운터 10곳 증설 [네트워크매거진]",
-        "published": "2026-11-12T22:45:38Z"
+        "videoId": "kZ3IOsiRw2A",
+        "title": "인터뷰 중 얼굴 가격당한 메랍…호텔 집단 난투극에 10명 체포 / 뉴스낵",
+        "published": "2026-11-13T05:53:35Z"
       },
       {
-        "videoId": "bWVfKmqNnTw",
-        "title": "\"행복을 입양하세요\"…반려동물 위한 '복지센터' [네트워크매거진]",
-        "published": "2026-11-12T22:44:57Z"
+        "videoId": "VCFoafPoROM",
+        "title": "인터뷰 중 얼굴 가격당한 메랍…호텔 집단 난투극에 10명 체포 / 뉴스낵",
+        "published": "2026-11-13T05:52:18Z"
       },
       {
-        "videoId": "lkE8yzAmooA",
-        "title": "배추 수확도 기계가 '척척'…농가 일손 부담 확 줄인다 [네트워크매거진]",
-        "published": "2026-11-12T22:44:20Z"
+        "videoId": "EIS83iR7Bqg",
+        "title": "(단독) 이준석, 한동훈 겨냥 \"'욕쟁이 할머니'가 맛도 없어…통합 강요하는 건 폭력\" [✒️뉴스트라다무스]",
+        "published": "2026-11-13T05:34:03Z"
       },
       {
-        "videoId": "RLCAGFgqLcQ",
-        "title": "서울역 광장 '금주구역' 됐지만…'풍선효과' 우려 [네트워크매거진]",
-        "published": "2026-11-12T22:43:35Z"
+        "videoId": "zZdmDhq73HU",
+        "title": "[🔴 속보] '사임' 젠슨 황, 세 번째 불륜 의혹···\"상대는 또 다른 엔비디아 여직원\" [이슈PLAY]",
+        "published": "2026-11-13T05:21:52Z"
       },
       {
-        "videoId": "sp6qnQA89Tw",
-        "title": "\"빼빼로데이? 부산은 달라예\"…20년째 이어진 참전용사 추모 [네트워크매거진]",
-        "published": "2026-11-12T22:42:52Z"
+        "videoId": "S7kLrNg-K9I",
+        "title": "[풀버전] 11월 13일 (금) 보도본부 #핫라인 - 최민희 \"헷갈린 것\" 거듭 해명 / 젠슨 황, 33년 만에 불명예 퇴진 / 美 국방장관, 호통 친 병사에 훈장",
+        "published": "2026-11-13T05:17:11Z"
       },
       {
-        "videoId": "E5yDVo5HAdk",
-        "title": "[🔴이슈PICK] 앨리스황 남편이 젠슨황에게 아내 소개…불륜 관계도 용인한 듯 / 뉴스낵",
-        "published": "2026-11-12T22:30:42Z"
+        "videoId": "RkwFVOufdL0",
+        "title": "엔비디아 14% 폭락에 美개미 역대급 '줍줍'…30분 만에 1480억 원 샀다 / 뉴스낵",
+        "published": "2026-11-13T05:10:03Z"
       },
       {
-        "videoId": "XjzhbsfJqEA",
-        "title": "[🔴 속보] 정청래, 박지원에 \"심판 행세하지 말고 빠져라\"···민주당 갈등 어디까지? [이슈PLAY]",
-        "published": "2026-11-12T17:06:58Z"
+        "videoId": "aRJtVfNcVp0",
+        "title": "엔비디아 14% 폭락에 美개미 역대급 '줍줍'…30분 만에 1480억 원 샀다 / 뉴스낵",
+        "published": "2026-11-13T05:09:59Z"
       },
       {
-        "videoId": "kQf8wsb-Yoo",
-        "title": "[🔴 속보] 장동혁 “한동훈 복당 고려 안 해”···황경성에 최고위 출석 요구 [이슈PLAY]",
-        "published": "2026-11-12T16:54:57Z"
+        "videoId": "tPoG3CyblYk",
+        "title": "스파이 의혹에 사내 불륜까지···엔비디아 황제의 몰락, '깐부동맹'도 흔들리나 [티조 Clip]",
+        "published": "2026-11-13T05:00:46Z"
       },
       {
-        "videoId": "QmIEFLrv93Y",
-        "title": "[🔴 속보] 친명계 김우영 \"최민희, 당신은 '친박시영'이냐? 당 꼬라지 잘 돌아간다\" [이슈PLAY]",
-        "published": "2026-11-12T16:53:25Z"
-      },
-      {
-        "videoId": "y1nOjkDl0Uk",
-        "title": "[🔴 속보] 계속되는 신천지 내전···김민석 \"대화로 풀자\"에 정청래 \"자기장사\" [이슈PLAY]",
-        "published": "2026-11-12T16:51:48Z"
+        "videoId": "g4ly7KuPdJA",
+        "title": "손흥민·김민재 등 \"국민께 죄송\" 입장문...\"함께 만들 대표팀에 집중\" [티조 Clip]",
+        "published": "2026-11-13T04:59:52Z"
       }
     ],
     "yt-UCL-WOj1FxKR8Hlzg5tvnWKg": [
+      {
+        "videoId": "cov5nOXaRok",
+        "title": "[국회방송 생중계] 국회의원 선거제도와 정당공천 개혁방향 - 국회입법조사처 등 (26.11.13.)",
+        "published": "2026-11-12T09:03:17Z"
+      },
+      {
+        "videoId": "I2EGxVCXftQ",
+        "title": "[국회방송 생중계] 과학기술정보방송통신위원회 - 2027년도 예산안 의결 등 (26.11.13.)",
+        "published": "2026-11-12T09:00:42Z"
+      },
+      {
+        "videoId": "2gBd9CZL_CI",
+        "title": "야 특검 맹공···\"거부권 행사 안 하면 국민이 심판\" (26.11.13.) | 설훈 전 국회의원·홍일표 전 국회의원 | 정치한수 | 국회라이브1",
+        "published": "2026-11-13T05:37:48Z"
+      },
+      {
+        "videoId": "cXuTYJAXVnY",
+        "title": "이 대통령, 민주당 지도부와 3시간 만찬 (26.11.12.) | 최진봉 성공회대 교수·장성호 국민의힘 미디어 대변인 | 직격토론 | 국회라이브1",
+        "published": "2026-11-13T05:17:02Z"
+      },
+      {
+        "videoId": "j_yxHVg1VeA",
+        "title": "[국회방송 생중계] 보건복지위원회 - 2027년도 예산안 의결 및 법안 상정 등 (26.11.13.)",
+        "published": "2026-11-12T08:54:12Z"
+      },
+      {
+        "videoId": "LjvsAvpld4g",
+        "title": "[국회방송 생중계] 산업통상자원중소벤처기업위원회 - 2027년도 예산안 의결 및 법안 상정 등 (26.11.13.)",
+        "published": "2026-11-12T08:58:59Z"
+      },
+      {
+        "videoId": "cFf63SKLqQg",
+        "title": "태어난 즉시 기록될 권리, 국가가 출생을 책임지다👶 | 대한민국을 바꾼 법의 탄생 · 헌법을 말하다 | 국회방송",
+        "published": "2026-11-13T00:00:10Z"
+      },
       {
         "videoId": "qCHNOzsvWL8",
         "title": "[국회방송 생중계] 정무위원회 - 2027년도 예산안 의결 등 (26.11.12.)",
@@ -670,48 +690,68 @@
         "videoId": "cWPYNIQ58XA",
         "title": "국민의힘 \"이 대통령 거부권 행사해야\"…이용철 송곳 검증 예고 (26.11.12.) | 국회라이브6",
         "published": "2026-11-12T11:16:31Z"
-      },
-      {
-        "videoId": "teigh1ttoAE",
-        "title": "민주당 \"당청, 민생 위해 긴밀 협력…엇박자 없다\" (26.11.12.) | 국회라이브6",
-        "published": "2026-11-12T11:15:46Z"
-      },
-      {
-        "videoId": "ceuPXf1EiC8",
-        "title": "예결위, '안보·특검·세수결손' 등 쟁점…다음주 예산안소위 가동 (26.11.12.) | 국회라이브6",
-        "published": "2026-11-12T11:15:10Z"
-      },
-      {
-        "videoId": "DpLgbufzh3o",
-        "title": "나경원·강신철, ‘당나라 군대’ 설전…안보 공방 격화 (26.11.12.) | 오늘의 정치톡 | 국회라이브6",
-        "published": "2026-11-12T11:04:10Z"
-      },
-      {
-        "videoId": "vPg04cwe7Cg",
-        "title": "[다시보기] 예결위, 안보·특검·세수결손 등 쟁점 (26.11.12.) | 국회라이브6",
-        "published": "2026-11-12T10:34:21Z"
-      },
-      {
-        "videoId": "Az63AjJpS0I",
-        "title": "[국회방송 생중계] 1부 - 예산결산특별위원회 - 부별심사 (비경제부처) (26.11.12.)",
-        "published": "2026-11-12T09:30:15Z"
-      },
-      {
-        "videoId": "17BgwGqZEO8",
-        "title": "오랜 역사 위 새로운 변화, 일상의 활기가 넘치는 도시 🏙️ 경기 수원시무 | 염태영 더불어민주당 의원 | 민심탐험대 윤택이 뛴다! | 국회방송",
-        "published": "2026-11-12T07:30:38Z"
-      },
-      {
-        "videoId": "nK-U5Ksfmfs",
-        "title": "[국회방송 생중계] 국토교통위원회 - 2027년도 예산안 상정 및 법안 의결 (26.11.12.)",
-        "published": "2026-11-12T04:47:54Z"
       }
     ],
     "yt-UCF8AeLlUbEpKju6v1H6p8Eg": [
       {
+        "videoId": "57DGHxTB-Jg",
+        "title": "제발 차트 보고 사세요. 그냥 사면 물립니다ㅣ돈 버는 트레이딩ㅣ장영한ㅣ주식 차트 기초ㅣ",
+        "published": "2026-11-13T05:00:27Z"
+      },
+      {
+        "videoId": "UhpZEDIyLNY",
+        "title": "[딥담화] ‘황 퇴진’이냐, '앤트로픽 흥행'이냐...외국인의 선택은?｜이권희｜이화진｜이진우",
+        "published": "2026-11-13T04:51:52Z"
+      },
+      {
+        "videoId": "DYbW5Q-1_tE",
+        "title": "“2027년 주도주 순서 바뀐다”...상반기 ‘이 업종’ 먼저 담아라 | 김재승 현대차증권 연구위원 | 2027 투자 전략 | #출발증시",
+        "published": "2026-11-13T04:00:24Z"
+      },
+      {
+        "videoId": "AttHh4UmDK4",
+        "title": "그래도 코스피는 1만 간다 | 김재승 현대차증권 연구위원 | 2027 투자 전략 | #출발증시",
+        "published": "2026-11-13T04:00:08Z"
+      },
+      {
         "videoId": "86BLUTBcT3o",
-        "title": "'젠슨 황' 떠난 엔비디아 주가 '뚝'…AI주, 엇갈린 희비 속 분수령은 '이것' #엔비디아급락 #AI규제 #반도체전망",
-        "published": "2026-11-12T23:00:36Z"
+        "title": "유가 급등·엔비디아 악재에 美 기술주 '주춤'…다음주 투자 전략 '이렇게' 세우세요 #젠슨황사임 #기술주약세 #삼전닉스전망",
+        "published": "2026-11-13T03:45:00Z"
+      },
+      {
+        "videoId": "Ni5XlgL-b4A",
+        "title": "유가 급등·엔비디아 악재에 美 기술주 '주춤'…다음주 투자 전략 '이렇게' 세우세요 #젠슨황사임 #기술주약세 #삼전닉스전망",
+        "published": "2026-11-13T03:09:28Z"
+      },
+      {
+        "videoId": "NyWviuZAap8",
+        "title": "반도체 장비, 성장 늦어지나...관건은 '이것'ㅣ이완수 그레너리투자자문 대표ㅣ머니플러스",
+        "published": "2026-11-13T02:30:17Z"
+      },
+      {
+        "videoId": "2_PtwNM4yXU",
+        "title": "기관은 이미 알고 있다? 다음 주도주는 '여기' (이완수 그레너리투자자문 대표, 반종민 Prestige 경영전략연구소 소장)",
+        "published": "2026-11-13T02:30:10Z"
+      },
+      {
+        "videoId": "lMMr_ZhLdEA",
+        "title": "엔비디아 없어도 HBM 시장 커지는 이유 | 백길현 유안타증권 연구위원 | #출발증시",
+        "published": "2026-11-13T02:12:23Z"
+      },
+      {
+        "videoId": "ou5v6QdNK6U",
+        "title": "“젠슨 황 퇴진, 삼전엔 호재?”...새 CEO가 바꿀 ‘HBM 판도’ | 백길현 유안타증권 연구위원 | #출발증시",
+        "published": "2026-11-13T01:46:45Z"
+      },
+      {
+        "videoId": "dPRrYqAZdXI",
+        "title": "엔비디아를 벗어나는 데 8개월이 아니라 사흘?ㅣ손석우ㅣ김승혁ㅣ윤진",
+        "published": "2026-11-12T23:45:12Z"
+      },
+      {
+        "videoId": "ix1Y2-MJXns",
+        "title": "HBM, 마이크론이 더 받아도 삼성·하이닉스를 못 빼는 이유ㅣ손석우ㅣ김승혁ㅣ윤진",
+        "published": "2026-11-12T23:45:05Z"
       },
       {
         "videoId": "C-mRv6aIEIk",
@@ -722,180 +762,160 @@
         "videoId": "6lWF4qTYIR4",
         "title": "뉴욕증시 3대 지수 하락...젠슨황 쇼크, 엔비디아 폭락ㅣ 뉴욕인사이트_김선형 ㅣ261113",
         "published": "2026-11-12T22:28:25Z"
-      },
-      {
-        "videoId": "bEApLcAJsl0",
-        "title": "11월 13일 글로벌 1분 시황✅ #당잠사 #굿모닝한경글로벌마켓 #1분시황",
-        "published": "2026-11-12T22:27:01Z"
-      },
-      {
-        "videoId": "aagocmJvD-A",
-        "title": "온로드 인사이트ㅣ'젠슨황 해임위기'가 악재? 힘 없는 증시 언제 오르나?ㅣ윤여민·반종민ㅣ한국경제TVㅣ퇴근길 투자전략ㅣ와우아카데미ㅣ26년 11월 12일",
-        "published": "2026-11-12T22:07:27Z"
-      },
-      {
-        "videoId": "gNZjwF6oKcI",
-        "title": "[🔴11/13 #당잠사] 젠슨 황 엔비디아 CEO 사임ㅣ트럼프 “이란과 합의 필요 없어”ㅣ10년물 국채금리 5.1% 재돌파·유가 상승·금값 하락ㅣ#엔비디아 #AMD #알파벳",
-        "published": "2026-11-12T21:37:26Z"
-      },
-      {
-        "videoId": "loJml2mgYEI",
-        "title": "코스피 '삼전닉스'가 하방 지지…아직은 추가 하락 경계해야 할 때 #삼전닉스전망 #엔비디아급락 #코스피수급",
-        "published": "2026-11-12T21:07:51Z"
-      },
-      {
-        "videoId": "dIqt5-2fANA",
-        "title": "엔비디아 젠슨황 CEO '전격 사임'…AI·반도체주 '급락', 투심 이상없나ㅣ손석우ㅣ김승혁ㅣ윤진",
-        "published": "2026-11-12T16:06:16Z"
-      },
-      {
-        "videoId": "injTNZbev3k",
-        "title": "젠슨 황 악재에 코스닥 정책 공백까지…수익 낼 돌파구는? #반도체 #젠슨황 #코스닥",
-        "published": "2026-11-12T15:05:24Z"
-      },
-      {
-        "videoId": "pAoJAUkCFgg",
-        "title": "코리아써키트만 버텼다 이젠 실적 반전도 기대할까? l 박진희 l 정경민 l 신혁승",
-        "published": "2026-11-12T14:30:31Z"
-      },
-      {
-        "videoId": "3ofIkw0U9N0",
-        "title": "젠슨 황 해임설 & 옵션만기 충격에 코스피 하락 전환! 스키즈 어닝 서프라이즈에 JYP 등 엔터주 급등 vs 삼전·닉스 반도체 약세 l허반석·김동엽·서용원 l 더 워룸",
-        "published": "2026-11-12T13:57:27Z"
-      },
-      {
-        "videoId": "AtGhV7TmKNA",
-        "title": "젠슨 황 해임설 & 옵션만기 충격에 코스피 하락 전환! 스키즈 어닝 서프라이즈에 JYP 등 엔터주 급등 vs 삼전·닉스 반도체 약세 l허반석·김동엽·서용원 l 더 워룸",
-        "published": "2026-11-12T13:30:24Z"
-      },
-      {
-        "videoId": "hPgz6rvopjw",
-        "title": "[LIVE] 젠슨 황은 트러블 메이커? '정치권 파장' 우려에 투심 '털썩'l 옵션 만기일 매물 폭탄 맞은 시장l 한밤의 증시포차 l 여의주",
-        "published": "2026-11-12T13:09:42Z"
-      },
-      {
-        "videoId": "V-gct0lz6F4",
-        "title": "엔비디아 흔들리자 AI주도 출렁였다 조정 끝나면 먼저 뛸 종목은?ㅣ유일한 (주)퀀트홀딩스 이사 · 이태우 주식창 파트너ㅣ스탁리그 히어로즈",
-        "published": "2026-11-12T13:00:35Z"
       }
     ],
     "yt-UCzznO4xSV8BKnUBPyswtCUw": [
       {
-        "videoId": "pG12WoVrHAM",
-        "title": "Foreign Minister Cho Hyun to visit China Friday for talks ahead of APEC in Shenzhen",
-        "published": "2026-11-12T13:32:39Z"
+        "videoId": "_X0AP-rZF9g",
+        "title": "[FULL] K-Culture Dive (2026-11-13)",
+        "published": "2026-11-13T06:10:26Z"
       },
       {
-        "videoId": "FO8LUDvmQU0",
-        "title": "Foreign Minister Cho Hyun to visit China Friday for talks ahead of APEC in Shenzhen",
-        "published": "2026-11-12T13:03:32Z"
+        "videoId": "5TavxhqwtLo",
+        "title": "[K-Culture Issue] Korean cinema's next generation of stars",
+        "published": "2026-11-13T06:07:11Z"
       },
       {
-        "videoId": "n5_l_QK9LoA",
-        "title": "S. Korea says foreign tactical control over Cheonghae Unit would be limited",
-        "published": "2026-11-12T13:02:14Z"
+        "videoId": "Jg65Fe9jvz4",
+        "title": "Beolgyo Cockles: A Local Taste of Winter",
+        "published": "2026-11-13T06:02:16Z"
       },
       {
-        "videoId": "kePJya-XqOQ",
-        "title": "[Econ & Biz] Can the widely anticipated Anthropic IPO quiet AI bubble concerns?",
-        "published": "2026-11-12T13:01:02Z"
+        "videoId": "AcHb9KZtCZo",
+        "title": "[Daily K-Feed] Lee Hanurij sweeps seven prizes at Geneva Competition",
+        "published": "2026-11-13T06:00:54Z"
       },
       {
-        "videoId": "t__PrukNSkI",
-        "title": "Potential successor to Jensen Huang sparks speculation, NYT reports another extramarital affair",
-        "published": "2026-11-12T13:00:21Z"
+        "videoId": "9CKb6TOjXyk",
+        "title": "[K-Enter] Forestella to become first Korean group to hold solo concert at New York’s Carnegie Hall",
+        "published": "2026-11-13T05:59:12Z"
       },
       {
-        "videoId": "QuhbGarcQCU",
-        "title": "Lee Ha-neurij wins top prize in composition at 80th Geneva International Music Competition",
-        "published": "2026-11-12T12:51:35Z"
+        "videoId": "blaQAto9ibY",
+        "title": "Apartment building collapse in New York City kills eight",
+        "published": "2026-11-13T05:48:04Z"
       },
       {
-        "videoId": "QvjpWe3BZDY",
-        "title": "Could S. Korean warships join U.S. Navy's fleet?",
-        "published": "2026-11-12T12:51:19Z"
+        "videoId": "alr14ippsvw",
+        "title": "[LIVE] K-Culture Dive (2026-11-13)",
+        "published": "2026-11-13T05:42:48Z"
       },
       {
-        "videoId": "KGoJknBRe2E",
-        "title": "[Weather] Daytime temperatures on the rise, rain in parts of the country this weekend",
-        "published": "2026-11-12T12:48:16Z"
+        "videoId": "t7eODcvUVhM",
+        "title": "NVIDIA CEO RESIGNS",
+        "published": "2026-11-13T05:42:36Z"
       },
       {
-        "videoId": "qnKf34qpZHk",
-        "title": "[FULL] NEWSCENTER (2026-11-12)",
-        "published": "2026-11-12T12:25:52Z"
+        "videoId": "BuWxGj_lOIg",
+        "title": "S. KOREAN WARSHIPS TO U.S.",
+        "published": "2026-11-13T05:39:49Z"
       },
       {
-        "videoId": "SuIhirHSnyU",
-        "title": "U.S. economy at a crossroads: Inflation, midterm fallout and AI market risks",
-        "published": "2026-11-12T12:14:27Z"
+        "videoId": "XouGIOUV5ZE",
+        "title": "SOUTH KOREA TOPS 20 MILLION FOREIGN VISITORS FOR FIRST TIME",
+        "published": "2026-11-13T05:28:04Z"
       },
       {
-        "videoId": "g2OO8ZEnJik",
-        "title": "[LIVE] NEWSCENTER (2026-11-12)",
-        "published": "2026-11-12T12:04:18Z"
+        "videoId": "GdO3sh7vm7s",
+        "title": "N. Korea changes national flag proportions for first time since 1948",
+        "published": "2026-11-13T04:34:04Z"
       },
       {
-        "videoId": "PInVH8TSMIE",
-        "title": "Advanced chip plant breaks ground in Asan; President Lee vows full support",
-        "published": "2026-11-12T09:58:51Z"
+        "videoId": "0TlIZLbfong",
+        "title": "[FULL] 12:00 ARIRANG NEWS (2026-11-13)",
+        "published": "2026-11-13T04:32:08Z"
       },
       {
-        "videoId": "ff-KUAI8Gmw",
-        "title": "Korea's fiscal deficit falls to 8-year low through Sept. on strong chipmaker tax revenue",
-        "published": "2026-11-12T09:56:18Z"
+        "videoId": "mkiE-qDlTEc",
+        "title": "Korea steps up efforts to prevent Suneung cheating with smart glasses",
+        "published": "2026-11-13T04:30:44Z"
       },
       {
-        "videoId": "4UORfdBPCHI",
-        "title": "S. Korea's electronics companies dominate more than half of Q3 exports",
-        "published": "2026-11-12T09:54:59Z"
+        "videoId": "2GViXwrVwPY",
+        "title": "Special school festival allows students to explore future careers with AI, robots",
+        "published": "2026-11-13T04:29:51Z"
       },
       {
-        "videoId": "-mu_g1kIRww",
-        "title": "Can the widely anticipated Anthropic IPO quiet AI bubble concerns?",
-        "published": "2026-11-12T09:51:58Z"
+        "videoId": "Ksv0ZVgd-SA",
+        "title": "Korea unveils the future of high-speed rail at Berlin",
+        "published": "2026-11-13T04:27:16Z"
       }
     ],
     "yt-UCbMjg2EvXs_RUGW-KrdM3pw": [
       {
+        "videoId": "lgmc9AGcna0",
+        "title": "[NEWS 15 LIVE] 젠슨 황 쇼크 재부각…'전강후약' 코스피 이틀째 하락",
+        "published": "2026-11-13T01:51:57Z"
+      },
+      {
+        "videoId": "1o3ALKCad7w",
+        "title": "불륜으로 33년만에 쫓겨난 젠슨 황 엔비디아 이끌 후임자는? [셀럽의 한 수]",
+        "published": "2026-11-13T06:20:22Z"
+      },
+      {
+        "videoId": "iJO-2JgVQMc",
+        "title": "젠슨 황 없는 엔비디아 AI 왕관 무게 감당할 자는? [글로벌 증시 따라잡기]",
+        "published": "2026-11-13T06:20:00Z"
+      },
+      {
+        "videoId": "P-nIRG948c0",
+        "title": "여전히 외국인 '갈팡질팡' 본격 매수 전환은 언제? [오후장 체크포인트]",
+        "published": "2026-11-13T06:19:34Z"
+      },
+      {
+        "videoId": "-xzkqfo89Kk",
+        "title": "2026년 11월 13일 (금) 마켓 & 머니 다시보기",
+        "published": "2026-11-13T06:19:02Z"
+      },
+      {
+        "videoId": "557sF__LUZE",
+        "title": "[직설] 급락하는 엔비디아 저가 매수 기회일까? #이완수",
+        "published": "2026-11-13T05:47:14Z"
+      },
+      {
+        "videoId": "eyUrLbGzeRs",
+        "title": "[직설] '깐부' 젠슨 황 사임 타격받을 한국 기업? #박상현",
+        "published": "2026-11-13T05:45:51Z"
+      },
+      {
+        "videoId": "ttw6Hzo2av0",
+        "title": "2026년 11월 13일 (금) 머니쇼 다시보기",
+        "published": "2026-11-13T04:06:24Z"
+      },
+      {
+        "videoId": "UTmha9tSSsU",
+        "title": "[NEWS 11 다시보기] 불륜 파문에 젠슨 황 33년 만에 쫓겨나…엔비디아 임시 CEO 임명후 후임 물색",
+        "published": "2026-11-13T03:41:33Z"
+      },
+      {
+        "videoId": "G9feDrNL1UQ",
+        "title": "[직설] '스캔들 파문' 젠슨황 엔비디아 CEO 사실상 해임?",
+        "published": "2026-11-13T03:30:25Z"
+      },
+      {
         "videoId": "RopX7hHMgCo",
-        "title": "[머니쇼 LIVE] 젠슨 황 사임 충격, 엔비디아 기업가치 재평가 시작되나?",
-        "published": "2026-11-12T04:41:06Z"
+        "title": "2026년 11월 13일 (금) 모닝벨·머니쇼·직설·세계는 경제는·NEWS 11 다시보기",
+        "published": "2026-11-13T03:12:34Z"
       },
       {
-        "videoId": "hgm-Ak4H8G8",
-        "title": "[어제장 오늘장] 젠슨 황이 트러블메이커로…삼전·닉스 희비 갈렸다",
-        "published": "2026-11-12T23:30:35Z"
+        "videoId": "nCtRp3UJLY4",
+        "title": "[세계는 경제는 다시보기] 젠슨 황의 추락은 무엇을 남겼나?…스캔들 파장은 이제 시작",
+        "published": "2026-11-13T03:06:07Z"
       },
       {
-        "videoId": "E00IOo-Gwkw",
-        "title": "[기업이슈] JYP엔터 주가 ‘불기둥’…스키즈 효과 톡톡",
-        "published": "2026-11-12T23:30:11Z"
+        "videoId": "j2Dd0RgajyQ",
+        "title": "[하우머니] 이상연 연구원 \"2027년 상반기 반등 시도가 기본 경로\"",
+        "published": "2026-11-13T03:00:10Z"
       },
       {
-        "videoId": "AAzaIeHfvzE",
-        "title": "[굿모닝 마켓] 뉴욕증시, 젠슨황 사임·유가상승에 하락 마감",
-        "published": "2026-11-12T23:29:48Z"
+        "videoId": "T3GauMvDwRg",
+        "title": "[다음 주 경제일정] 엔비디아 실적·앤트로픽 상장 주목…트럼프, APEC 참석차 방중",
+        "published": "2026-11-13T02:31:45Z"
       },
       {
-        "videoId": "8O2rKZHBn8M",
-        "title": "[월가의 투자노트] \"엔비디아 매수 기회\"",
-        "published": "2026-11-12T23:11:53Z"
-      },
-      {
-        "videoId": "wiTUXmOtbrU",
-        "title": "[글로벌 증시마감] 젠슨 황 사임에 증시 '충격'",
-        "published": "2026-11-12T23:10:57Z"
-      },
-      {
-        "videoId": "vGbu2ILQC8o",
-        "title": "[이슈분석] 엔비디아 실적 대기…전략은?",
-        "published": "2026-11-12T22:59:18Z"
-      },
-      {
-        "videoId": "QLlpQVPJtWg",
-        "title": "[외신 헤드라인] 엔비디아, 젠슨 황 사임에 시총 장중 4조달러 붕괴",
-        "published": "2026-11-12T22:51:28Z"
+        "videoId": "m10JyC7_8qU",
+        "title": "젠슨 황 없는 엔비디아 제국…왕좌 지킬 수 있나?",
+        "published": "2026-11-13T02:20:53Z"
       }
     ],
     "yt-UCeLPm9yH_a_QH8n6445G-Ow": [
@@ -946,7 +966,7 @@
       },
       {
         "videoId": "JIxd_heTJt0",
-        "title": "[𝑲-𝑨𝒍𝒍 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕] ATEEZ (에이티즈) 'WAVE'부터 'Drip'까지 KBS 출연 무대 모음💘 l KBS방송",
+        "title": "[𝑲-𝑨𝒍𝒍 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕] 북부대공 오신다🤴 ATEEZ (에이티즈) 'WAVE'부터 'Drip'까지 KBS 출연 무대 모음❄️ l KBS방송",
         "published": "2026-11-12T08:00:07Z"
       },
       {
@@ -963,19 +983,14 @@
         "videoId": "ySL6bXlu4bU",
         "title": "안정형과 불안정형이 함께 있는 촬영장이란.. [더 시즌즈-성시경의 고막남친] | KBS 방송",
         "published": "2026-11-11T07:14:23Z"
-      },
-      {
-        "videoId": "9g-V0SA9qq0",
-        "title": "우당탕탕 BAD 챌린지 최종최최종ver. [더 시즌즈-성시경의 고막남친] | KBS 방송",
-        "published": "2026-11-11T02:50:35Z"
-      },
-      {
-        "videoId": "98J9bFxMmlk",
-        "title": "있다가도 없고.. 없다가도 있는 것..💵",
-        "published": "2026-11-10T09:46:28Z"
       }
     ],
     "yt-UCe52oeb7Xv_KaJsEzcKXJJg": [
+      {
+        "videoId": "-bg1NCMA3r8",
+        "title": "[V+음악중심] TRAUMA with #강승윤 #키리 #티즈 👑✨ ㅣ EP.8 #아이리제 #IRISÉ ㅣ V+MusicCore",
+        "published": "2026-11-12T23:57:39Z"
+      },
       {
         "videoId": "DbhS69fmDsg",
         "title": "[#직캠보고서🔍] #RESCENE #리센느 리센느와 리마인이 함께 달려가는 모든 순간 💙 음중 사전녹화 비하인드⏯️",
@@ -983,13 +998,8 @@
       },
       {
         "videoId": "sWC_fPb5v0g",
-        "title": "[V+음악중심] 아이리제 (IRISÉ) - TRAUMA ㅣ EP.8 #아이리제 #IRISÉ ㅣ V+MusicCore",
+        "title": "[V+음악중심] 아이리제 (IRISÉ) - TRAUMA (Feat. Takanashi Kiara)ㅣ EP.8 #아이리제 #IRISÉ ㅣ V+MusicCore",
         "published": "2026-11-12T08:00:21Z"
-      },
-      {
-        "videoId": "zUBNC1QopuM",
-        "title": "[V+음악중심] TRAUMA with #강승윤 #키리 #티즈 👑✨ ㅣ EP.8 #아이리제 #IRISÉ ㅣ V+MusicCore",
-        "published": "2026-11-12T08:00:15Z"
       },
       {
         "videoId": "Vwvl008shbg",
@@ -1384,6 +1394,11 @@
     ],
     "yt-UCmZ19AIj_wcpwRcqG7p9L8g": [
       {
+        "videoId": "M6167_4yOzI",
+        "title": "주병진(Ju Byeongjin) - 나의 꿈을 찾아서 [노영심의 작은 음악회] | KBS 19920905 방송",
+        "published": "2026-11-13T00:00:15Z"
+      },
+      {
         "videoId": "71V4rqXPc8Q",
         "title": "[#again_playlist] 아이돌이 들려주는 발라드의 매력 💎 케이팝 발라드 모음 🎼🫧 | KBS 방송",
         "published": "2026-11-12T12:00:08Z"
@@ -1402,11 +1417,6 @@
         "videoId": "8JKRif3k_l4",
         "title": "구창모(Koo Changmo) - 희나리 [가요톱10] | KBS 19851228 방송",
         "published": "2026-11-11T00:00:36Z"
-      },
-      {
-        "videoId": "I19DFOtfefc",
-        "title": "최진희(Choi Jinhee) - 사랑의 미로 [가요톱10] | KBS 19851228 방송",
-        "published": "2026-11-11T00:00:08Z"
       }
     ],
     "yt-UCR5cyf8hncN_AaQPfmvmlgA": [
@@ -1488,24 +1498,79 @@
     ],
     "yt-UC33yEDM8q3N8BeMpZMdP66Q": [
       {
-        "videoId": "m330JefCYEw",
-        "title": "𝗩𝗢𝗜𝗖𝗘 𝗠𝗜𝗫🎚️ | 정통 트롯하다가 냅다 록까지 점령하는 손빈아 ㄷㄷ😱 '망모&박하사탕' #트롯라디오 #TVCHOSUNMUSIC (TV CHOSUN 250123 방송 외)",
-        "published": "2026-11-12T12:30:23Z"
+        "videoId": "Si_SUYFHd7g",
+        "title": "[예고] 너네가 우리 애 건드렸니? 센 언니 총출동!😈 11/19(목) 밤 10시 방송 #미스트롯포유 #TVCHOSUNMUSIC",
+        "published": "2026-11-13T04:37:11Z"
       },
       {
-        "videoId": "d9D_Mqe603U",
-        "title": "𝗩𝗢𝗜𝗖𝗘 𝗠𝗜𝗫🎚️ | 맏형 장민호를 위한 두 동생의 세레나데🎤 영탁&이찬원 ‘드라마’ #트롯라디오 #TVCHOSUNMUSIC (TV CHOSUN 200617 방송 외)",
-        "published": "2026-11-12T12:15:21Z"
+        "videoId": "_gm_HCefOnY",
+        "title": "[클린버전] 윤진우 - 돌릴 수 없는 세월 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:34:00Z"
       },
       {
-        "videoId": "0lzTyHDi22s",
-        "title": "[베스트무대💎] 우정은 끈끈해도 본업은 냉정하게 ㅎ🔥 92즈 '김용빈·손빈아·추혁진' 무대 모음 #트롯라디오 #TVCHOSUNMUSIC (TV CHOSUN 260821 방송 외)",
-        "published": "2026-11-12T11:43:25Z"
+        "videoId": "XjvTtMUky_A",
+        "title": "[클린버전] 염유리 - 가을을 남기고 간 사랑 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:30:33Z"
       },
       {
-        "videoId": "yawfv6YtDA0",
-        "title": "𝗩𝗢𝗜𝗖𝗘 𝗠𝗜𝗫🎚️ | 박지현의 레전드 경연곡을 이찬원이 부르면? ‘떠날 수 없는 당신’ #트롯라디오 #TVCHOSUNMUSIC (TV CHOSUN 210909 방송 외)",
-        "published": "2026-11-12T09:00:23Z"
+        "videoId": "KyfqXKxzDLI",
+        "title": "[클린버전] 이소나 - 시치미 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:24:44Z"
+      },
+      {
+        "videoId": "QuYn940g1zU",
+        "title": "[클린버전] 춘길 - 가슴은 알죠 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:24:06Z"
+      },
+      {
+        "videoId": "lZzFIBrPVnU",
+        "title": "[클린버전] 이수호 - 미워도 다시 한번 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:22:20Z"
+      },
+      {
+        "videoId": "yMkoURfuX7w",
+        "title": "[클린버전] 길려원 - 올래 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:20:57Z"
+      },
+      {
+        "videoId": "YrPKWG7Ur_4",
+        "title": "[클린버전] 허찬미 - 그리움만 쌓이네 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:19:01Z"
+      },
+      {
+        "videoId": "Bq8_CZOzXa8",
+        "title": "[클린버전] 박다혜 - 살다보면 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:17:38Z"
+      },
+      {
+        "videoId": "vJDrUuKZuio",
+        "title": "[클린버전] 유미 - 테스형! ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T04:15:38Z"
+      },
+      {
+        "videoId": "1LDvKAWVoBE",
+        "title": "[클린버전] 황가람 - 쑥대머리 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T02:47:07Z"
+      },
+      {
+        "videoId": "l39VMGw2iXQ",
+        "title": "[클린버전] 손빈아 - 거리에서 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T02:35:45Z"
+      },
+      {
+        "videoId": "AedfXy_SIYg",
+        "title": "[클린버전] 홍성윤 - 이별여행 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T02:33:42Z"
+      },
+      {
+        "videoId": "qaIitlFYFUU",
+        "title": "[클린버전] 김나희 - 자갈치 아지매 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T02:33:00Z"
+      },
+      {
+        "videoId": "GH1Nwe-fRJg",
+        "title": "[클린버전] 윤태화 - 미스고 ❤미스트롯 포유 25화❤ TV CHOSUN 261112 방송",
+        "published": "2026-11-13T02:32:07Z"
       }
     ],
     "yt-UCXVfodmlGhUpLREncSjuYAw": [
@@ -1587,6 +1652,11 @@
     ],
     "yt-UC271vX3c3kYZsgpz7-zPBoA": [
       {
+        "videoId": "TMlrhKom0R0",
+        "title": "[1박2일 오분런] 형 그거 먹다가 턱 빠질 거 같아.ㅣKBS 방송",
+        "published": "2026-11-13T02:00:23Z"
+      },
+      {
         "videoId": "5mP2_wTBULc",
         "title": "5시간 동안 스태프들과 어색하게 갈 3명은 누구? | KBS 071028 방송",
         "published": "2026-11-12T11:00:30Z"
@@ -1655,14 +1725,19 @@
         "videoId": "VmERe7_dmUY",
         "title": "[1박2일 오분런] 그냥 먹게 해줘요ㅣKBS 방송",
         "published": "2026-11-08T02:00:39Z"
-      },
-      {
-        "videoId": "5wgyX_zd3Gk",
-        "title": "복불복이여 영원하라 | KBS 071014 방송",
-        "published": "2026-11-07T11:00:17Z"
       }
     ],
     "yt-UChY4PXxJI0aJYsGT1X6INWA": [
+      {
+        "videoId": "ZGT-AMULJMI",
+        "title": "밥 도둑 정준하 #무도 #정준하",
+        "published": "2026-11-13T04:00:16Z"
+      },
+      {
+        "videoId": "D-oCtB8aMTQ",
+        "title": "[🔴LIVE] 【올끌】 #무한도전 노홍철 특집 라이브스트리밍🔥🔥",
+        "published": "2026-11-12T04:35:28Z"
+      },
       {
         "videoId": "hQqHPiGmBww",
         "title": "수사반장 BGM에 맞춰 춤추는 미주 ㅋㅋㅋ #놀면뭐하니 #유재석 #미주",
@@ -1727,19 +1802,24 @@
         "videoId": "bAPsHsGvOyo",
         "title": "하와수 탱킹 레전드ㅋㅋㅋ #무도 #정준하 #박명수",
         "published": "2026-11-06T04:00:11Z"
-      },
-      {
-        "videoId": "b5wucLj23To",
-        "title": "내가 알던 욱 효리가 아냐... #놀면뭐하니 #유재석 #이효리",
-        "published": "2026-11-05T10:30:28Z"
-      },
-      {
-        "videoId": "beA3rHxr9Ac",
-        "title": "[놀면 뭐하니?] 이효리X이상순의 인생라면 방문! 다정함과 깐족거림을 넘나드는 부부🤣 인생라면 3편 | MBC200208방송",
-        "published": "2026-11-05T10:00:26Z"
       }
     ],
     "yt-UC3re3ueOE_6VZK85zlEUWFA": [
+      {
+        "videoId": "ZTG2bh_-kEA",
+        "title": "햇살 연하남 VS 테토 연상남, 누구에게 감길래?💞 5M #나인투식스 #SBSCatch",
+        "published": "2026-11-13T04:00:35Z"
+      },
+      {
+        "videoId": "D09xz9jSIPU",
+        "title": "[11회 선공개] \"이모는 왜 날 거뒀어?\" 이정은이 친조카도 아닌 김지원을 거둔 진짜 진심💙 #닥터X #SBSCatch",
+        "published": "2026-11-13T01:00:29Z"
+      },
+      {
+        "videoId": "QIowK5565G8",
+        "title": "[3차 티저] 장나라X김혜윤의 두 번째 사이다 이혼쇼! 분노를 부르는 이혼 사건들🔥 #굿파트너2 #SBSCatch",
+        "published": "2026-11-13T00:00:19Z"
+      },
       {
         "videoId": "npfXWVQhOwQ",
         "title": "명장면으로 다시보는 〈굿파트너 시즌1〉 10편 \"미안하다 은경아\" 이혼 성공한 장나라, 지승현 눈물의 후회 #굿파트너2 #SBSCatch",
@@ -1799,24 +1879,34 @@
         "videoId": "3p8WuZhz2HI",
         "title": "트집 잡는 이사회😡 입꾹닫 만드는 팀 계수정! #닥터X #SBSCatch",
         "published": "2026-11-07T14:15:19Z"
-      },
-      {
-        "videoId": "cpxyFy10oes",
-        "title": "[11회 예고] \"실패해 주시면 안 될까요?\" 수술 지목받은 김지원🩺 그리고 실패 해달라는 김우석 #닥터X #SBSCatch",
-        "published": "2026-11-07T14:07:31Z"
-      },
-      {
-        "videoId": "pWdI0_RIs1Y",
-        "title": "[10회 선공개] \"하나도 못 잤을 거야\" 수술 계획 짜느라 방전된 김지원 퇴근길🥰 #닥터X #SBSCatch",
-        "published": "2026-11-07T03:00:30Z"
-      },
-      {
-        "videoId": "KQKHj6zI1zw",
-        "title": "[MV] Kriz - Reborn I 닥터X : 하얀 마피아의 시대 (Doctor X : Mafia in White) OST Part.5 #닥터X #SBSCatch",
-        "published": "2026-11-07T03:00:12Z"
       }
     ],
     "yt-UC78PMQprrZTbU0IlMDsYZPw": [
+      {
+        "videoId": "XHD5mII3qA8",
+        "title": "[4화 예고]  끝나지 않는 벗 맞춤형 여행😉 청두 식구들을 대적할(?) 한국의 매운맛부터 나폴리 식구들이 기겁한 메뉴까지! #언더커버셰프멀리서찾아온벗 EP.4",
+        "published": "2026-11-13T05:00:11Z"
+      },
+      {
+        "videoId": "xr0iH79oSYc",
+        "title": "[무소단 링크장 오픈] 무쇠소녀단이 탄 그 링크, 이제 당신 차례 ⛸️",
+        "published": "2026-11-13T03:00:16Z"
+      },
+      {
+        "videoId": "hMK_yE-I8Z8",
+        "title": "이게 정말 하트가 맞나요?ㅋㅋ 어르신의 주문에 진땀 빼는 이상이 | 보검매직컬",
+        "published": "2026-11-13T02:00:39Z"
+      },
+      {
+        "videoId": "BDQpjf2yIvk",
+        "title": "젊은 날의 엄마를 다시 만난 것 같아🥹 딸이 평생 간직하고 싶은 엄마의 모습 | 보검매직컬",
+        "published": "2026-11-13T02:00:37Z"
+      },
+      {
+        "videoId": "ckJuDRDsc7o",
+        "title": "이게 진짜 프로의 자세인가 봐👏 박보검의 판단력에 놀란 최대훈 | 보검매직컬",
+        "published": "2026-11-13T02:00:21Z"
+      },
       {
         "videoId": "_KVjaO8DB9w",
         "title": "말 한마디 잘못했다가 혼쭐ㅋㅋ 최다니엘에게 결국 폭발한 멤버들 | 구기동프렌즈",
@@ -1866,34 +1956,14 @@
         "videoId": "Kgy6Ge_Xg14",
         "title": "[사전 연습] 경표의 합격 목걸이를 받은 술빵의 정체?! #보검매직컬2 EP.경표",
         "published": "2026-11-12T10:00:35Z"
-      },
-      {
-        "videoId": "nu3xV5u8Fro",
-        "title": "[사전 연습] 제2의 직업 찾은 경표🤣 #보검매직컬2 EP.경표",
-        "published": "2026-11-12T10:00:28Z"
-      },
-      {
-        "videoId": "VM1m0AbsgwI",
-        "title": "〈추격자〉 촬영장서 나홍진 감독과 싸웠다?!🎬 김윤석이 직접 밝힌 비하인드💬#유퀴즈온더블럭 | YOU QUIZ ON THE BLOCK EP.368 | tvN 261111 방송",
-        "published": "2026-11-12T09:03:56Z"
-      },
-      {
-        "videoId": "zLMOlHYkGKs",
-        "title": "고액 스카우트에 흔들렸던 최태성⁉️ 결국 그가 거절을 결심한 이유는?📚#유퀴즈온더블럭 | YOU QUIZ ON THE BLOCK EP.368 | tvN 261111 방송",
-        "published": "2026-11-12T09:02:00Z"
-      },
-      {
-        "videoId": "P0vjJSC3i04",
-        "title": "대한민국 해군의 새 역사⚓ 여군 최초 독도함장 배선영 대령의 이야기🌊#유퀴즈온더블럭 | YOU QUIZ ON THE BLOCK EP.368 | tvN 261111 방송",
-        "published": "2026-11-12T09:01:09Z"
-      },
-      {
-        "videoId": "fJGGzvcKvf4",
-        "title": "10년이 지나도 대사는 못 잊지ㅋㅋ 공유의 과몰입 퀴즈 타임 | 도깨비10주년여행",
-        "published": "2026-11-12T09:00:41Z"
       }
     ],
     "yt-UCFL1sCAksD6_7JIZwwHcwjQ": [
+      {
+        "videoId": "w3WVrr-MyuU",
+        "title": "[한블리 댓글 투표] 피해 가려다 부딪힌 블박차 vs 주유소 진입 중 후진한 상대차",
+        "published": "2026-11-13T03:00:26Z"
+      },
       {
         "videoId": "muOPuzqYKl4",
         "title": "[하이라이트] ＂모자이크 없이 리얼하게＂💥 본인의 '자연주의 출산' 다큐 상영회를 열고 싶다(!)는 아내😱 | 이혼숙려캠프 | JTBC 261112 방송",
@@ -1933,41 +2003,6 @@
         "videoId": "yuKuR1bIXTo",
         "title": "휴일은 전부 '가족'과 함께 보내야 한다는 남편의 극극극 보수주의🔥 가치관 | 이혼숙려캠프 108회 | JTBC 261112 방송",
         "published": "2026-11-12T14:38:46Z"
-      },
-      {
-        "videoId": "JkCwogJ-7Nw",
-        "title": "＂책 읽어주고 밥하면 끝이야?＂ 아내의 노력 무시하고 전업주부 강요한 남편😡 | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:38:35Z"
-      },
-      {
-        "videoId": "GPAMJVs6a5o",
-        "title": "멈추지 않는 싸움에 긴급 결정된 이호선의 재상담💥 | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:38:20Z"
-      },
-      {
-        "videoId": "t4kA0oEN5FI",
-        "title": "울음 大 폭발💦 혼자만 밑바닥이 보일까 억울해 오열한 아내;; | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:38:09Z"
-      },
-      {
-        "videoId": "NoPUpuClkFs",
-        "title": "횡설수설🌀 계속 말을 바꾸는 아내에 상담을 중단한 이호선의 한마디! | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:37:52Z"
-      },
-      {
-        "videoId": "pgxQW9bfhhs",
-        "title": "＂애들 다 알아요＂ 아이들의 상담 결과에 충격받은 남편😨 | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:37:37Z"
-      },
-      {
-        "videoId": "bsdRDxummo4",
-        "title": "모든 건 내 맘대로(!) 억지 부리는 아내에 폭발한 이호선 | 이혼숙려캠프 108회 | JTBC 261112 방송",
-        "published": "2026-11-12T14:37:27Z"
-      },
-      {
-        "videoId": "zVXMth-95DY",
-        "title": "[스페셜] 다 비켜💥 냉부 일식 셰프는 나야(!) 하루 종일 장호준 견제하는 정호영🔥 (야금야금 냉부 #02) | 냉장고를 부탁해 | JTBC 261108 방송",
-        "published": "2026-11-11T16:11:17Z"
       }
     ],
     "yt-UChpjIaEgwtDZtmWEkzFulSA": [
@@ -2035,19 +2070,19 @@
         "videoId": "37HHpjRJZiQ",
         "title": "＂엄마인 내가 봐도 신기하더라고＂ 윤해영에게 장서희에 대해 듣는 주새벽 [욕망의 덫] | KBS 261112 방송",
         "published": "2026-11-12T11:39:11Z"
-      },
-      {
-        "videoId": "idJKdKYqGLI",
-        "title": "＂뭔가 숨기는 거 같은데...＂ 유태웅이 뭔가 숨기는 거 같은 장서희 [욕망의 덫] | KBS 261112 방송",
-        "published": "2026-11-12T11:35:19Z"
-      },
-      {
-        "videoId": "yArK85gJsFg",
-        "title": "＂누가 내 엄마야?＂ 김광영의 말을 믿지 못하는 주새벽 [욕망의 덫] | KBS 261112 방송",
-        "published": "2026-11-12T11:31:04Z"
       }
     ],
     "yt-UC7lb15P-Hux7A5gBuhCxtuQ": [
+      {
+        "videoId": "eH2i6M1dXkE",
+        "title": "[라이어] 5회 선공개, MBC 261113 방송",
+        "published": "2026-11-13T00:00:16Z"
+      },
+      {
+        "videoId": "6R8b20AlX40",
+        "title": "[라이어 5회 선공개] ＂다시 시작할 기회를 줄게＂ 서현진에게 건넨 유연석의 의미심장한 한마디, MBC 261113 방송",
+        "published": "2026-11-13T00:00:07Z"
+      },
       {
         "videoId": "GDasG25wZcg",
         "title": "[가족관계증명서 80회 예고] ＂확 죽여버릴까＂, MBC 261113 방송",
@@ -2112,19 +2147,19 @@
         "videoId": "OUR-9sWyBtM",
         "title": "[라이어] 5-6회 스페셜 선공개, MBC 261113 방송",
         "published": "2026-11-11T00:00:33Z"
-      },
-      {
-        "videoId": "GJ76fwQKrlo",
-        "title": "[라이어 스페셜 선공개] ＂민준호가 너무너무 잡고 싶어요＂ 유연석을 반드시 잡고 싶은 서현진X옥자연!, MBC 261113 방송",
-        "published": "2026-11-11T00:00:21Z"
-      },
-      {
-        "videoId": "mL4M-5iiwac",
-        "title": "[너의 그라운드 대본리딩] MBC로 돌아온 한효주X공명, 야구장 청춘 로맨스, MBC 202612 방송",
-        "published": "2026-11-10T23:00:37Z"
       }
     ],
     "yt-UC6erIDuvbOaAO-OT5rB2Xew": [
+      {
+        "videoId": "VSqyEPZMEWw",
+        "title": "[11회 선공개] “이모는 왜 날 거뒀어?” 김지원, 피보다 진한 구원의 대물림 받으며 듣는 이정은의 진심!",
+        "published": "2026-11-13T01:00:30Z"
+      },
+      {
+        "videoId": "joBT5J3Nmoc",
+        "title": "[3차 티저] 장나라×김혜윤, 상상 초월의 사건들로 더 독하고 강력해진 사이다 이혼쇼↗_ ‘굿파트너2’ 11/20[금] 밤 9시 50분 SBS 첫 방송",
+        "published": "2026-11-13T00:00:02Z"
+      },
       {
         "videoId": "lU8jefLrwwU",
         "title": "목련회 OUT #닥터X #DoctorX #sbsdrama",
@@ -2152,6 +2187,36 @@
       }
     ],
     "yt-UC9w-h_ciMmX64TcLRcb1xPg": [
+      {
+        "videoId": "5c1kX7Jnvxo",
+        "title": "눈치까지 백단인 사토;; #100일의거짓말",
+        "published": "2026-11-13T06:01:44Z"
+      },
+      {
+        "videoId": "e-U90yYF3qM",
+        "title": "아무도 말릴 수 없던 사토의 무차별 총격💥 #100일의거짓말",
+        "published": "2026-11-13T06:00:30Z"
+      },
+      {
+        "videoId": "cJQ4mpRnjlQ",
+        "title": "명대사 | 끝을 모르는 게 운명이라지만 벗어나는 것 또한 내 운명일지도🔮 #뜨거운안녕",
+        "published": "2026-11-13T04:00:27Z"
+      },
+      {
+        "videoId": "ATWcuRw_b7M",
+        "title": "[스페셜 선공개] 사과하러 왔지만 얼굴조차 볼 수가 없음..🌩️ #나의유죄인간",
+        "published": "2026-11-13T02:30:16Z"
+      },
+      {
+        "videoId": "2kln65Ujt5A",
+        "title": "[1-2화 요약] 강훈X조현철X김정진 오랜 꿈을 내려놓은 날, 수상한 0호팬 이이담이 나타났다✨ #뜨거운안녕 EP.2",
+        "published": "2026-11-13T01:00:26Z"
+      },
+      {
+        "videoId": "HfjM9gyhjmA",
+        "title": "[메이킹] 아수라만 모이면 웃참 레벨 MAX🤣 꽁냥꽁냥 사이좋은 뜨안즈 벌써 좋아요💗 | 1-2화 비하인드 #뜨거운안녕 EP.2",
+        "published": "2026-11-13T00:00:32Z"
+      },
       {
         "videoId": "xPtOt92mb8Q",
         "title": "[스페셜 선공개] 마음껏 사랑할 시간도 부족한데..😿 애매한 시현X혜정 그리고 애달픈 이준X재희💧 #나의유죄인간 EP.9",
@@ -2196,36 +2261,6 @@
         "videoId": "WGNio9Bue9o",
         "title": "밥값 14만 원 때문에 울면서 싸우는 10년차 커플💦 #뜨거운안녕",
         "published": "2026-11-12T15:33:10Z"
-      },
-      {
-        "videoId": "XY5zFr_LD1o",
-        "title": "무대 올라가기 몇 초 전, 나오지 말라는 통보를 받았다;;💢 #뜨거운안녕",
-        "published": "2026-11-12T15:32:17Z"
-      },
-      {
-        "videoId": "u2X43bE41qw",
-        "title": "[3화 예고] \"한 명은 있었네\" 아수라 해체 일보직전에 나타난 유일한 아수라 0호팬!? #뜨거운안녕 EP.3",
-        "published": "2026-11-12T15:31:31Z"
-      },
-      {
-        "videoId": "sU2Gv8UUsIg",
-        "title": "광년이한테 잘못 걸리면 코가 깨집니다;; 강훈 수난 시대💫 #뜨거운안녕",
-        "published": "2026-11-12T15:31:23Z"
-      },
-      {
-        "videoId": "VK2ur7vSYLQ",
-        "title": "잘생겨서도 웃겨서도 아님ㅋㅋ 이이담이 아수라에 빠진 이유⁉️ #뜨거운안녕",
-        "published": "2026-11-12T15:30:43Z"
-      },
-      {
-        "videoId": "VTk_np_-aw0",
-        "title": "2화 하이라이트 | 개그 트리오 아수라의 해체 발표, 자신의 정체를 드러낸 이이담 #뜨거운안녕 EP.2",
-        "published": "2026-11-12T15:28:48Z"
-      },
-      {
-        "videoId": "isdUyJM7pr0",
-        "title": "2화 하이라이트 | 가족들 앞에서 빼앗긴 무대, 더 비참하게 다가온 현실 #뜨거운안녕 EP.2",
-        "published": "2026-11-12T15:24:41Z"
       }
     ],
     "yt-UCkbJc8jMcTXwhtmN5VMwfXg": [
@@ -2307,6 +2342,41 @@
     ],
     "yt-UCFCtZJTuJhE18k8IXwmXTYQ": [
       {
+        "videoId": "wdMc9lpkw2Q",
+        "title": "대한민국 남자 900만 명이 거쳐 간 곳! 여긴 어디? 난 누구?｜논산훈련소 24시 ｜프레임人 셀프다큐｜#골라듄다큐",
+        "published": "2026-11-13T06:00:08Z"
+      },
+      {
+        "videoId": "Ea7OA3YJnOE",
+        "title": "그물 쳐놓고 밥 먹고 왔더니 세상에. 바닷물이랑 이어지는 하천에 자세히 보니 고기가 바글바글｜숭어잡이｜사백어｜한국기행｜#골라듄다큐",
+        "published": "2026-11-13T05:30:24Z"
+      },
+      {
+        "videoId": "viwZ5X_WWGo",
+        "title": "그물에 고기가 끊임없이 딸려온다. 쪽배 위로 주렁주렁 매달린 고기 정체｜만경강 낚시｜한국기행｜#골라듄다큐",
+        "published": "2026-11-13T05:00:12Z"
+      },
+      {
+        "videoId": "smqqrpikSVU",
+        "title": "불륜으로 27년째 복역 중이지만 결혼까지 가능｜서울 절반 크기 세상에서 가장 자유로운 감옥｜죄와 벌, 그리고 자유와 인권｜필리핀 이와힉 교도소｜다큐 영화 길 위의 인생｜#골라듄다큐",
+        "published": "2026-11-13T04:37:49Z"
+      },
+      {
+        "videoId": "oahe92x_Rjw",
+        "title": "“이거 진짜 방송 나가면 안되는데” 공부 아무리 잘해도 아무나 갈 수 없는 이상한 산골 고등학교?｜전국 최초, 전국 유일 지리산 고등학교에서 생긴 일｜다큐프라임｜#골라듄다큐",
+        "published": "2026-11-13T04:30:23Z"
+      },
+      {
+        "videoId": "VWBD9JEFRog",
+        "title": "결국 한국인 여자과 결혼해 살림을 차린 아들｜어떻게 사나 직접 보러갔더니 한국온 미국 부모님 반응｜한국기행｜#골라듄다큐",
+        "published": "2026-11-13T02:00:33Z"
+      },
+      {
+        "videoId": "AFtZ_a2KU-8",
+        "title": "산속 동굴에서 캔 돌덩이가 이렇게 효자다. 대형 사우나에서나 보던 '옥 찜질방', 우리 집 작은 방에 그대로 옮겨놓으면 얼마큼 좋을까했는데｜극한직업｜#골라듄다큐",
+        "published": "2026-11-13T01:00:21Z"
+      },
+      {
         "videoId": "72tyWaDmRww",
         "title": "해조류로 떡을 만든다고? 떡에 톳, 다시마 통째로 갈아 넣었더니｜상상초월 이색 떡 열전. 금산 명물 추부깻잎떡과 부산 해조류떡｜전국에서 줄 서는 떡집｜한국기행｜#골라듄다큐",
         "published": "2026-11-12T11:30:03Z"
@@ -2343,6 +2413,36 @@
       }
     ],
     "yt-UC4LW3sOslC14Vn5bcoNUBkg": [
+      {
+        "videoId": "geuai9Amxo0",
+        "title": "약속은 사라지고 배신감만 남았다... 이상한 일자리 나누기의 진실은? | KBS 취재파일 4321 20090308 방송",
+        "published": "2026-11-13T06:15:01Z"
+      },
+      {
+        "videoId": "tf5M1mGdF4Y",
+        "title": "끓는 쇳물에 아이를 던져 넣었다는 에밀레종 인신공양 설화, 성분 분석 결과 밝혀진 진실 | KBS 역사스페셜 20091128 방송",
+        "published": "2026-11-13T05:00:17Z"
+      },
+      {
+        "videoId": "p7T9RdTRKf0",
+        "title": "전기만 들어왔어도... 단 몇 푼의 전기요금 때문에 벌어지는 아이러니한 참혹한 진실 | KBS 의뢰인 K 20121206 방송",
+        "published": "2026-11-13T04:15:00Z"
+      },
+      {
+        "videoId": "Wc_mvu0W1GU",
+        "title": "고대 로마의 완벽한 시스템이 그대로.. 2,000년 전 로마군 요새 팠더니 | KBS 걸어서 세계 속으로 20260313 방송",
+        "published": "2026-11-13T02:00:29Z"
+      },
+      {
+        "videoId": "PN4TkSkN5I4",
+        "title": "아무도 성공할 수 없다고 비웃었던 미지의 영역, 그들은 어떻게 세계 최초의 신화를 써 내려갔나 | KBS 특별기획 20111129 방송",
+        "published": "2026-11-13T01:15:16Z"
+      },
+      {
+        "videoId": "1HzCF17f654",
+        "title": "내시들이 왕을 업고 담장을 넘어야 했다? 궁궐 속 숨겨진 이야기 | KBS 역사저널 그날 20140719 방송",
+        "published": "2026-11-13T00:15:39Z"
+      },
       {
         "videoId": "WXTOwQeHtSU",
         "title": "한계가 아닌 가능성을 향해, 수어로 세상과 소통하며 꿈을 이루어가는 이야기 | KBS 스페셜 20181206 방송",
@@ -2387,39 +2487,14 @@
         "videoId": "u9wljjU_cjY",
         "title": "시속 90km 고속도로 위 4m 각목 습격! 낙하물 공포와 피할 수 없는 충격 | KBS 의뢰인 K 20130103 방송",
         "published": "2026-11-12T06:15:13Z"
-      },
-      {
-        "videoId": "rwHW-0XDivI",
-        "title": "평생 삿갓을 쓰고 다녔다는 조선 최초 슈퍼스타의 정체 | KBS 20091205 방송",
-        "published": "2026-11-12T05:00:01Z"
-      },
-      {
-        "videoId": "llTvXQuXMUw",
-        "title": "모호한 '중상해' 기준과 치솟는 합의금 분쟁, 여전히 풀리지 않는 교통사고의 딜레마 | KBS 취재파일 4321 20090308 방송",
-        "published": "2026-11-12T04:15:17Z"
-      },
-      {
-        "videoId": "kvu8JjqMejY",
-        "title": "프랑스의 독특한 화산지대, 오베르뉴를 가다 | KBS 걸어서 세계 속으로 20260312 방송",
-        "published": "2026-11-12T02:00:29Z"
-      },
-      {
-        "videoId": "sy8md8FvrXU",
-        "title": "빌 게이츠가 미국보다 20년 앞설 것이라 경고한 나라! IMF와 닷컴버블 위기를 넘은 순간 | KBS 특별기획 20111128 방송",
-        "published": "2026-11-12T01:15:35Z"
-      },
-      {
-        "videoId": "hJiZjskAyIs",
-        "title": "공사 기간만 무려 24년?! 지진에도 버텨낸 천년 건축의 비밀 | KBS 역사저널 그날 20140712 방송",
-        "published": "2026-11-12T00:15:36Z"
-      },
-      {
-        "videoId": "1C2-XnzUj38",
-        "title": "죽음의 고비를 넘어 100년을 살아낸 노인들이 후손들에게 남기는 한마디 | KBS 스페셜 20190314 방송",
-        "published": "2026-11-11T14:00:10Z"
       }
     ],
     "yt-UCl_tB4AqPkkxuYcJQHz6dMw": [
+      {
+        "videoId": "Wh-U1OqSZIY",
+        "title": "“니가 참 힘들었겠다” 아들에게 사랑받는 애교쟁이 며느리｜공주님으로 큰 줄 알고 친정 따라갔다 속상한 시어머니 #몰아볼교양",
+        "published": "2026-11-13T01:00:06Z"
+      },
       {
         "videoId": "IYeMGZWDymQ",
         "title": "“예전엔 다 못 팔아 폐기했는데..” 전 세계에서 부는 한국 김 열풍에 대박 난 김 양식장 부부｜한국기행｜알고e즘",
@@ -2457,6 +2532,16 @@
       }
     ],
     "yt-UCaBwNyKKjDaYIzS8dhyaXBA": [
+      {
+        "videoId": "7Mkb9797_5I",
+        "title": "[국악무대] [FULL] 훈민정음 반포 580돌·한글날 100주년 - 2026 국립부산국악원 기악단·성악단 정기연주회 '정음(正音)'",
+        "published": "2026-11-13T01:01:09Z"
+      },
+      {
+        "videoId": "TFabQnoP25A",
+        "title": "[국악무대] [FULL] 동국대학교 건학 120주년 기념 제1회 한국음악과 정기연주회 '120년의 유산, 한국 음악의 미래'",
+        "published": "2026-11-13T01:00:03Z"
+      },
       {
         "videoId": "pbaCcegbewQ",
         "title": "[문화n공감] [공감 초대석 ‘문화N사람’] (재)국립정동극장 대표이사 서승만",
@@ -2521,16 +2606,6 @@
         "videoId": "WPv3GuAWibs",
         "title": "[국악무대] [FULL] ‘사물놀이 한맥’ 다섯 번째 이야기 '四物놀이 2.0'",
         "published": "2026-10-29T01:00:37Z"
-      },
-      {
-        "videoId": "MuHNHI0Obo8",
-        "title": "📺 국악방송 문화달력 [10월26일 - 11월1일]",
-        "published": "2026-10-26T07:29:59Z"
-      },
-      {
-        "videoId": "VOhC3VoUnfM",
-        "title": "[문화n공감] [공감 초대석 ‘문화N사람’] (사)아리랑연합회 이사장 김연갑",
-        "published": "2026-10-25T14:28:30Z"
       }
     ],
     "yt-UCpdvFXMZkqFLdp1nagLkOhg": [
@@ -2689,6 +2764,11 @@
     ],
     "yt-UCbeZPOz8uaHstEIbkqBOnGg": [
       {
+        "videoId": "cIn1Xc-A6h4",
+        "title": "거리에서 플라멩코 소리 들리자 마을 사람들이 몰려들었는데 한국인이? | 다시 오지 않을 순간이라 더 뜨겁게 즐기는 라틴 축제 75분 몰아보기🔥  | 세계테마기행 | #세테깅",
+        "published": "2026-11-13T06:00:32Z"
+      },
+      {
         "videoId": "qvBY_d_AI6c",
         "title": "한국인 입맛에 너무 잘 맞는데 가성비까지 챙긴 태국 음식, 치앙마이부터 방콕, 소도시까지 태국 미식 기행| 세계테마기행 | #세테깅",
         "published": "2026-11-12T08:00:17Z"
@@ -2747,11 +2827,6 @@
         "videoId": "9CxrIv0LbgQ",
         "title": "\"고층 빌딩도 명품관도 없다\" 독일 최고 부호들이 숨겨둔 북해의 파라다이스, 쥘트섬 | 세계테마기행 | #세테깅",
         "published": "2026-10-23T06:00:11Z"
-      },
-      {
-        "videoId": "8oMhl_NHrfY",
-        "title": "⛰️불과 얼음이 공존하는 나라! 눈도 입도 즐거운 이색 캠핑 천국 아이슬란드! 보기만 해도 힐링되는 풍경의 연속⛰️2시간 몰아보기 | 세계테마기행 | #세테깅",
-        "published": "2026-10-20T06:30:27Z"
       }
     ],
     "yt-UC7Pc7sflxGNdgh-ep_jlbEg": [
@@ -2910,6 +2985,21 @@
     ],
     "yt-UCHlSeJxRIXZWMARC2oMwmcQ": [
       {
+        "videoId": "Or9NSCaFSj0",
+        "title": "[TV쇼 진품명품] 1547회 예고 KBS 방송",
+        "published": "2026-11-13T06:06:35Z"
+      },
+      {
+        "videoId": "rl980z8ilJw",
+        "title": "퀴즈 쇼! 천만다행~ 전국노래자랑을 빛낸 사람들 [아침마당] KBS 261113 방송",
+        "published": "2026-11-13T03:38:34Z"
+      },
+      {
+        "videoId": "xFhKyNRbRl8",
+        "title": "고대하던 소개팅 날, 긴장 속에 그녀를 만난 민수 씨. 음식 취향까지 통하며 설레는 시간을 보낸 뒤 다음 만남을 기약하는데... [인간극장] KBS 261113 방송",
+        "published": "2026-11-13T01:26:44Z"
+      },
+      {
         "videoId": "3feuvGzUWPU",
         "title": "🔥서울 강남 한복판! 빌딩 화재 발생! 유독가스를 피하기 위해 빌딩 난간에 매달린 시민들을 구조한 영웅들 [2TV 생생정보] KBS 261111 방송",
         "published": "2026-11-12T10:45:16Z"
@@ -2968,21 +3058,6 @@
         "videoId": "wUwD0AmEeu0",
         "title": "4살에 지적장애 판정을 받았지만 남다른 음악적 재능으로 성악가가 된 문영 씨와 아들의 성악 외길을 묵묵히 지지하는 엄마의 따뜻한 동행 [사랑의 가족] KBS 161107 방송",
         "published": "2026-11-10T11:00:14Z"
-      },
-      {
-        "videoId": "RjHR7AdydeE",
-        "title": "공중을 자유자재로 날아다니는 9살 소녀! 스턴트 치어리딩 천재 김조이 양 [2TV 생생정보] KBS 161109 방송",
-        "published": "2026-11-10T10:45:26Z"
-      },
-      {
-        "videoId": "J1r8ieYRApA",
-        "title": "아픈 남편 대신 가장이 되어야 했던 엄마와 그런 엄마를 대신해 아버지를 간병한 아들. 고마운 아들을 위해 엄마의 밥상을 배달합니다. [2TV 생생정보] KBS 261109 방송",
-        "published": "2026-11-10T10:30:10Z"
-      },
-      {
-        "videoId": "ehe52zFCIZQ",
-        "title": "트로트 계의 절친! 92년 생 동갑들이 뭉쳤다! 손빈아 김용빈 추혁진! 팬들과 함께하는 아침마당 KBS 261110 방송",
-        "published": "2026-11-10T03:19:12Z"
       }
     ],
     "yt-UCKdvqF-mmgiifS_pinO_bRA": [
@@ -3132,14 +3207,14 @@
         "videoId": "TgLn7nfLb8s",
         "title": "연개소문·김춘추·김유신이 맞붙는 삼국 전쟁의 서사, 대하드라마 '문무' (KBS_2026.11.07.방송)",
         "published": "2026-11-09T05:00:08Z"
-      },
-      {
-        "videoId": "xIi8K0A7QIM",
-        "title": "[4K풀] 삼한일통을 완수한 문무왕! 신라는 어떻게 최후의 승자가 됐나? | 역사스페셜 시간여행자_문무 2부작 1부 \"문무, 삼국을 통일하다\" (KBS_2026.11.08 방송)",
-        "published": "2026-11-08T13:30:38Z"
       }
     ],
     "yt-UCFw4M1BJYYdN1YtS8SzlDzg": [
+      {
+        "videoId": "ANoH04bIV7A",
+        "title": "파타고니아 트레킹 여행 [트레킹노트 세상을 걷다 388회] KBS 251011 방송",
+        "published": "2026-11-13T05:00:24Z"
+      },
       {
         "videoId": "2ni81OieU3Q",
         "title": "프랑스·이탈리아·체코·헝가리 유럽 한 바퀴 [걸어서 세계속으로 640회] KBS 20200222 방송",
@@ -3209,91 +3284,96 @@
         "videoId": "ugLgdSDo9P8",
         "title": "김지섭 선수, 트레일러닝 중 힘들다면",
         "published": "2026-11-10T02:27:24Z"
-      },
-      {
-        "videoId": "1-tOkyCrOt0",
-        "title": "[예고] 발칸의 숨겨진 보석, 세르비아 #kbs트래블",
-        "published": "2026-11-10T02:10:27Z"
       }
     ],
     "yt-UCR9gReM5VhQ_8brqQrBaVCA": [
       {
-        "videoId": "_kx2FxQqmOg",
-        "title": "90년대 농구 열풍의 중심!!🏀 〈마지막 승부〉의 마이클 최 X 장용호 X 미주의 현재 모습은?!👀 #살아있네살아있어",
-        "published": "2026-11-12T10:00:28Z"
+        "videoId": "8zXp7wKc73U",
+        "title": "멈춰있던 휴전 협상을 움직인 뜻밖의 변수? #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:27:12Z"
       },
       {
-        "videoId": "AFHvRYZYFbE",
-        "title": "[과몰입스페셜5] 첫 데이트부터 심상치 않은 눈빛 교환❤️‍🔥 #내새끼의연애3 EP.1",
-        "published": "2026-11-12T09:27:35Z"
+        "videoId": "PhLkwRi31AI",
+        "title": "중국군의 참전으로 판도가 바뀐 6・25 전쟁😢 #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:25:29Z"
       },
       {
-        "videoId": "cSsKBYGWIBA",
-        "title": "[과몰입스페셜4] 이상형 닮은 사람 앞에서 이상형 말하기🫣 #내새끼의연애3 EP.1",
-        "published": "2026-11-12T09:25:34Z"
+        "videoId": "cCEKfHeU2lM",
+        "title": "어린 소년들의 목숨 건 장사상륙작전 #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:24:02Z"
       },
       {
-        "videoId": "2xxh1PL8TxI",
-        "title": "[과몰입스페셜3] 첫 만남부터 끌린 상대가 겹사돈이라면~? #내새끼의연애3 EP.1",
-        "published": "2026-11-12T09:24:28Z"
+        "videoId": "MtWIZdrG8cw",
+        "title": "인천상륙작전은 무모한 작전이었다?! #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:21:43Z"
       },
       {
-        "videoId": "ncWykVmjBcs",
-        "title": "[과몰입스페셜2] 연프에서 만난 어릴 적 찐친과 연애 가능⁉️ #내새끼의연애3 EP.1",
-        "published": "2026-11-12T09:22:38Z"
+        "videoId": "3rvbBWL7YZc",
+        "title": "북한의 기습 남침에 국군이 무너진 결정적 이유💧 #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:20:24Z"
       },
       {
-        "videoId": "fRoDUxozlBM",
-        "title": "[과몰입스페셜1] 76일은 연애 경력이다 vs 아니다🤔 #내새끼의연애3 EP.1",
-        "published": "2026-11-12T09:20:09Z"
+        "videoId": "Ijzpo0qNqNQ",
+        "title": "미국의 방어선에서 남한이 제외된 이유? #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:19:06Z"
       },
       {
-        "videoId": "PPjFscF7ChQ",
-        "title": "맛없다고 대놓고 말하기 어려울 때 필수💥 최양락의 날카로운 관찰력으로 탄생한 충청도식 화법 ㅋㅋ #남겨서뭐하게",
-        "published": "2026-11-12T09:00:29Z"
+        "videoId": "VA9eI4W1qf4",
+        "title": "6・25 전쟁의 도화선이 된 결정적 사건💢 #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:17:33Z"
       },
       {
-        "videoId": "YWDE9aItUqo",
-        "title": "정상훈은 김희선의 유명한 웃음 버튼임🤣 찐친이라 서로를 너무 잘 알고 있는 두 사람의 환상적인 티키타카 ㅋㅋ #밥이나한잔해",
-        "published": "2026-11-12T08:00:11Z"
+        "videoId": "UR_Es52p6lI",
+        "title": "스탈린의 환심을 사려 ‘이것’까지 선물한 김일성🫢 #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:15:45Z"
       },
       {
-        "videoId": "-MyNXGQOUxk",
-        "title": "긴장한 준수 앞에 나타난 이상형?!😍 지우의 화사한 미소에 마음을 빼앗겨버린 준수💘 #내새끼의연애3",
-        "published": "2026-11-12T07:40:41Z"
+        "videoId": "sq2PzDVoc1o",
+        "title": "모두를 놀라게 만든 정체불명의 굉음⁉️ #벌거벗은한국사3 EP.6",
+        "published": "2026-11-13T06:14:12Z"
       },
       {
-        "videoId": "mb8LTGbJ4hg",
-        "title": "길어지는 눈맞춤에 아빠 안절부절💦 처음 보는 딸의 모습에 속이 타들어가는 아빠😅 #내새끼의연애3",
-        "published": "2026-11-12T07:39:36Z"
+        "videoId": "6zX2VW9eQFI",
+        "title": "버스 안에서 무슨 사랑이야💦 너무 없어 보이는(?) 가사에 〈버스 안에서〉가 타이틀곡이 될거라 생각도 못했던 자자😂 #살아있네살아있어",
+        "published": "2026-11-13T06:00:10Z"
       },
       {
-        "videoId": "UUPbxO4UKW8",
-        "title": "장민호 X 이찬원 - 〈폼나게 살거야〉 ㅣ 대한민국을 대표하는 두 트롯 가수의 명품 라이브🎤 #잘생긴트롯",
-        "published": "2026-11-12T07:00:02Z"
+        "videoId": "HlT-7PuBHY0",
+        "title": "사랑하면서도 혼자일 미래를 준비한 아내😢 남편의 발목을 잡을까 혼인신고조차 망설였던 아내의 속마음💧 #김창옥쇼4",
+        "published": "2026-11-13T05:00:31Z"
       },
       {
-        "videoId": "xLI7LNkcjrw",
-        "title": "받을 때까지 전화 무한 반복📞 엄마의 집착과 간섭에 숨 막혀 도망갈 기회만 엿보고 있는 아이들💦 #김창옥쇼3",
-        "published": "2026-11-12T06:00:13Z"
+        "videoId": "_Icdia8JpkE",
+        "title": "환갑 앞두고 관종력 폭발ㅋㅋ💥 막내딸 학교 축제까지 접수해버린 춤신춤왕 아빠🕺 #김창옥쇼4",
+        "published": "2026-11-13T05:00:15Z"
       },
       {
-        "videoId": "qradQCcXuyA",
-        "title": "앉아서 대접받을 생각하지 마💢 대접받으러 온 김용건도 두 손 두 발 들게 만든 버럭 정수 ㅋㅋ #회장님네사람들",
-        "published": "2026-11-12T05:00:19Z"
+        "videoId": "1dsqMU9-vwo",
+        "title": "재아의 마음을 귀신같이 맞히는 언니 재시🤭 #내새끼의연애3 EP.2",
+        "published": "2026-11-13T02:00:28Z"
       },
       {
-        "videoId": "Zjqbz7Uk21k",
-        "title": "[67회 예고] 동화 같은 풍경에 감탄 연발! #김창옥 의 제주 하우스&라이프 최초 공개✨ #남겨서뭐하게 EP.67",
-        "published": "2026-11-12T04:50:44Z"
+        "videoId": "uLAm7Rkomqk",
+        "title": "💖2회 선공개💖재아 마음 다 아는 재시💞쌍둥이들의 연애공조👀 #내새끼의연애3 EP.2",
+        "published": "2026-11-13T02:00:07Z"
       },
       {
-        "videoId": "rhYkisLFVLQ",
-        "title": "최초로 공개하는 #김창옥 의 제주살이🌴 #남겨서뭐하게 EP.67",
-        "published": "2026-11-12T04:49:16Z"
+        "videoId": "GSZoyCv8xbE",
+        "title": "[7회 예고] 국제 정세까지 뒤흔든 부부 전쟁💥고려왕과 몽골 공주의 충격적인 부부 생활 #벌거벗은한국사3 EP.7",
+        "published": "2026-11-13T01:15:21Z"
       }
     ],
     "yt-UCp3Vy7dFjIheDLbMekpdMQw": [
+      {
+        "videoId": "pfVWLrdTZdo",
+        "title": "영하 20도 칼바람 속 해발 1750m 지리산 꼭대기에는 50년간 사람들을 살린 '집 한 채'가 있다. #다큐공감 | KBS 2015.02.21",
+        "published": "2026-11-13T05:00:33Z"
+      },
+      {
+        "videoId": "AXyeG0df4HI",
+        "title": "2부🎬 아내와 사별하고 홀로 키운 아들, 10살 연하 러시아 아내 덕에 극복한 아픔 #인간극장 | 새엄마발렌티나 | KBS 2007.06.25",
+        "published": "2026-11-13T02:00:31Z"
+      },
       {
         "videoId": "jY6Kzy96UUA",
         "title": "1부🎬 아내와 사별하고 홀로 키운 아들, 10살 연하 러시아 아내 덕에 극복한 아픔 #인간극장 | 새엄마발렌티나 | KBS 2007.06.25",
@@ -3353,16 +3433,6 @@
         "videoId": "qvEjKL0PRwU",
         "title": "(Full)캐나다에서 첩첩산중 지리산 오지로 시집 온 푸른 눈의 샬롯씨. 생각과 너무 다른 환경에 적응하는데 어려웠다는데.. #인간극장 | KBS 2008.10.13",
         "published": "2026-11-10T03:00:21Z"
-      },
-      {
-        "videoId": "nX0h5ONjr48",
-        "title": "#전국노래자랑 인생 경험이 묻어나는 66세 한 남자의 인생 노래... | 전북군산시 | KBS 2005.10.23",
-        "published": "2026-11-10T00:00:10Z"
-      },
-      {
-        "videoId": "d9zWvpBg8jM",
-        "title": "(Full) 23살에 사법고시 합격. 초엘리트 검찰청 막내 검사의 첫 살인사건 수사 현장 최초공개 #인간극장 | KBS 2006.12.11",
-        "published": "2026-11-09T10:02:59Z"
       }
     ],
     "yt-UCvH6u_Qzn5RQdz9W198umDw": [
