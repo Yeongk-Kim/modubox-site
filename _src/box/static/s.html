@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>모두박스 - 라디오·팟캐스트·앱을 하나로</title>
+<meta name="description" content="번호만 누르면 라디오가 나옵니다. 기본 기능은 무료입니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ModuBox Labs">
+<meta property="og:title" content="모두박스 - 라디오·팟캐스트·앱을 하나로">
+<meta property="og:description" content="번호만 누르면 라디오가 나옵니다. 기본 기능은 무료입니다.">
+<meta property="og:url" content="https://modubox.app/box/s">
+<meta property="og:image" content="https://modubox.app/box/share-icon.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<!-- 11/14 결정 536·538: 앱 '친구에게 알려 주기' 짧은 주소 → Play(출처 friend_settings). 안드로이드는 Play 스토어 앱으로, 그 밖은 아래 단추 -->
+<style>
+body{margin:0;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;background:#0c1228;color:#eef0f6;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}
+main{padding:32px 20px;max-width:420px}
+img{width:96px;height:96px;border-radius:22px}
+h1{font-size:22px;margin:16px 0 8px}
+p{color:#b8c0dc;font-size:16px;line-height:1.5;margin:0 0 24px}
+a.btn{display:block;background:#f5b061;color:#2b1a06;font-weight:700;font-size:19px;padding:16px;border-radius:999px;text-decoration:none}
+small{display:block;margin-top:16px;color:#8890b0;font-size:13px}
+</style>
+</head><body><main>
+<img src="/box/share-icon.png" alt="">
+<h1>모두박스</h1>
+<p>번호만 누르면 라디오가 나옵니다.<br>기본 기능은 무료입니다.</p>
+<a class="btn" id="go" href="https://play.google.com/store/apps/details?id=com.modubox.app&referrer=utm_source%3Dapp_share%26utm_medium%3Dshare_sheet%26utm_campaign%3Dfriend_settings">Google Play에서 받기</a>
+<small>안드로이드 폰에서 받을 수 있습니다.</small>
+</main>
+<script>
+(function(){
+  var play="https://play.google.com/store/apps/details?id=com.modubox.app&referrer=utm_source%3Dapp_share%26utm_medium%3Dshare_sheet%26utm_campaign%3Dfriend_settings", market="market://details?id=com.modubox.app&referrer=utm_source%3Dapp_share%26utm_medium%3Dshare_sheet%26utm_campaign%3Dfriend_settings";
+  if(/android/i.test(navigator.userAgent)){
+    document.getElementById('go').href=market;
+    location.replace(market);
+    setTimeout(function(){ if(!document.hidden) location.replace(play); }, 1500);
+  }
+})();
+</script>
+</body></html>
