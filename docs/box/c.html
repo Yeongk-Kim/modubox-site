@@ -37,6 +37,14 @@ small{display:block;margin-top:16px;color:#8890b0;font-size:13px}
     document.getElementById('go').href=market;
     location.replace(market);
     setTimeout(function(){ if(!document.hidden) location.replace(play); }, 1500);
+    // 11/14: 카톡 안 브라우저면 Play에서 돌아올 때 이 창을 닫는다(카카오 공식 스킴)
+    if(/KAKAOTALK/i.test(navigator.userAgent)){
+      var left=false;
+      document.addEventListener('visibilitychange',function(){
+        if(document.hidden){ left=true; }
+        else if(left){ location.href='kakaotalk://inappbrowser/close'; }
+      });
+    }
   }
 })();
 </script>
