@@ -1,4 +1,4 @@
 {
-  "version": 1,
-  "blocked": []
+  "version": 2,
+  "blocked": ["kr-cbs-musicfm"]
 }
