@@ -5,7 +5,7 @@
 필요: Python 3.9+, pip 패키지 markdown
 
 원고 위치(각 앱 세션은 자기 폴더만): _src/<앱>/page.md · help.md · faq.md · updates.md · img/ · static/
-공통 틀(이 파일·apps.json·site.json·CSS·머리/바닥)·빌드·배포 = 수면앱 세션. 자세한 규칙은 _src/README.md
+공통 틀(이 파일·apps.json·site.json·CSS·머리/바닥)·빌드·배포 = 본부 홍보팀(11/20~). 자세한 규칙은 _src/README.md
 같은 원고 → 같은 결과(날짜·시각을 넣지 않음). 날짜는 apps.json 값만 씀.
 """
 import os, re, sys, json, html, shutil
@@ -22,10 +22,12 @@ BASE = 'https://modubox.app'
 
 APPS = json.load(open(os.path.join(SRC, 'apps.json'), encoding='utf-8'))
 SITE = json.load(open(os.path.join(SRC, 'site.json'), encoding='utf-8'))
-SHOWN = [a for a in APPS if a['status'] in ('testing', 'live')]   # 홈 카드·메뉴·sitemap에 나오는 앱
+SHOWN = [a for a in APPS if a['status'] in ('testing', 'live', 'ios')]   # 'ios' = App Store만 출시(11/20 보는 라디오)   # 홈 카드·메뉴·sitemap에 나오는 앱
 
 BIZ_KO = ('상호 모두박스랩스 (ModuBox Labs) · 대표 김영균 · 사업자등록번호 163-78-00746 · 통신판매업 신고 제2026-서울서대문-1097호<br>'
           '주소 서울특별시 서대문구 신촌로 163 (대현동) · 전화 <a href="tel:07080657440">070-8065-7440</a> · 이메일 <a class="mail" href="mailto:support@modubox.app">support@modubox.app</a>')
+
+TM_KO = '\'모두박스\'·\'ModuBox\' 상표 출원 중 (출원번호 40-2026-0251298 · 40-2026-0251307)'   # 11/20 출원 — 등록 전 ®·\'등록상표\' 표기 금지
 
 MON_EN = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
           'September', 'October', 'November', 'December']
@@ -60,8 +62,8 @@ ICON = {
 }
 WAVE = '<svg class="wave" viewBox="0 0 22 12" aria-hidden="true"><path d="M1 5v2M5 2v8M9 4v4M13 0v12M17 3v6M21 5v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
 LOGO = '<svg class="mark" viewBox="0 0 22 20" aria-hidden="true"><path d="M2 5v10M7 1v18M12 4v12M17 7v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>'
-NAV = [('home', '홈', '/'), ('box', '모두박스', '/box/'), ('sleep', '수면 사운드', '/sleep/'), ('about', '소개', '/about/')]
-# 보는 라디오: 11/11 사장님 결정으로 메뉴·홈 카드 숨김(apps.json preparing). /visualradio/·처리방침 주소는 유지
+NAV = [('home', '홈', '/'), ('box', '모두박스', '/box/'), ('sleep', '수면 사운드', '/sleep/'), ('visualradio', '보는 라디오', '/visualradio/'), ('about', '소개', '/about/')]
+# 보는 라디오: 11/11 메뉴·홈 카드 숨김 → 11/20 App Store 출시로 다시 보임(apps.json status 'ios', 본부 홍보팀)
 TOP_JS = ("<script>try{history.scrollRestoration='manual'}catch(e){}function _top(){if(!location.hash){window.scrollTo({top:0,left:0,behavior:'instant'})}}"
           "_top();addEventListener('pageshow',_top);</script>")
 
@@ -75,9 +77,14 @@ def app_by(slug):
 def v5_play(slug, label='Google Play에서 받기', cls='btn'):
     slug, _, pos = slug.partition('@')          # {{play:앱@bottom}} → utm_campaign=<앱>_bottom (11/11 홍보팀: 위 hero · 아래 bottom)
     a = app_by(slug)
+    if a['status'] == 'ios' and a.get('appstore'):
+        return v5_store(a, 'App Store에서 받기' if label == 'Google Play에서 받기' else label, cls)
     if a['status'] != 'live':
         return f'<span class="{cls} soon">곧 출시합니다</span>'
     return f'<a class="{cls}" href="{html.escape(play_url(a, pos or 'hero'))}" target="_blank" rel="noopener">{label} {WAVE}</a>'
+
+def v5_store(a, label='App Store에서 받기', cls='btn'):
+    return f'<a class="{cls}" href="{html.escape(a["appstore"])}" target="_blank" rel="noopener">{label} {WAVE}</a>'
 
 def fill(text):
     """원고 HTML의 자리표시 채우기: {{icon:x}} {{wave}} {{bars}} {{bars:k}} {{play:앱}} {{play:앱@bottom}} {{play:앱:글자:class}}"""
@@ -115,7 +122,7 @@ def page(title, body, desc='', lang='ko', canonical='', og=None, cur='', cta=Non
 <main>
 {main}
 </main>
-<footer><div class="wrap"><div class="links">{links}<a href="/about/">회사 소개</a></div>{BIZ_KO}<br>© 2026 ModuBox Labs</div></footer>
+<footer><div class="wrap"><div class="links">{links}<a href="/about/">회사 소개</a></div>{BIZ_KO}<br>{TM_KO}<br>© 2026 ModuBox Labs</div></footer>
 {TOP_JS}
 </body>
 </html>
@@ -167,7 +174,7 @@ def play_url(a, pos='hero'):
 
 def app_cta(a):
     """머리 오른쪽 단추: 출시 앱 = '앱 받기'(Play), 준비 중 = '곧 출시'"""
-    return v5_play(a['slug'], '앱 받기') if a['status'] == 'live' else '<span class="btn soon">곧 출시</span>'
+    return v5_play(a['slug'], '앱 받기') if a['status'] in ('live', 'ios') else '<span class="btn soon">곧 출시</span>'
 
 PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>'
 def play_btn(a, pos='hero'):

@@ -1,6 +1,6 @@
 ---
 title: 보는 라디오 · Visual Radio
-description: 보이는 라디오 생방송·다시보기·라디오·팟캐스트를 한 앱에 담은 Android 앱(출시 준비 중)
+description: 보이는 라디오 생방송·다시보기·라디오·팟캐스트를 한 앱에 담은 앱(App Store 출시, Android 준비 중)
 layout: full
 card: 라디오를 보면서 듣는다. 보이는 라디오 생방송·다시보기·라디오·팟캐스트를 한 앱에.
 ---
@@ -10,8 +10,8 @@ card: 라디오를 보면서 듣는다. 보이는 라디오 생방송·다시보
   <p class="eyebrow">Visual Radio · 보는 라디오</p>
   <h1>라디오를 <span class="tile l">{{icon:tv}}</span><br>보면서 듣는다.</h1>
   <p class="lead">보이는 라디오 생방송과 다시보기, 라디오와 팟캐스트를 한 앱에. 회원가입 없이 바로 씁니다.</p>
-  <div class="cta"><span class="btn soon">곧 출시합니다</span></div>
-  <p class="note">지금은 비공개 테스트 중입니다.</p>
+  <div class="cta">{{play:visualradio}}</div>
+  <p class="note">아이폰·아이패드는 App Store에서 받을 수 있습니다. Android는 준비 중입니다.</p>
 </div>
 </div>
 <section style="padding-top:0"><div class="wrap">
