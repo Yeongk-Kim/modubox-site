@@ -1,0 +1,91 @@
+# 라디오 **소리 주소 주 1회 점검**(보는 라디오 보고_162 의 판단 ⑤ '나'
+# + 전달문 177 의 안1 — 사장님 결정 11/21 06:57).
+#
+# ⚠ **대상은 소리가 있는 카드 전부다** — 국내 35 + 해외 5 = 40 카드
+#    (소리 번호 39 개). 전에는 해외 다섯뿐이었다.
+# ⚠ **두 걸음이다** — 국내 방송사 넷(KBS·MBC·SBS·cpbc)은 재생 주소를 한 번
+#    더 물어본다. '조회 거절'과 '소리 거절'을 갈라 적는다(README.md).
+#
+# ⚠ **비밀값이 하나도 없다** — 키도 토큰도 쓰지 않는다(이슈를 여는
+#    GITHUB_TOKEN 은 액션이 저절로 준다).
+# ⚠ **홈페이지에 나가는 파일을 건드리지 않는다** — `_src/` · `docs/` 아래에
+#    아무것도 쓰지 않는다. 쓰는 것은 `tools/overseas_check/` 의 표와
+#    실패 횟수 둘뿐이다(앱은 이 결과를 읽지 않는다).
+# ⚠ **유튜브는 재지 않는다** — 러너 IP 가 막힌다(보는 라디오 전달문 127).
+#
+# 넣는 자리: 홈페이지 저장소의 .github/workflows/overseas-sound.yml
+# 점검기 자리: tools/overseas_check/  (README.md 를 보라)
+
+name: 라디오 소리 주소 주 1회 점검
+
+on:
+  schedule:
+    # 월요일 06:00 KST = 일요일 21:00 UTC (유튜브 채널 점검보다 한 시간 뒤)
+    - cron: "0 21 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: overseas-sound
+  cancel-in-progress: false
+
+jobs:
+  check:
+    # ⚠ **깃허브가 주는 러너는 미국에 있다** — 그것이 이 액션의 뜻이다.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ⚠ 설치하는 것이 없다 — 점검기는 **표준 라이브러리만** 쓴다.
+      - name: 셈 시험(바깥 연결 0)
+        run: python tools/overseas_check/check_overseas_sound.py --selftest
+
+      - name: 소리 주소 점검
+        id: check
+        run: |
+          python tools/overseas_check/check_overseas_sound.py \
+            --list   tools/overseas_check/streams.json \
+            --state  tools/overseas_check/state.json \
+            --report tools/overseas_check/report.md
+        env:
+          # 표에 '어디서 쟀나' 로 적힌다 — 없으면 '모름' 이다.
+          VR_RUNNER_PLACE: github-hosted ubuntu (미국)
+
+      - name: 결과가 달라진 날에만 커밋
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/overseas_check/report.md tools/overseas_check/state.json
+          git diff --cached --quiet || git commit -m "라디오 소리 점검 — ${{ steps.check.outputs.summary }}"
+          git push
+
+      # 실패 횟수만 바뀐 날에도 남겨 둔다 — '두 주 잇달아' 규칙이 다음 주에
+      # 이어지려면 그 숫자가 저장소에 있어야 한다.
+      - name: 실패 횟수만 바뀌었으면 그것만 커밋
+        if: steps.check.outputs.changed != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/overseas_check/state.json
+          git diff --cached --quiet || git commit -m "라디오 소리 점검 — 실패 횟수만 고침"
+          git diff --quiet HEAD origin/$(git rev-parse --abbrev-ref HEAD) || git push
+
+      - name: 열리지 않은 주소가 있으면 이슈 하나
+        if: steps.check.outputs.issue == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${{ steps.check.outputs.title }}`,
+              body: `${{ steps.check.outputs.body }}`,
+            });

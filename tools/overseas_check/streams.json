@@ -1,0 +1,404 @@
+{
+ "_comment": "보는 라디오 tools/build_overseas_check.py 가 만든다 — 손으로 고치지 않는다. **소리가 있는 카드 전부**(국내 + 해외)의 소리 주소를 담는다. streamLookup 이 있으면 한 번 더 물어보는 주소다(앱 부품 StreamResolver 와 같다 · 전달문 177).",
+ "streams": [
+  {
+   "card": "bbs-radio",
+   "cardName": "BBS 불교방송",
+   "group": "domestic",
+   "id": "kr-bbs-radio",
+   "name": "BBS 불교방송",
+   "url": "https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "cbs-musicfm",
+   "cardName": "CBS 음악FM",
+   "group": "domestic",
+   "id": "kr-cbs-musicfm",
+   "name": "CBS 음악FM",
+   "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "cbs-standardfm",
+   "cardName": "CBS 표준FM",
+   "group": "domestic",
+   "id": "kr-cbs-standardfm",
+   "name": "CBS 표준FM",
+   "url": "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "cpbc-radio",
+   "cardName": "cpbc 라디오",
+   "group": "domestic",
+   "id": "kr-cpbc-seoul",
+   "name": "CPBC 가톨릭평화방송",
+   "url": "https://apis.cpbc.co.kr/play-api/2.0/onair/channel/radio",
+   "lookup": {
+    "kind": "json",
+    "path": "onair.source.mediasource.mediaurl"
+   }
+  },
+  {
+   "card": "ebs-fm",
+   "cardName": "EBS FM",
+   "group": "domestic",
+   "id": "kr-ebs-fm",
+   "name": "EBS FM",
+   "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "febc-daejeon",
+   "cardName": "극동방송 대전",
+   "group": "domestic",
+   "id": "kr-febc-daejeon",
+   "name": "대전극동방송",
+   "url": "https://mlive3.febc.net/live5/djlive/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "febc-seoul",
+   "cardName": "극동방송",
+   "group": "domestic",
+   "id": "kr-febc-seoul",
+   "name": "극동방송",
+   "url": "https://mlive2.febc.net/live/seoulfm/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "gugak-fm",
+   "cardName": "국악방송 라디오",
+   "group": "domestic",
+   "id": "kr-gugak-radio",
+   "name": "국악방송",
+   "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "ifm-radio",
+   "cardName": "경인방송 iFM",
+   "group": "domestic",
+   "id": "kr-ifm-gyeongin",
+   "name": "경인방송 iFM",
+   "url": "https://stream.ifm.kr/live/aod1/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "kbs-1radio",
+   "cardName": "KBS 1라디오",
+   "group": "domestic",
+   "id": "kr-kbs-1radio",
+   "name": "KBS 1라디오",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-classicfm",
+   "cardName": "KBS 클래식FM",
+   "group": "domestic",
+   "id": "kr-kbs-classicfm",
+   "name": "KBS 클래식FM",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/24",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-coolfm",
+   "cardName": "KBS 쿨FM",
+   "group": "domestic",
+   "id": "kr-kbs-coolfm",
+   "name": "KBS 쿨FM",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/25",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-daegu-radio",
+   "cardName": "KBS대구 라디오",
+   "group": "domestic",
+   "id": "kr-kbs-1radio-daegu",
+   "name": "KBS대구 1라디오",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_21",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-daejeon-radio",
+   "cardName": "KBS대전 라디오",
+   "group": "domestic",
+   "id": "kr-kbs-1radio-daejeon",
+   "name": "KBS대전 1라디오",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_21",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-happyfm",
+   "cardName": "KBS 2라디오 해피FM",
+   "group": "domestic",
+   "id": "kr-kbs-happyfm",
+   "name": "KBS 해피FM",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/22",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kbs-suncheon",
+   "cardName": "KBS순천",
+   "group": "domestic",
+   "id": "kr-kbs-1radio-suncheon",
+   "name": "KBS순천 1라디오",
+   "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/43_21",
+   "lookup": {
+    "kind": "json",
+    "path": "channel_item.0.service_url"
+   }
+  },
+  {
+   "card": "kfn-radio",
+   "cardName": "국방FM (KFN)",
+   "group": "domestic",
+   "id": "kr-dema-fm",
+   "name": "국방FM",
+   "url": "https://mediaworks.dema.mil.kr/live_edge/audio.sdp/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "mbc-fm4u",
+   "cardName": "MBC FM4U",
+   "group": "domestic",
+   "id": "kr-mbc-fm4u",
+   "name": "MBC FM4U",
+   "url": "https://sminiplay.imbc.com/aacplay.ashx?channel=mfm&agent=webapp&protocol=sredirect",
+   "lookup": {
+    "kind": "text"
+   }
+  },
+  {
+   "card": "mbc-sfm",
+   "cardName": "MBC 표준FM",
+   "group": "domestic",
+   "id": "kr-mbc-sfm",
+   "name": "MBC 표준FM",
+   "url": "https://sminiplay.imbc.com/aacplay.ashx?channel=sfm&agent=webapp&protocol=sredirect",
+   "lookup": {
+    "kind": "text"
+   }
+  },
+  {
+   "card": "mbc-trot",
+   "cardName": "MBC 트로트라디오",
+   "group": "domestic",
+   "id": "kr-mbc-sfm",
+   "name": "MBC 표준FM",
+   "url": "https://sminiplay.imbc.com/aacplay.ashx?channel=sfm&agent=webapp&protocol=sredirect",
+   "lookup": {
+    "kind": "text"
+   }
+  },
+  {
+   "card": "obs-radio",
+   "cardName": "OBS 라디오 FM99.9",
+   "group": "domestic",
+   "id": "kr-obs-fm999",
+   "name": "OBS 라디오 FM99.9",
+   "url": "https://vod.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "sbs-gorealram",
+   "cardName": "SBS 고릴라M",
+   "group": "domestic",
+   "id": "kr-sbs-gorealram",
+   "name": "SBS 고릴라M",
+   "url": "https://apis.sbs.co.kr/play-api/1.0/onair/channel/S19?v_type=2&platform=pcweb&protocol=hls&ssl=Y",
+   "lookup": {
+    "kind": "json",
+    "path": "onair.source.mediasource.mediaurl"
+   }
+  },
+  {
+   "card": "sbs-lovefm",
+   "cardName": "SBS 러브FM",
+   "group": "domestic",
+   "id": "kr-sbs-lovefm",
+   "name": "SBS 러브FM",
+   "url": "https://apis.sbs.co.kr/play-api/1.0/onair/channel/S08?v_type=2&platform=pcweb&protocol=hls&ssl=Y",
+   "lookup": {
+    "kind": "json",
+    "path": "onair.source.mediasource.mediaurl"
+   }
+  },
+  {
+   "card": "sbs-powerfm",
+   "cardName": "SBS 파워FM",
+   "group": "domestic",
+   "id": "kr-sbs-powerfm",
+   "name": "SBS 파워FM",
+   "url": "https://apis.sbs.co.kr/play-api/1.0/onair/channel/S07?v_type=2&platform=pcweb&protocol=hls&ssl=Y",
+   "lookup": {
+    "kind": "json",
+    "path": "onair.source.mediasource.mediaurl"
+   }
+  },
+  {
+   "card": "tbn-busan",
+   "cardName": "tbn 부산교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-busan",
+   "name": "tbn 부산교통방송",
+   "url": "https://www.tbn.it.kr/busan/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbn-chungbuk",
+   "cardName": "tbn 충북교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-chungbuk",
+   "name": "tbn 충북교통방송",
+   "url": "https://www.tbn.it.kr/chungbuk/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbn-daegu",
+   "cardName": "tbn 대구교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-daegu",
+   "name": "tbn 대구교통방송",
+   "url": "https://www.tbn.it.kr/daegu/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbn-daejeon",
+   "cardName": "tbn 대전교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-daejeon",
+   "name": "tbn 대전교통방송",
+   "url": "https://www.tbn.it.kr/daejeon/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbn-gyeongin",
+   "cardName": "tbn 경인교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-gyeongin",
+   "name": "tbn 경인교통방송",
+   "url": "https://www.tbn.it.kr/gyeongin/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbn-ulsan",
+   "cardName": "tbn 울산교통방송",
+   "group": "domestic",
+   "id": "kr-tbn-ulsan",
+   "name": "tbn 울산교통방송",
+   "url": "https://www.tbn.it.kr/ulsan/myStream/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbs-efm",
+   "cardName": "TBS eFM (영어)",
+   "group": "domestic",
+   "id": "kr-tbs-efm",
+   "name": "TBS eFM",
+   "url": "https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "tbs-fm",
+   "cardName": "TBS 시민의방송",
+   "group": "domestic",
+   "id": "kr-tbs-fm",
+   "name": "TBS FM",
+   "url": "https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "ubc-radio",
+   "cardName": "ubc 울산방송 라디오",
+   "group": "domestic",
+   "id": "kr-ubc-greenfm",
+   "name": "UBC 그린FM",
+   "url": "https://stream.ubc.co.kr/hls/ubcfmstream/index.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "wbs-radio",
+   "cardName": "WBS 원음방송",
+   "group": "domestic",
+   "id": "kr-wbs-seoul",
+   "name": "WBS 원음방송",
+   "url": "https://wbsradio.kr/wbs-seoul",
+   "lookup": null
+  },
+  {
+   "card": "ytn-radio",
+   "cardName": "YTN 라디오",
+   "group": "domestic",
+   "id": "kr-ytn-radio",
+   "name": "YTN 라디오",
+   "url": "https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8",
+   "lookup": null
+  },
+  {
+   "card": "kradio-ny-1660",
+   "cardName": "K-Radio AM1660 (뉴욕)",
+   "group": "overseas",
+   "id": "us-kradio-1660",
+   "name": "K-Radio AM1660 (뉴욕)",
+   "url": "https://streams.radio.co/s839c1142b/listen",
+   "lookup": null
+  },
+  {
+   "card": "radio-korea-atlanta",
+   "cardName": "애틀랜타 라디오코리아 AM790",
+   "group": "overseas",
+   "id": "us-radiokorea-atlanta",
+   "name": "애틀랜타 라디오코리아 AM790",
+   "url": "https://s2.radio.co/s481a3f747/listen",
+   "lookup": null
+  },
+  {
+   "card": "radio-korea-la",
+   "cardName": "Radio Korea (LA, AM 1540)",
+   "group": "overseas",
+   "id": "us-radiokorea-la",
+   "name": "Radio Korea (LA, AM 1540)",
+   "url": "https://onairweb.radiokorea.com/live;stream/1",
+   "lookup": null
+  },
+  {
+   "card": "radio-seoul-la",
+   "cardName": "라디오 서울 AM1650 (LA)",
+   "group": "overseas",
+   "id": "us-radioseoul-1650",
+   "name": "라디오 서울 AM1650 (LA)",
+   "url": "https://onair1.radioseoul1650.com/radioseoul.mp3",
+   "lookup": null
+  },
+  {
+   "card": "rain-fm-la",
+   "cardName": "RAIN FM (LA, K-POP)",
+   "group": "overseas",
+   "id": "us-rainfm-la",
+   "name": "RAIN FM (LA, K-POP)",
+   "url": "https://onair1.radioseoul1650.com/rainfm.mp3",
+   "lookup": null
+  }
+ ]
+}

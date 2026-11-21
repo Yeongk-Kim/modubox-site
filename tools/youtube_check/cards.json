@@ -1,0 +1,677 @@
+{
+ "_comment": "보는 라디오 tools/build_region_check.py 가 만든다 — 손으로 고치지 않는다. 방송채널 카드(channels.json)와 유튜브 탭 채널(youtube_channels.json)의 **유튜브 채널 번호**만 담는다(전달문 177의 2-1).",
+ "cards": [
+  {
+   "kind": "card",
+   "key": "arirang-radio",
+   "name": "아리랑 라디오 (영어)",
+   "channelId": "UCUSSnoEQ8DSRK-gnWS0vfyA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "bbs-radio",
+   "name": "BBS 불교방송",
+   "channelId": "UC3d8VqSnGnMofo35EM_fIVQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "bbs-radio-video",
+   "name": "BBS 라디오",
+   "channelId": "UCdqzRmR2Q4CVu5d8k4cqZjA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "cbs-musicfm",
+   "name": "CBS 음악FM",
+   "channelId": "UClV1sw7VTJ9R96ILRPMphVQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "cbs-standardfm",
+   "name": "CBS 표준FM",
+   "channelId": "UC4Aa3OPkMenwTANpf0oWVRQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "cpbc-radio",
+   "name": "cpbc 라디오",
+   "channelId": "UCw_dOaD8_uPFW9C2MDGxPAQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "ebs-fm",
+   "name": "EBS FM",
+   "channelId": "UCNjQBiTSdoj2tCQLBGXFksw",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "febc-daejeon",
+   "name": "극동방송 대전",
+   "channelId": "UC63m2VDkFJsj4vbyUA2P3Yg",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "febc-seoul",
+   "name": "극동방송",
+   "channelId": "UCTwQ9iAIojmsw_mFlYj54SA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "gugak-fm",
+   "name": "국악방송 라디오",
+   "channelId": "UChGH9Y7DVCJXFlBtNXTf98A",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "ifm-radio",
+   "name": "경인방송 iFM",
+   "channelId": "UCwv-UfcqPB-Fa8SOBhYYmIQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-1radio",
+   "name": "KBS 1라디오",
+   "channelId": "UCMLJc_D3jgFcS_48G7i4V0A",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-classicfm",
+   "name": "KBS 클래식FM",
+   "channelId": "UC2klpNOmQgbnnYwaW5eQOLQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-coolfm",
+   "name": "KBS 쿨FM",
+   "channelId": "UCbVRtqsTmYh1xhrDSTfSQLg",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-daegu-radio",
+   "name": "KBS대구 라디오",
+   "channelId": "UCwsNG1xZVr8cLvRqqjMZE7w",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-daejeon-radio",
+   "name": "KBS대전 라디오",
+   "channelId": "UCUnSdg6_nmdhh2fXjsNqTXg",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-happyfm",
+   "name": "KBS 2라디오 해피FM",
+   "channelId": "UCeubR4oC-jj0F74hhvpQ3cA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kbs-suncheon",
+   "name": "KBS순천",
+   "channelId": "UCdiJ9td2W0Pi6ZVn-obceug",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kfn-radio",
+   "name": "국방FM (KFN)",
+   "channelId": "UCV4cmyiTY4g8zlF2_1uCTYw",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "kradio-am1230",
+   "name": "KRadio AM1230 우리방송 (LA)",
+   "channelId": "UC8k_Fy9wtx3GQCunv2aDd4A",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "kradio-ny-1660",
+   "name": "K-Radio AM1660 (뉴욕)",
+   "channelId": "UCmsv4APvmOh8qXVifSaxCzw",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "mbc-busan-radio",
+   "name": "부산MBC 라디오",
+   "channelId": "UCPgGNCK_HuR9Pg80sdgC40w",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "mbc-fm4u",
+   "name": "MBC FM4U",
+   "channelId": "UCKNZsAeQXpvI-Mpoc0ZKhsA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "mbc-sfm",
+   "name": "MBC 표준FM",
+   "channelId": "UCTTmtS2ljy1vyl_s-d_LEHQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "mbc-trot",
+   "name": "MBC 트로트라디오",
+   "channelId": "UCrx9k-CYntGH3NZ-EYJSAZA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "obs-radio",
+   "name": "OBS 라디오 FM99.9",
+   "channelId": "UCU9w2ZDvDzb88108Bdqu0QQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "radio-hankook-seattle",
+   "name": "라디오한국 AM1450 (시애틀)",
+   "channelId": "UCifD6FQlBuVCs6Mou2odFxQ",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "radio-korea-atlanta",
+   "name": "애틀랜타 라디오코리아 AM790",
+   "channelId": "UCxnLSSlPa7MAL5Whmt9XUZw",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "radio-korea-la",
+   "name": "Radio Korea (LA, AM 1540)",
+   "channelId": "UCphUTA3pXlImjE_oPOfdoYA",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "radio-seoul-la",
+   "name": "라디오 서울 AM1650 (LA)",
+   "channelId": "UCAuB6qQr1tFvYYVGKU1I2iw",
+   "group": "overseas"
+  },
+  {
+   "kind": "card",
+   "key": "sbs-lovefm",
+   "name": "SBS 러브FM",
+   "channelId": "UCLv3v82YNNsa8EsxrcPMjGQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "sbs-powerfm",
+   "name": "SBS 파워FM",
+   "channelId": "UCG1yCJ0i5iAH1lixElahYUw",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-busan",
+   "name": "tbn 부산교통방송",
+   "channelId": "UC2AAL4Yyd0fv6QT7Rxof5yQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-chungbuk",
+   "name": "tbn 충북교통방송",
+   "channelId": "UCWU0PCAwQOYPYBQCRwenQgw",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-daegu",
+   "name": "tbn 대구교통방송",
+   "channelId": "UCHd0H2t8UJe42UswL9RaBow",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-daejeon",
+   "name": "tbn 대전교통방송",
+   "channelId": "UCIG9JOAPpckU5-O1SxwoQnQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-gyeongin",
+   "name": "tbn 경인교통방송",
+   "channelId": "UCsotqlf4CRFy--YJJoyHDTQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-head",
+   "name": "tbn 교통방송",
+   "channelId": "UCz2tPcPyYNpTHHd3FdRduVA",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbn-ulsan",
+   "name": "tbn 울산교통방송",
+   "channelId": "UCHkka7a2EE6gFQFMdsZ6UTQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbs-efm",
+   "name": "TBS eFM (영어)",
+   "channelId": "UCHjDAeTbO4fQilomLD-kaXg",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "tbs-fm",
+   "name": "TBS 시민의방송",
+   "channelId": "UC5HSw5OY2vfVFSihpiB-AVQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "ubc-radio",
+   "name": "ubc 울산방송 라디오",
+   "channelId": "UC-niLX7ywo4y9O2_ZYLh-YQ",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "wbs-radio",
+   "name": "WBS 원음방송",
+   "channelId": "UCvCsHiX168qm_OqH5EEO-Eg",
+   "group": "domestic"
+  },
+  {
+   "kind": "card",
+   "key": "ytn-radio",
+   "name": "YTN 라디오",
+   "channelId": "UCwRljhjVWtLqAKbsWGPU_OA",
+   "group": "domestic"
+  },
+  {
+   "kind": "tab",
+   "key": "UC271vX3c3kYZsgpz7-zPBoA",
+   "name": "KBS 깔깔티비",
+   "channelId": "UC271vX3c3kYZsgpz7-zPBoA",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UC33yEDM8q3N8BeMpZMdP66Q",
+   "name": "TVCHOSUN MUSIC",
+   "channelId": "UC33yEDM8q3N8BeMpZMdP66Q",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UC3re3ueOE_6VZK85zlEUWFA",
+   "name": "SBS Catch",
+   "channelId": "UC3re3ueOE_6VZK85zlEUWFA",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UC4LW3sOslC14Vn5bcoNUBkg",
+   "name": "KBS 다큐",
+   "channelId": "UC4LW3sOslC14Vn5bcoNUBkg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UC6erIDuvbOaAO-OT5rB2Xew",
+   "name": "SBS 드라마",
+   "channelId": "UC6erIDuvbOaAO-OT5rB2Xew",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UC6wiUwl7dPhZOAM92lGgKPg",
+   "name": "KBS 뭉클티비",
+   "channelId": "UC6wiUwl7dPhZOAM92lGgKPg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UC78PMQprrZTbU0IlMDsYZPw",
+   "name": "tvN Joy",
+   "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UC7Pc7sflxGNdgh-ep_jlbEg",
+   "name": "국립중앙박물관",
+   "channelId": "UC7Pc7sflxGNdgh-ep_jlbEg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UC7lb15P-Hux7A5gBuhCxtuQ",
+   "name": "MBC 드라마",
+   "channelId": "UC7lb15P-Hux7A5gBuhCxtuQ",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UC9w-h_ciMmX64TcLRcb1xPg",
+   "name": "tvN 드라마",
+   "channelId": "UC9w-h_ciMmX64TcLRcb1xPg",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UCB9e3pof1o83aa0kkaoeJGA",
+   "name": "it's Live",
+   "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCC2F35lZ0drUeMJOATXde2g",
+   "name": "롯데엔터테인먼트",
+   "channelId": "UCC2F35lZ0drUeMJOATXde2g",
+   "group": "movie"
+  },
+  {
+   "kind": "tab",
+   "key": "UCF4Wxdo3inmxP-Y59wXDsFw",
+   "name": "MBCNEWS",
+   "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCF8AeLlUbEpKju6v1H6p8Eg",
+   "name": "한국경제TV",
+   "channelId": "UCF8AeLlUbEpKju6v1H6p8Eg",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCFCtZJTuJhE18k8IXwmXTYQ",
+   "name": "EBS 다큐",
+   "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCFL1sCAksD6_7JIZwwHcwjQ",
+   "name": "JTBC Entertainment",
+   "channelId": "UCFL1sCAksD6_7JIZwwHcwjQ",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UCFw4M1BJYYdN1YtS8SzlDzg",
+   "name": "KBS 트래블",
+   "channelId": "UCFw4M1BJYYdN1YtS8SzlDzg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCG9aFJTZ-lMCHAiO1KJsirg",
+   "name": "MBN 뉴스",
+   "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCHlSeJxRIXZWMARC2oMwmcQ",
+   "name": "KBS 교양",
+   "channelId": "UCHlSeJxRIXZWMARC2oMwmcQ",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCKdvqF-mmgiifS_pinO_bRA",
+   "name": "EBS 건강",
+   "channelId": "UCKdvqF-mmgiifS_pinO_bRA",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCL-WOj1FxKR8Hlzg5tvnWKg",
+   "name": "국회방송 NATV",
+   "channelId": "UCL-WOj1FxKR8Hlzg5tvnWKg",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCR5cyf8hncN_AaQPfmvmlgA",
+   "name": "KBS 레전드 케이팝",
+   "channelId": "UCR5cyf8hncN_AaQPfmvmlgA",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCR9gReM5VhQ_8brqQrBaVCA",
+   "name": "tvN STORY",
+   "channelId": "UCR9gReM5VhQ_8brqQrBaVCA",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCRV0Gb4i99Aj9UiqCE8xlvw",
+   "name": "CJ ENM 영화",
+   "channelId": "UCRV0Gb4i99Aj9UiqCE8xlvw",
+   "group": "movie"
+  },
+  {
+   "kind": "tab",
+   "key": "UCS_hnpJLQTvBkqALgapi_4g",
+   "name": "SBS KPOP",
+   "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+   "name": "연합뉴스TV",
+   "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCWlV3Lz_55UaX4JsMj-z__Q",
+   "name": "TV조선 뉴스",
+   "channelId": "UCWlV3Lz_55UaX4JsMj-z__Q",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCXVfodmlGhUpLREncSjuYAw",
+   "name": "KBS 크큭티비",
+   "channelId": "UCXVfodmlGhUpLREncSjuYAw",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UCaBwNyKKjDaYIzS8dhyaXBA",
+   "name": "국악방송",
+   "channelId": "UCaBwNyKKjDaYIzS8dhyaXBA",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCbMjg2EvXs_RUGW-KrdM3pw",
+   "name": "SBS Biz 뉴스",
+   "channelId": "UCbMjg2EvXs_RUGW-KrdM3pw",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCbeZPOz8uaHstEIbkqBOnGg",
+   "name": "EBS 세계테마기행",
+   "channelId": "UCbeZPOz8uaHstEIbkqBOnGg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCcQTRi69dsVYHN3exePtZ1A",
+   "name": "KBS News",
+   "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "name": "MBCkpop",
+   "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCeLPm9yH_a_QH8n6445G-Ow",
+   "name": "KBS Kpop",
+   "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCfq4V1DAuaojnr2ryvWNysw",
+   "name": "채널A 뉴스",
+   "channelId": "UCfq4V1DAuaojnr2ryvWNysw",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UChY4PXxJI0aJYsGT1X6INWA",
+   "name": "올끌(MBC 예능)",
+   "channelId": "UChY4PXxJI0aJYsGT1X6INWA",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UChlgI3UHCOnwUGzWzbJ3H5w",
+   "name": "YTN",
+   "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UChpjIaEgwtDZtmWEkzFulSA",
+   "name": "KBS 드라마",
+   "channelId": "UChpjIaEgwtDZtmWEkzFulSA",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UCjPqSbyqm5IZEoXu7I-KPag",
+   "name": "KBS 히스토리",
+   "channelId": "UCjPqSbyqm5IZEoXu7I-KPag",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCkbJc8jMcTXwhtmN5VMwfXg",
+   "name": "JTBC 드라마",
+   "channelId": "UCkbJc8jMcTXwhtmN5VMwfXg",
+   "group": "show"
+  },
+  {
+   "kind": "tab",
+   "key": "UCkinYTS9IHqOEwR1Sze2JTw",
+   "name": "SBS 뉴스",
+   "channelId": "UCkinYTS9IHqOEwR1Sze2JTw",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCl_tB4AqPkkxuYcJQHz6dMw",
+   "name": "EBS 컬렉션",
+   "channelId": "UCl_tB4AqPkkxuYcJQHz6dMw",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCmN4xFSlmWw-_d2riM-ep0A",
+   "name": "국립국악원",
+   "channelId": "UCmN4xFSlmWw-_d2riM-ep0A",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCmZ19AIj_wcpwRcqG7p9L8g",
+   "name": "Again 가요톱10",
+   "channelId": "UCmZ19AIj_wcpwRcqG7p9L8g",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCp3Vy7dFjIheDLbMekpdMQw",
+   "name": "KBS 같이삽시다",
+   "channelId": "UCp3Vy7dFjIheDLbMekpdMQw",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCpdvFXMZkqFLdp1nagLkOhg",
+   "name": "옛날티비 : KBS Archive",
+   "channelId": "UCpdvFXMZkqFLdp1nagLkOhg",
+   "group": "culture"
+  },
+  {
+   "kind": "tab",
+   "key": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+   "name": "JTBC News",
+   "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+   "group": "news"
+  },
+  {
+   "kind": "tab",
+   "key": "UCsxbX6QnOLal_qzzMK9AR9g",
+   "name": "MBN MUSIC",
+   "channelId": "UCsxbX6QnOLal_qzzMK9AR9g",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCtCiO5t2voB14CmZKTkIzPQ",
+   "name": "dingo music",
+   "channelId": "UCtCiO5t2voB14CmZKTkIzPQ",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCvvsOdnAQH4fl50DY17eV1A",
+   "name": "쇼박스",
+   "channelId": "UCvvsOdnAQH4fl50DY17eV1A",
+   "group": "movie"
+  },
+  {
+   "kind": "tab",
+   "key": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+   "name": "1theK",
+   "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+   "group": "music"
+  },
+  {
+   "kind": "tab",
+   "key": "UCzznO4xSV8BKnUBPyswtCUw",
+   "name": "Arirang News",
+   "channelId": "UCzznO4xSV8BKnUBPyswtCUw",
+   "group": "news"
+  }
+ ]
+}

@@ -404,16 +404,6 @@
     },
     {
       "category": "movie",
-      "name": "한국고전영화",
-      "handle": "@kmdbtv",
-      "expect": [
-        "한국고전영화",
-        "koreanclassicfilm"
-      ],
-      "korean": true
-    },
-    {
-      "category": "movie",
       "name": "CJ ENM 영화",
       "handle": "@cjenmmovie",
       "expect": "cjenmmovie",

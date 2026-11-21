@@ -1,0 +1,75 @@
+# 유튜브 **나라별 막힘 표** 주 1회 (보는 라디오 전달문 177의 2 ·
+# 사장님 결정 11/21 06:57 · 안1).
+#
+# ⚠ **`YT_API_KEY` 가 있어야 돈다** — 없으면 아무것도 하지 않고 그대로
+#    끝난다(표를 건드리지 않는다). 키 넣는 법은 README.md 의 '사장님 할 일'.
+# ⚠ **홈페이지에 나가는 파일을 건드리지 않는다** — `_src/` · `docs/` 아래에
+#    아무것도 쓰지 않는다. 쓰는 것은 `tools/youtube_check/` 의 표
+#    (`region_report.md`)와 `region_state.json` 둘뿐이다. **앱은 이 결과를
+#    읽지 않는다** — 사람이 보는 표다.
+# ⚠ **재생을 흉내 내지 않는다** — API 로 설정 값(regionRestriction ·
+#    embeddable)만 읽는다. 러너 IP 로는 유튜브 재생이 막힌다(전달문 127).
+#
+# ## 왜 '영상 목록 액션(youtube-videos.yml)에 한 단계를 더하지' 않았나
+#
+# | | |
+# |---|---|
+# | 도는 때가 다르다 | 영상 목록은 **6시간마다**(하루 넷), 이 표는 **주 1회** 로 넉넉하다. 거기 붙이면 쿼터가 **≈108 × 4 = 432/일** 로 는다 |
+# | 쓰는 자리가 다르다 | 영상 목록은 `_src/`(사이트에 나가는 파일)에 쓰고 `git add -A` 로 커밋한다. 이 표는 `tools/` 아래 **사람이 보는 표**다 — 섞으면 사이트 커밋에 표가 딸려 간다 |
+# | 멈추는 자리가 다르다 | 이 표가 쿼터·오류로 엎어져도 **영상 목록은 그대로 돌아야 한다**(앱이 그 파일을 읽는다) |
+#
+# 그래서 **따로 둔 쪽이 더 단순하다**. 채널 점검(`youtube-channels.yml`)과
+# 같은 틀이고, 그 액션보다 한 시간 뒤에 돈다.
+#
+# 넣는 자리: 홈페이지 저장소의 .github/workflows/youtube-region.yml
+# 점검기 자리: tools/youtube_check/  (README.md 를 보라)
+
+name: 유튜브 나라별 막힘 표 주 1회
+
+on:
+  schedule:
+    # 월요일 07:00 KST = 일요일 22:00 UTC
+    # (채널 점검 05:00 · 해외 소리 06:00 다음이다 — 셋이 겹치지 않게)
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-region
+  cancel-in-progress: false
+
+jobs:
+  region:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ⚠ 설치하는 것이 없다 — **표준 라이브러리만** 쓴다.
+      - name: 셈 시험(바깥 연결 0)
+        run: python tools/youtube_check/check_region.py --selftest
+
+      - name: 나라별 막힘 표 만들기
+        id: region
+        run: |
+          python tools/youtube_check/check_region.py \
+            --cards  tools/youtube_check/cards.json \
+            --report tools/youtube_check/region_report.md \
+            --state  tools/youtube_check/region_state.json
+        env:
+          # ⚠ **없으면 아무것도 하지 않는다.** 값은 로그에 적히지 않는다.
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+
+      - name: 결과가 달라진 날에만 커밋
+        if: steps.region.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/youtube_check/region_report.md tools/youtube_check/region_state.json
+          git diff --cached --quiet || git commit -m "유튜브 나라별 막힘 표 — ${{ steps.region.outputs.summary }}"
+          git push

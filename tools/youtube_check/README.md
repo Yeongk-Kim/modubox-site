@@ -14,11 +14,23 @@
 
 | 파일 | 무엇 |
 |---|---|
-| `check_youtube_channels.py` | 점검기. **표준 라이브러리만** 쓴다(러너에 설치하는 것 없음) |
+| `check_youtube_channels.py` | **채널 점검기**. 표준 라이브러리만 쓴다(러너에 설치하는 것 없음) |
 | `candidates.json` | **후보 명단** — 사람이 'ㅇㅋ' 한 채널만. 점검기는 검색으로 새 채널을 찾지 않는다 |
 | `state.json` | 채널마다 **연속 실패 횟수**와 마지막 확인 날(2주 규칙용). 점검기가 스스로 고쳐 쓴다 |
 | `youtube-channels.yml` | 깃허브 액션 — **월요일 05:00 KST**(cron `0 20 * * 0`) · 손으로도 돌릴 수 있다 |
+| **`make_youtube_videos.py`** | **영상 목록 만들기**(전달문 130) — 공개 RSS 가 막힌 공식 채널의 영상 목록을 공식 API 로 만들어 `youtube_videos.json` 에 쓴다. ⚠ **키가 없으면 아무것도 하지 않는다** |
+| **`youtube-videos.yml`** | 그 깃허브 액션 — **6시간마다**(cron `10 0,6,12,18 * * *`) · 채널 점검과 **따로** 돈다 |
+| **`test_api_path.py`** | API 길 시험 14개 — **가짜 응답으로만** 돈다(아래 '시험') |
+| **`check_region.py`** | **나라별 막힘 표**(전달문 177의 2) — 미 · 캐 · 일 · 호에서 그 영상이 되는지를 **공식 API 설정 값**으로만 읽는다. ⚠ **키가 없으면 아무것도 하지 않는다** |
+| **`cards.json`** | 그 표가 볼 **채널 96** (방송채널 카드 44 + 유튜브 탭 52). ⚠ **손으로 고치지 않습니다** — 보는 라디오 쪽 `tools/build_region_check.py` 가 만듭니다 |
+| **`youtube-region.yml`** | 그 깃허브 액션 — **월요일 07:00 KST**(cron `0 22 * * 0`) · 영상 목록과 **따로** 돈다(그 까닭은 yml 맨 위에) |
 | `README.md` | 이 글 |
+
+⚠ **`__pycache__/` 는 묶음이 아닙니다** — 파이썬이 한 번 돌 때마다
+만드는 임시 폴더입니다. **복사하지 말고, 저장소에도 넣지 마십시오**
+(보는 라디오 쪽은 `.gitignore` 의 `__pycache__/` 가 막습니다 · 전달문
+134의 1번). 복사한 뒤 섞여 들어갔으면 지우면 됩니다 — 지워도 아무
+일도 일어나지 않습니다.
 
 ---
 
@@ -27,15 +39,31 @@
 ```
 modubox-site/
   .github/workflows/youtube-channels.yml   ← youtube-channels.yml
+  .github/workflows/youtube-videos.yml     ← youtube-videos.yml   (130)
+  .github/workflows/youtube-region.yml     ← youtube-region.yml   (177)
   tools/youtube_check/
       check_youtube_channels.py
+      make_youtube_videos.py                                      (130)
       candidates.json
       state.json
+      test_api_path.py                     ← 시험(돌려 보셔도 됩니다)
+      check_region.py                                             (177)
+      cards.json                                                  (177)
+      region_report.md     ← check_region.py 가 만든다(처음에는 없다)
+      region_state.json    ← 〃
   _src/visualradio/data/youtube_channels.json   ← 점검기가 **쓰는** 파일
-  docs/visualradio/data/youtube_channels.json   ← 사이트에 나가는 파일
+  _src/visualradio/data/youtube_videos.json     ← 영상 목록이 **쓰는** 파일 (130)
+  docs/visualradio/data/…                       ← 사이트에 나가는 파일(빌드가 옮긴다)
 ```
 
-1. 위 네 파일을 그 자리에 둡니다.
+⚠ **`__pycache__/` 는 옮기지 않습니다**(위 표 끝의 ⚠).
+
+⚠ **이미 있는 `state.json` 은 덮지 마십시오** — 연속 실패 횟수와
+마지막 확인 날이 거기 있어서, 덮으면 '2주 규칙'이 처음부터 다시
+셉니다(이 묶음의 것은 **11/21 에 저장소 쪽 값으로 맞춰 두었습니다** —
+`checkedOn: 2026-11-15`). `region_state.json` 도 같습니다.
+
+1. 위 파일들을 그 자리에 둡니다.
 2. **출력 자리를 정합니다.** 앱이 받아 가는 주소는
    `https://modubox.app/visualradio/data/youtube_channels.json` 입니다.
    그 저장소는 `_src` → `docs` 빌드 규칙을 쓰므로, 점검기가 쓸 자리는
@@ -120,6 +148,20 @@ modubox-site/
 **매주 한 번**이니 한도의 **0.7%** 입니다. 사람이 손으로 몇 번 더 돌려
 봐도 넉넉합니다.
 
+#### 나라별 막힘 표(`check_region.py`)는 **따로 약 108 단위**입니다 (177)
+
+| 부르는 것 | 몇 번 | 단위 |
+|---|---|---|
+| `channels.list`(번호 50개씩 · part=contentDetails) | 채널 ÷ 50 | 2 |
+| `playlistItems.list`(채널마다 최근 5편) | 채널마다 1 | 96 |
+| `videos.list`(번호 50개씩 · part=contentDetails,status,snippet) | 영상 ÷ 50 | 10 |
+
+채널 **96** 기준이고 **매주 한 번**이라 한도의 **1.1%** 입니다.
+세 액션을 다 더해도 **하루 ≈290 단위**(한도의 2.9%)입니다 —
+채널 점검 64(주 1회) · 나라 표 108(주 1회) · 영상 목록 ≈270(하루 넷).
+
+⚠ **`search.list` 를 쓰지 않습니다** — 한 번에 100단위입니다.
+
 ### ⚠ API 길은 **핸들로 찾지 않습니다**
 
 핸들은 날에 따라 **엉뚱한 채널**로 풀립니다(위 까닭). 그래서 번호는
@@ -172,6 +214,15 @@ API 길(전달문 127)을 **망에 나가지 않고** 시험합니다(14개) —
 갈아 끼워 우리가 만든 응답만 돌려줍니다. **진짜 키로 돌리지 않습니다.**
 번호 찾기 · 이름 견주기 · 한국어 · 30일 · 1년(빼기 후보) · 앱 안 재생 ·
 못 받았을 때 · **쓰는 양(60채널 → 64단위)** · 키가 없을 때를 잽니다.
+
+```
+python check_region.py --selftest
+```
+
+나라별 막힘 표의 셈도 **망에 나가지 않고** 잽니다 — `allowed`/`blocked`
+판정 아홉 가지(빈 목록 · 둘 다 걸린 때 포함) · 나라별 '됨' 수 · 삽입 불허
+수 · 영상 0편 · **표에 키가 적히지 않는 것**. 액션도 표를 만들기 **앞에**
+이것을 한 번 돌립니다.
 
 ---
 
