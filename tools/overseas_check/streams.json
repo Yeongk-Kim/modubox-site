@@ -217,7 +217,7 @@
    "group": "domestic",
    "id": "kr-obs-fm999",
    "name": "OBS 라디오 FM99.9",
-   "url": "https://vod.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
+   "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
    "lookup": null
   },
   {
