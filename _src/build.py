@@ -65,7 +65,9 @@ LOGO = '<svg class="mark" viewBox="0 0 22 20" aria-hidden="true"><path d="M2 5v1
 NAV = [('home', '홈', '/'), ('box', '모두박스', '/box/'), ('sleep', '수면 사운드', '/sleep/'), ('visualradio', '보는 라디오', '/visualradio/'), ('about', '소개', '/about/')]
 # 보는 라디오: 11/11 메뉴·홈 카드 숨김 → 11/20 App Store 출시로 다시 보임(apps.json status 'ios', 본부 홍보팀)
 TOP_JS = ("<script>try{history.scrollRestoration='manual'}catch(e){}function _top(){if(!location.hash){window.scrollTo({top:0,left:0,behavior:'instant'})}}"
-          "_top();addEventListener('pageshow',_top);</script>")
+          "_top();addEventListener('pageshow',_top);"
+          "try{var _ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);"
+          "if(_ios)document.querySelectorAll('a[data-ios]').forEach(function(a){a.href=a.dataset.ios})}catch(e){}</script>")
 
 def bars(n=22, k=1.7):
     import math
@@ -94,6 +96,10 @@ def fill(text):
         if parts[0] == 'wave': return WAVE
         if parts[0] == 'bars': return bars(22, float(parts[1])) if len(parts) > 1 else bars()
         if parts[0] == 'play': return v5_play(parts[1], *(parts[2:4]))
+        if parts[0] == 'appstore':   # {{appstore:앱}} · {{appstore:앱:글자:class}} — 11/21 홍보팀: 수면 사운드 iOS 출시로 App Store 단추 추가
+            a = app_by(parts[1])
+            if not a.get('appstore'): return ''
+            return v5_store(a, parts[2] if len(parts) > 2 else 'App Store에서 받기', parts[3] if len(parts) > 3 else 'btn')
         raise KeyError(m.group(0))
     return re.sub(r'\{\{([^{}]+)\}\}', rep, text)
 
@@ -174,6 +180,9 @@ def play_url(a, pos='hero'):
 
 def app_cta(a):
     """머리 오른쪽 단추: 출시 앱 = '앱 받기'(Play), 준비 중 = '곧 출시'"""
+    if a['status'] == 'live' and a.get('appstore'):   # 11/21 홍보팀: 두 스토어 앱은 기기 따라 — 아이폰·아이패드 App Store, 그 밖 Google Play
+        return (f'<a class="btn" href="{html.escape(play_url(a, "header"))}" data-ios="{html.escape(a["appstore"])}" '
+                f'target="_blank" rel="noopener">앱 받기 {WAVE}</a>')
     return v5_play(a['slug'], '앱 받기') if a['status'] in ('live', 'ios') else '<span class="btn soon">곧 출시</span>'
 
 PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.4-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>'
@@ -190,15 +199,15 @@ def privacy_sleep_legacy(a, Y, M, D):
     body = body.replace('<nav>', '<nav class="lang">', 1)
     rev = {
      '시행일: 2026년 10월 14일 (이전 버전 시행일: 2026년 9월 27일)':
-       f'시행일: 2026년 10월 14일 (이전 버전 시행일: 2026년 9월 27일)<br>개정: {Y}년 {int(M)}월 {int(D)}일 — 연락처 이메일 변경(modubox.app@gmail.com → sleep@modubox.app), 페이지 주소 변경. 수집·이용 내용은 바뀌지 않았습니다.',
+       f'시행일: 2026년 10월 14일 (이전 버전 시행일: 2026년 9월 27일)<br>개정: {Y}년 {int(M)}월 {int(D)}일 — 연락처 이메일 변경(modubox.app@gmail.com → sleep@modubox.app), 페이지 주소 변경. 수집·이용 내용은 바뀌지 않았습니다.<br>개정: 2026년 11월 21일 — iPhone·iPad(App Store) 출시에 따라 인앱 결제 처리 문구에 Apple App Store를 추가했습니다. 수집·이용 내용은 바뀌지 않았습니다.',
      'Effective date: October 14, 2026 (previous version effective: September 27, 2026)':
-       f'Effective date: October 14, 2026 (previous version effective: September 27, 2026)<br>Revised: {MON_EN_} {int(D)}, {Y} — contact email changed (modubox.app@gmail.com → sleep@modubox.app) and page address moved. What the App collects and how did not change.',
+       f'Effective date: October 14, 2026 (previous version effective: September 27, 2026)<br>Revised: {MON_EN_} {int(D)}, {Y} — contact email changed (modubox.app@gmail.com → sleep@modubox.app) and page address moved. What the App collects and how did not change.<br>Revised: November 21, 2026 — added Apple App Store in-app purchase to the payment section following the iPhone/iPad release. What the App collects and how did not change.',
      '施行日：2026年10月14日（前バージョン施行日：2026年9月27日）':
-       f'施行日：2026年10月14日（前バージョン施行日：2026年9月27日）<br>改定：{Y}年{int(M)}月{int(D)}日 — 連絡先メールアドレスの変更（modubox.app@gmail.com → sleep@modubox.app）およびページアドレスの移転。収集・利用の内容は変わっていません。',
+       f'施行日：2026年10月14日（前バージョン施行日：2026年9月27日）<br>改定：{Y}年{int(M)}月{int(D)}日 — 連絡先メールアドレスの変更（modubox.app@gmail.com → sleep@modubox.app）およびページアドレスの移転。収集・利用の内容は変わっていません。<br>改定：2026年11月21日 — iPhone・iPad（App Store）版の公開に伴い、アプリ内購入の決済処理にApple App Storeを追記しました。収集・利用の内容は変わっていません。',
      '生效日期：2026年10月14日（上一版本生效日期：2026年9月27日）':
-       f'生效日期：2026年10月14日（上一版本生效日期：2026年9月27日）<br>修订：{Y}年{int(M)}月{int(D)}日 — 联系邮箱变更（modubox.app@gmail.com → sleep@modubox.app），页面地址迁移。收集与使用内容未发生变化。',
+       f'生效日期：2026年10月14日（上一版本生效日期：2026年9月27日）<br>修订：{Y}年{int(M)}月{int(D)}日 — 联系邮箱变更（modubox.app@gmail.com → sleep@modubox.app），页面地址迁移。收集与使用内容未发生变化。<br>修订：2026年11月21日 — 随 iPhone、iPad（App Store）版发布，在应用内购买付款处理中增加 Apple App Store。收集与使用内容未发生变化。',
      'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)':
-       f'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)<br>Revisión: {int(D)} de {MON_ES_} de {Y} — cambio del correo de contacto (modubox.app@gmail.com → sleep@modubox.app) y de la dirección de esta página. La información que se recopila y su uso no han cambiado.',
+       f'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)<br>Revisión: {int(D)} de {MON_ES_} de {Y} — cambio del correo de contacto (modubox.app@gmail.com → sleep@modubox.app) y de la dirección de esta página. La información que se recopila y su uso no han cambiado.<br>Revisión: 21 de noviembre de 2026 — se añadió la compra dentro de la app de Apple App Store a la sección de pagos tras el lanzamiento para iPhone/iPad. La información que se recopila y su uso no han cambiado.',
     }
     for k_, v_ in rev.items():
         assert k_ in body, k_

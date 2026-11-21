@@ -11,8 +11,8 @@ card: 빗소리·파도·시냇물과 백색·핑크·브라운 노이즈를 수
   <p class="eyebrow">Sleep Sounds · 수면 사운드</p>
   <h1>풍경을 <span class="tile l">{{icon:moon}}</span> 고르면,<br>어울리는 소리까지.</h1>
   <p class="lead">빗소리·파도·시냇물 같은 자연의 소리와 백색·핑크·브라운 노이즈를 수면 타이머와 함께. 잠들기 전에도, 공부·일하는 동안에도.</p>
-  <div class="cta">{{play:sleep}}<a class="btn ghost" href="https://www.youtube.com/watch?v=2XoxMyQbMII" target="_blank" rel="noopener">소개 영상 보기 {{wave}}</a></div>
-  <p class="note">Android 전용 · 회원가입·광고 없음</p>
+  <div class="cta"><div class="stores">{{play:sleep}}{{appstore:sleep}}</div><a class="btn ghost" href="https://www.youtube.com/watch?v=2XoxMyQbMII" target="_blank" rel="noopener">소개 영상 보기 {{wave}}</a></div>
+  <p class="note">Android · iPhone · 회원가입·광고 없음</p>
 </div>
 <div class="scenes" role="group" aria-label="움직이는 밤 풍경 9가지 중 6가지">
   <figure><img src="/img/scene-attic.webp" alt="비 오는 다락방" width="640" height="360" loading="lazy"><figcaption>비 오는 다락방</figcaption></figure>
@@ -64,6 +64,6 @@ card: 빗소리·파도·시냇물과 백색·핑크·브라운 노이즈를 수
 
 <section class="closing" style="padding-top:0"><div class="wrap">
   <h2>오늘 밤은<br>어떤 풍경에서 잠들까요.</h2>
-  {{play:sleep@bottom}}
+  <div class="stores">{{play:sleep@bottom}}{{appstore:sleep}}</div>
   <p class="note" style="margin-top:16px"><a href="/sleep/help/">도움말</a> · <a href="/sleep/privacy/">개인정보처리방침</a> · 문의 <a class="mail" href="mailto:sleep@modubox.app">sleep@modubox.app</a></p>
 </div></section>

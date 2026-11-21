@@ -47,6 +47,8 @@ p{margin:0}
 .hero h1 .tile svg{width:100%;height:100%}
 .hero h1 .tile.l{transform:rotate(-8deg)}.hero h1 .tile.r{transform:rotate(7deg)}
 .hero .cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.stores{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.stores .btn{min-width:228px;justify-content:center}
 .hero .note{font-size:13px;margin-top:14px;color:var(--sub)}
 /* illustration panel */
 .stage{background:var(--panel);border-radius:28px;padding:clamp(28px,5vw,56px);position:relative;overflow:hidden}
@@ -119,6 +121,7 @@ hr.rule{border:0;border-top:1px solid var(--line);margin:0}
 /* closing band */
 .closing{text-align:center}
 .closing .btn{margin-top:28px}
+.closing .stores{margin-top:28px}.closing .stores .btn{margin-top:0}
 /* footer */
 footer{border-top:1px solid var(--line);padding-block:36px 48px;font-size:13px;color:var(--sub);line-height:1.9}
 footer .links{display:flex;gap:6px 18px;flex-wrap:wrap;margin-bottom:14px}
@@ -140,6 +143,8 @@ footer .links a:hover{text-decoration:underline}
   .feat .pic{aspect-ratio:16/8}.feat .pic svg{width:22%}
   .appface{transform:none!important}
   .scenes{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero .cta{flex-direction:column;align-items:center}
+  .stores{flex-direction:column;align-items:center}
 }
 @media (max-width:420px){.moments{grid-template-columns:1fr}.moment{min-height:0}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
