@@ -65,6 +65,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tools/overseas_check/report.md tools/overseas_check/state.json
           git diff --cached --quiet || git commit -m "라디오 소리 점검 — ${{ steps.check.outputs.summary }}"
+          git pull --rebase -q || true
           git push
 
       # 실패 횟수만 바뀐 날에도 남겨 둔다 — '두 주 잇달아' 규칙이 다음 주에
@@ -76,16 +77,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tools/overseas_check/state.json
           git diff --cached --quiet || git commit -m "라디오 소리 점검 — 실패 횟수만 고침"
+          git pull --rebase -q || true
           git diff --quiet HEAD origin/$(git rev-parse --abbrev-ref HEAD) || git push
 
       - name: 열리지 않은 주소가 있으면 이슈 하나
         if: steps.check.outputs.issue == 'true'
         uses: actions/github-script@v7
+        # 11/21: 제목·본문을 스크립트 안에 바로 넣으면 따옴표·백틱에 걸려 문법 오류 → 환경값으로 넘김
+        env:
+          ISSUE_TITLE: ${{ steps.check.outputs.title }}
+          ISSUE_BODY: ${{ steps.check.outputs.body }}
         with:
           script: |
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `${{ steps.check.outputs.title }}`,
-              body: `${{ steps.check.outputs.body }}`,
+              title: process.env.ISSUE_TITLE,
+              body: process.env.ISSUE_BODY,
             });

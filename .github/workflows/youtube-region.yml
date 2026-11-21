@@ -72,4 +72,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add tools/youtube_check/region_report.md tools/youtube_check/region_state.json
           git diff --cached --quiet || git commit -m "유튜브 나라별 막힘 표 — ${{ steps.region.outputs.summary }}"
+          git pull --rebase -q || true   # 11/21: 같은 때 도는 다른 점검이 먼저 커밋하면 push가 거절됨
           git push
