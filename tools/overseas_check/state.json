@@ -21,7 +21,7 @@
   "status": 200
  },
  "kr-cpbc-seoul": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
@@ -77,21 +77,21 @@
   "status": 200
  },
  "kr-kbs-1radio-daegu": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-kbs-1radio-daejeon": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-kbs-1radio-suncheon": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
@@ -133,28 +133,28 @@
   "status": 200
  },
  "kr-obs-fm999": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "소리 거절",
   "status": 404
  },
  "kr-sbs-gorealram": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-sbs-lovefm": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-sbs-powerfm": {
-  "fails": 1,
+  "fails": 2,
   "lastCheckedOn": "2026-11-21",
   "ok": false,
   "result": "조회 거절",
