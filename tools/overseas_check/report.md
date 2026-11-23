@@ -7,50 +7,50 @@
 
 | 잰 날 | 러너 자리 | 열림 | 받은 양 |
 |---|---|---|---|
-| 2026-11-21 | github-hosted ubuntu (미국) | 33 / 40 | 300KB |
+| 2026-11-23 | github-hosted ubuntu (미국) | 27 / 40 | 260KB |
 
 | 카드 | 이름 | 묶음 | 방식 | 결과 | 응답 코드 | 첫 소리까지 |
 |---|---|---|---|---|---|---|
-| `bbs-radio` | BBS 불교방송 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 6.0초 |
-| `cbs-musicfm` | CBS 음악FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 3.6초 |
-| `cbs-standardfm` | CBS 표준FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.7초 |
+| `bbs-radio` | BBS 불교방송 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 9.4초 |
+| `cbs-musicfm` | CBS 음악FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 5.3초 |
+| `cbs-standardfm` | CBS 표준FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 4.2초 |
 | `cpbc-radio` | cpbc 라디오 | 국내 | 조회 | **조회 거절** | 조회 200 | onair.source.mediasource.mediaurl 자리가 비었다 |
-| `ebs-fm` | EBS FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 2.5초 |
-| `febc-daejeon` | 극동방송 대전 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 3.9초 |
-| `febc-seoul` | 극동방송 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 6.1초 |
-| `gugak-fm` | 국악방송 라디오 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 7.0초 |
-| `ifm-radio` | 경인방송 iFM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 2.8초 |
-| `kbs-1radio` | KBS 1라디오 | 국내 | 조회 | **열림** | HTTP/1.1 200 | 0.4초 |
-| `kbs-classicfm` | KBS 클래식FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 0.4초 |
-| `kbs-coolfm` | KBS 쿨FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 0.6초 |
+| `ebs-fm` | EBS FM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 3.8초 |
+| `febc-daejeon` | 극동방송 대전 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 4.8초 |
+| `febc-seoul` | 극동방송 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 5.4초 |
+| `gugak-fm` | 국악방송 라디오 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 9.9초 |
+| `ifm-radio` | 경인방송 iFM | 국내 | 고정 | **열림** | HTTP/1.1 200 | 4.6초 |
+| `kbs-1radio` | KBS 1라디오 | 국내 | 조회 | **열림** | HTTP/1.1 200 | 1.5초 |
+| `kbs-classicfm` | KBS 클래식FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 1.3초 |
+| `kbs-coolfm` | KBS 쿨FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 1.4초 |
 | `kbs-daegu-radio` | KBS대구 라디오 | 국내 | 조회 | **조회 거절** | 조회 200 | 주소가 아니다 |
 | `kbs-daejeon-radio` | KBS대전 라디오 | 국내 | 조회 | **조회 거절** | 조회 200 | 주소가 아니다 |
-| `kbs-happyfm` | KBS 2라디오 해피FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 0.5초 |
+| `kbs-happyfm` | KBS 2라디오 해피FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 1.2초 |
 | `kbs-suncheon` | KBS순천 | 국내 | 조회 | **조회 거절** | 조회 200 | 주소가 아니다 |
-| `kfn-radio` | 국방FM (KFN) | 국내 | 고정 | **열림** | HTTP/1.0 200 | 1.9초 |
-| `mbc-fm4u` | MBC FM4U | 국내 | 조회 | **열림** | HTTP/1.1 200 | 3.0초 |
-| `mbc-sfm` | MBC 표준FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 2.9초 |
-| `mbc-trot` | MBC 트로트라디오 | 국내 | 조회 | **열림** | HTTP/1.1 200 | 2.9초 |
-| `obs-radio` | OBS 라디오 FM99.9 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 3.8초 |
+| `kfn-radio` | 국방FM (KFN) | 국내 | 고정 | **열림** | HTTP/1.0 200 | 2.9초 |
+| `mbc-fm4u` | MBC FM4U | 국내 | 조회 | **열림** | HTTP/1.1 200 | 5.1초 |
+| `mbc-sfm` | MBC 표준FM | 국내 | 조회 | **열림** | HTTP/1.1 200 | 5.9초 |
+| `mbc-trot` | MBC 트로트라디오 | 국내 | 조회 | **열림** | HTTP/1.1 200 | 5.9초 |
+| `obs-radio` | OBS 라디오 FM99.9 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 9.6초 |
 | `sbs-gorealram` | SBS 고릴라M | 국내 | 조회 | **조회 거절** | 조회 200 | onair.source.mediasource.mediaurl 자리가 비었다 |
 | `sbs-lovefm` | SBS 러브FM | 국내 | 조회 | **조회 거절** | 조회 200 | onair.source.mediasource.mediaurl 자리가 비었다 |
 | `sbs-powerfm` | SBS 파워FM | 국내 | 조회 | **조회 거절** | 조회 200 | onair.source.mediasource.mediaurl 자리가 비었다 |
-| `tbn-busan` | tbn 부산교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 2.1초 |
-| `tbn-chungbuk` | tbn 충북교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.9초 |
-| `tbn-daegu` | tbn 대구교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.9초 |
-| `tbn-daejeon` | tbn 대전교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.6초 |
-| `tbn-gyeongin` | tbn 경인교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.6초 |
-| `tbn-ulsan` | tbn 울산교통방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.6초 |
-| `tbs-efm` | TBS eFM (영어) | 국내 | 고정 | **열림** | HTTP/1.1 200 | 2.1초 |
-| `tbs-fm` | TBS 시민의방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.7초 |
-| `ubc-radio` | ubc 울산방송 라디오 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 2.7초 |
+| `tbn-busan` | tbn 부산교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbn-chungbuk` | tbn 충북교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbn-daegu` | tbn 대구교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbn-daejeon` | tbn 대전교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbn-gyeongin` | tbn 경인교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbn-ulsan` | tbn 울산교통방송 | 국내 | 고정 | **소리 거절** | — | URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)> |
+| `tbs-efm` | TBS eFM (영어) | 국내 | 고정 | **열림** | HTTP/1.1 200 | 5.3초 |
+| `tbs-fm` | TBS 시민의방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 4.4초 |
+| `ubc-radio` | ubc 울산방송 라디오 | 국내 | 고정 | **열림** | HTTP/1.0 200 | 3.4초 |
 | `wbs-radio` | WBS 원음방송 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 1.2초 |
-| `ytn-radio` | YTN 라디오 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 2.7초 |
-| `kradio-ny-1660` | K-Radio AM1660 (뉴욕) | 해외 | 고정 | **열림** | HTTP/1.0 200 | 1.0초 |
-| `radio-korea-atlanta` | 애틀랜타 라디오코리아 AM790 | 해외 | 고정 | **열림** | HTTP/1.0 200 | 1.0초 |
-| `radio-korea-la` | Radio Korea (LA, AM 1540) | 해외 | 고정 | **열림** | ICY 200 | 0.1초 |
-| `radio-seoul-la` | 라디오 서울 AM1650 (LA) | 해외 | 고정 | **열림** | HTTP/1.1 200 | 0.3초 |
-| `rain-fm-la` | RAIN FM (LA, K-POP) | 해외 | 고정 | **열림** | HTTP/1.1 200 | 0.3초 |
+| `ytn-radio` | YTN 라디오 | 국내 | 고정 | **열림** | HTTP/1.1 200 | 4.6초 |
+| `kradio-ny-1660` | K-Radio AM1660 (뉴욕) | 해외 | 고정 | **열림** | HTTP/1.0 200 | 0.7초 |
+| `radio-korea-atlanta` | 애틀랜타 라디오코리아 AM790 | 해외 | 고정 | **열림** | HTTP/1.0 200 | 0.8초 |
+| `radio-korea-la` | Radio Korea (LA, AM 1540) | 해외 | 고정 | **열림** | ICY 200 | 0.4초 |
+| `radio-seoul-la` | 라디오 서울 AM1650 (LA) | 해외 | 고정 | **열림** | HTTP/1.1 200 | 0.6초 |
+| `rain-fm-la` | RAIN FM (LA, K-POP) | 해외 | 고정 | **열림** | HTTP/1.1 200 | 0.6초 |
 
 ## 결과 네 가지
 

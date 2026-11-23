@@ -1,273 +1,273 @@
 {
  "kr-bbs-radio": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-cbs-musicfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-cbs-standardfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-cpbc-seoul": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-dema-fm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-ebs-fm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-febc-daejeon": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-febc-seoul": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-gugak-radio": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-ifm-gyeongin": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-kbs-1radio": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-kbs-1radio-daegu": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-kbs-1radio-daejeon": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-kbs-1radio-suncheon": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-kbs-classicfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-kbs-coolfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-kbs-happyfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-mbc-fm4u": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-mbc-sfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-obs-fm999": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-sbs-gorealram": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-sbs-lovefm": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-sbs-powerfm": {
-  "fails": 3,
-  "lastCheckedOn": "2026-11-21",
+  "fails": 4,
+  "lastCheckedOn": "2026-11-23",
   "ok": false,
   "result": "조회 거절",
   "status": 200
  },
  "kr-tbn-busan": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbn-chungbuk": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbn-daegu": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbn-daejeon": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbn-gyeongin": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbn-ulsan": {
-  "fails": 0,
-  "lastCheckedOn": "2026-11-21",
-  "ok": true,
-  "result": "열림",
-  "status": 200
+  "fails": 1,
+  "lastCheckedOn": "2026-11-23",
+  "ok": false,
+  "result": "소리 거절",
+  "status": null
  },
  "kr-tbs-efm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-tbs-fm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-ubc-greenfm": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-wbs-seoul": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "kr-ytn-radio": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "us-kradio-1660": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "us-radiokorea-atlanta": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "us-radiokorea-la": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "us-radioseoul-1650": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
  },
  "us-rainfm-la": {
   "fails": 0,
-  "lastCheckedOn": "2026-11-21",
+  "lastCheckedOn": "2026-11-23",
   "ok": true,
   "result": "열림",
   "status": 200
