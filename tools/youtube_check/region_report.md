@@ -6,7 +6,7 @@
 
 | 잰 날 | 채널 | 영상을 본 채널 | 쓴 쿼터 |
 |---|---|---|---|
-| 2026-11-21 | 96 | 96 | 약 108 단위 |
+| 2026-11-23 | 96 | 96 | 약 108 단위 |
 
 | 카드 | 채널 | 미 | 캐 | 일 | 호 | (한) | 삽입 불허 | 막힌 영상 보기 |
 |---|---|---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@
 | `bbs-radio-video` | BBS 라디오 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `cbs-musicfm` | CBS 음악FM | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `cbs-standardfm` | CBS 표준FM | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `cpbc-radio` | cpbc 라디오 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | [LIVE] 📻선물 같은 하루, 신나라입니다🎁 ¦ 261120🎉 #2시라 — blocked=BY,RU |
+| `cpbc-radio` | cpbc 라디오 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `ebs-fm` | EBS FM | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `febc-daejeon` | 극동방송 대전 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `febc-seoul` | 극동방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
@@ -43,42 +43,42 @@
 | `sbs-lovefm` | SBS 러브FM | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `sbs-powerfm` | SBS 파워FM | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `tbn-busan` | tbn 부산교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `tbn-chungbuk` | tbn 충북교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
+| `tbn-chungbuk` | tbn 충북교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | [스튜디오 1033] 🎬더 원하는 영화 이야기 ¦ 저스틴 허위츠with  — blocked=BY,RU |
 | `tbn-daegu` | tbn 대구교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `tbn-daejeon` | tbn 대전교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `tbn-gyeongin` | tbn 경인교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `tbn-head` | tbn 교통방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `tbn-ulsan` | tbn 울산교통방송 | 4/5 | 4/5 | 4/5 | 4/5 | 4/5 | 0 | 2026.11.20.(금) tbn 차차차(오늘의 TMI) — blocked=AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW |
 | `tbs-efm` | TBS eFM (영어) | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `tbs-fm` | TBS 시민의방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | [풀영상] 최일구의 허리케인 라디오 ¦ 2026년 11월 18일 (수) — blocked=BY,RU |
+| `tbs-fm` | TBS 시민의방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `ubc-radio` | ubc 울산방송 라디오 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | 3부- 넘버쓰리 우대성 🧨🧨🧨 ㅣ전선민의 유데 ㅣ 20261120 — blocked=BY,RU |
 | `wbs-radio` | WBS 원음방송 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `ytn-radio` | YTN 라디오 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UC271vX3c3kYZsgpz7-zPBoA` | KBS 깔깔티비 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UC33yEDM8q3N8BeMpZMdP66Q` | TVCHOSUN MUSIC | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UC3re3ueOE_6VZK85zlEUWFA` | SBS Catch | 1/5 | 1/5 | 1/5 | 1/5 | 5/5 | 0 | [2회 선공개] "선배 변호사입니다" 선 넘는 김혜윤 상사에게 선배미 폭 — allowed=KR |
+| `UC3re3ueOE_6VZK85zlEUWFA` | SBS Catch | 1/5 | 1/5 | 1/5 | 1/5 | 5/5 | 0 | [1회 선공개] "범법인 거 아시죠?" 길바닥에서 싸우는 육성재에게 따끔 — allowed=KR |
 | `UC4LW3sOslC14Vn5bcoNUBkg` | KBS 다큐 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UC6erIDuvbOaAO-OT5rB2Xew` | SBS 드라마 | 0/5 | 0/5 | 0/5 | 0/5 | 5/5 | 0 | [2회 선공개] “선배 변호사입니다만” 장나라, 김혜윤 향해 막말 퍼붓는 — allowed=KR |
+| `UC6erIDuvbOaAO-OT5rB2Xew` | SBS 드라마 | 0/5 | 0/5 | 0/5 | 0/5 | 5/5 | 0 | [1회 선공개] “범법인 거 아시죠?” 박민영, 공공장소에서 싸우는 육성 — allowed=KR |
 | `UC6wiUwl7dPhZOAM92lGgKPg` | KBS 뭉클티비 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UC78PMQprrZTbU0IlMDsYZPw` | tvN Joy | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
+| `UC78PMQprrZTbU0IlMDsYZPw` | tvN Joy | 2/5 | 2/5 | 2/5 | 2/5 | 5/5 | 0 | 이제야 모든 게 연결되기 시작했다🧩 멤버들이 찾아낸 결정적인 단서 ¦ 아 — allowed=KR |
 | `UC7Pc7sflxGNdgh-ep_jlbEg` | 국립중앙박물관 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UC7lb15P-Hux7A5gBuhCxtuQ` | MBC 드라마 | 3/5 | 3/5 | 3/5 | 3/5 | 5/5 | 0 | [라이어] 8회 선공개, MBC 261121 방송 — allowed=KR |
-| `UC9w-h_ciMmX64TcLRcb1xPg` | tvN 드라마 | 1/5 | 1/5 | 1/5 | 1/5 | 5/5 | 0 | 10년 끝에 손에 쥔 게 없는데 잡을 미련이 어딨겠어🤲 #뜨거운안녕 — allowed=KR |
+| `UC7lb15P-Hux7A5gBuhCxtuQ` | MBC 드라마 | 4/5 | 4/5 | 4/5 | 4/5 | 5/5 | 0 | [라이어 의문 엔딩] 공개 수배자가 된 유연석, 바다에서 시체로 발견되다 — allowed=KR |
+| `UC9w-h_ciMmX64TcLRcb1xPg` | tvN 드라마 | 2/5 | 2/5 | 2/5 | 2/5 | 5/5 | 0 | [11화 선공개] 사랑꾼 강재희 못 말려~~💕 #나의유죄인간 — allowed=KR |
 | `UCB9e3pof1o83aa0kkaoeJGA` | it's Live | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCC2F35lZ0drUeMJOATXde2g` | 롯데엔터테인먼트 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCF4Wxdo3inmxP-Y59wXDsFw` | MBCNEWS | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
+| `UCF4Wxdo3inmxP-Y59wXDsFw` | MBCNEWS | 4/5 | 4/5 | 4/5 | 4/5 | 5/5 | 0 | "일도 공부도 안 해" 100만 명 육박‥파격 처방 #Shorts (MB — allowed=KR |
 | `UCF8AeLlUbEpKju6v1H6p8Eg` | 한국경제TV | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCFCtZJTuJhE18k8IXwmXTYQ` | EBS 다큐 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCFL1sCAksD6_7JIZwwHcwjQ` | JTBC Entertainment | 4/5 | 4/5 | 4/5 | 4/5 | 5/5 | 0 | 최태성의 대동여행지도 4회 예고편 — allowed=KR |
+| `UCFL1sCAksD6_7JIZwwHcwjQ` | JTBC Entertainment | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCFw4M1BJYYdN1YtS8SzlDzg` | KBS 트래블 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCG9aFJTZ-lMCHAiO1KJsirg` | MBN 뉴스 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
+| `UCG9aFJTZ-lMCHAiO1KJsirg` | MBN 뉴스 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 0 | — |
 | `UCHlSeJxRIXZWMARC2oMwmcQ` | KBS 교양 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCKdvqF-mmgiifS_pinO_bRA` | EBS 건강 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCL-WOj1FxKR8Hlzg5tvnWKg` | 국회방송 NATV | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCR5cyf8hncN_AaQPfmvmlgA` | KBS 레전드 케이팝 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCR9gReM5VhQ_8brqQrBaVCA` | tvN STORY | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCRV0Gb4i99Aj9UiqCE8xlvw` | CJ ENM 영화 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCS_hnpJLQTvBkqALgapi_4g` | SBS KPOP | 5/5 | 5/5 | 1/5 | 5/5 | 5/5 | 0 | 🚨매점 간식 싹쓸이 사건 발생🚨 매점 탈탈 털어버린💥 아일릿 체포하겠어🫵 — blocked=JP |
+| `UCS_hnpJLQTvBkqALgapi_4g` | SBS KPOP | 5/5 | 5/5 | 0/5 | 5/5 | 5/5 | 0 | Boogie Woogie - NCT DREAM ¦ SBS 261122 방 — blocked=JP |
 | `UCTHCOPwqNfZ0uiKOvFyhGwg` | 연합뉴스TV | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCWlV3Lz_55UaX4JsMj-z__Q` | TV조선 뉴스 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCXVfodmlGhUpLREncSjuYAw` | KBS 크큭티비 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
@@ -86,14 +86,14 @@
 | `UCbMjg2EvXs_RUGW-KrdM3pw` | SBS Biz 뉴스 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCbeZPOz8uaHstEIbkqBOnGg` | EBS 세계테마기행 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCcQTRi69dsVYHN3exePtZ1A` | KBS News | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCe52oeb7Xv_KaJsEzcKXJJg` | MBCkpop | 4/5 | 4/5 | 2/5 | 5/5 | 4/5 | 0 | ATEEZ(에이티즈).zip 📂 해적왕(Pirate King)부터 UP까 — blocked=JP |
+| `UCe52oeb7Xv_KaJsEzcKXJJg` | MBCkpop | 5/5 | 5/5 | 4/5 | 5/5 | 5/5 | 0 | [쇼! 음악중심 미방분] 11월 3주차 1위 NCT DREAM (엔시티  — blocked=JP |
 | `UCeLPm9yH_a_QH8n6445G-Ow` | KBS Kpop | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCfq4V1DAuaojnr2ryvWNysw` | 채널A 뉴스 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UChY4PXxJI0aJYsGT1X6INWA` | 올끌(MBC 예능) | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UChlgI3UHCOnwUGzWzbJ3H5w` | YTN | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UChpjIaEgwtDZtmWEkzFulSA` | KBS 드라마 | 5/5 | 5/5 | 4/5 | 5/5 | 5/5 | 0 | 망설임 없이 주먹 날려버리기 #shorts [엄마가 미쳤어요] ¦ KBS — blocked=VN |
+| `UChpjIaEgwtDZtmWEkzFulSA` | KBS 드라마 | 5/5 | 5/5 | 0/5 | 5/5 | 5/5 | 0 | [3-4화 메이킹] 키스신(?)부터 액션신까지 몸을 사리지 않는 문무 촬 — blocked=ID,JP,TW |
 | `UCjPqSbyqm5IZEoXu7I-KPag` | KBS 히스토리 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
-| `UCkbJc8jMcTXwhtmN5VMwfXg` | JTBC 드라마 | 4/5 | 4/5 | 0/5 | 4/5 | 5/5 | 0 | [9회 선공개] 손 꼬옥...🤝 서로를 바라보며 마음을 다잡는 홍화연과  — allowed=KR |
+| `UCkbJc8jMcTXwhtmN5VMwfXg` | JTBC 드라마 | 2/5 | 2/5 | 2/5 | 2/5 | 5/5 | 0 | [9-10회 하이라이트] 요리 초보에서 헤드 셰프로?! 초능력 급 넘사벽 — allowed=KR |
 | `UCkinYTS9IHqOEwR1Sze2JTw` | SBS 뉴스 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCl_tB4AqPkkxuYcJQHz6dMw` | EBS 컬렉션 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
 | `UCmN4xFSlmWw-_d2riM-ep0A` | 국립국악원 | 5/5 | 5/5 | 5/5 | 5/5 | 5/5 | 0 | — |
