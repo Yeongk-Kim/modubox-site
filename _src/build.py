@@ -209,8 +209,7 @@ def privacy_sleep_legacy(a, Y, M, D):
      'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)':
        f'Fecha de entrada en vigor: 14 de octubre de 2026 (versión anterior: 27 de septiembre de 2026)<br>Revisión: {int(D)} de {MON_ES_} de {Y} — cambio del correo de contacto (modubox.app@gmail.com → sleep@modubox.app) y de la dirección de esta página. La información que se recopila y su uso no han cambiado.<br>Revisión: 21 de noviembre de 2026 — se añadió la compra dentro de la app de Apple App Store a la sección de pagos tras el lanzamiento para iPhone/iPad. La información que se recopila y su uso no han cambiado.',
     }
-    for k_, v_ in rev.items():
-        assert k_ in body, k_
+    for k_, v_ in rev.items():   # 11/26 처리방침 교체(본부 승인)부터 원고에 시행일·개정 줄이 직접 들어 있음 → 옛 줄 있을 때만 바꿈
         body = body.replace(k_, v_)
     assert 'modubox.app@gmail.com">' not in body
     return page('개인정보처리방침 · Privacy Policy — 수면 사운드 (Sleep Sounds)',
